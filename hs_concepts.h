@@ -52,6 +52,35 @@ private:
 	int value;
 };
 
+class Hero {
+public:
+	Hero(void);
+	~Hero(void);
+
+	class Armor {
+	public:
+		Armor(unsigned int val) : value(val) { }
+
+		void Set(unsigned int val) { value=val; }
+		unsigned int Get(void) const { return value; }
+
+		void Add(unsigned int pt) { value+=pt; }
+		unsigned int Subtract(unsigned int pt) {
+			if(value>pt) { value-=pt; return 0; }
+			else { pt-=value; value=0; return pt; }
+		}
+	private:
+		unsigned int value;
+	};
+
+	enum Type {
+		none, druid, hunter, mage,
+		paladin, priest, rogue,
+		shaman, warlock, warrior
+	};
+private:
+};
+
 class Creature {
 public:
 	Creature(void);
@@ -63,13 +92,13 @@ public:
 	};
 	unsigned int getStatus(void) const {	//for effects and coloring
 		unsigned int result=normal;
-		if(health.isDamaged()) result&=damaged;
-		if(health.GetVal()<0) result&=killed;
+		if(health.isDamaged()) result|=damaged;
+		if(health.GetVal()<0) result|=killed;
 		if(!health.equal(base->health)) {
-			result&=(health.less(base->health)?debuffed:buffed);
+			result|=(health.less(base->health)?debuffed:buffed);
 		}
 		if(!attack.equal(base->attack)) {
-			result&=(attack.less(base->attack)?debuffed:buffed);
+			result|=(attack.less(base->attack)?debuffed:buffed);
 		}
 		return result;
 	}	//might result in buffed+debuffed -> check source
@@ -96,6 +125,8 @@ public:
 	~Card(void);
 private:
 	unsigned int cost;
+	Hero::Type card_class;
+	enum Type { spell, creature } type;
 
 	static const std::map<std::string,Card> CardList;
 	static std::map<std::string,Card> fillCardList(void);
@@ -136,29 +167,6 @@ public:
 	}
 private:
 	std::list<Card> contents;
-};
-
-class Hero {
-public:
-	Hero(void);
-	~Hero(void);
-
-	class Armor {
-	public:
-		Armor(unsigned int val) : value(val) { }
-
-		void Set(unsigned int val) { value=val; }
-		unsigned int Get(void) const { return value; }
-
-		void Add(unsigned int pt) { value+=pt; }
-		unsigned int Subtract(unsigned int pt) {
-			if(value>pt) { value-=pt; return 0; }
-			else { pt-=value; value=0; return pt; }
-		}
-	private:
-		unsigned int value;
-	};
-private:
 };
 
 class Scene {	//whole scene

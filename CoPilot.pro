@@ -4,13 +4,12 @@
 #
 #-------------------------------------------------
 
-QT       += core gui
+QT       += core gui xml widgets
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
 TARGET = CoPilot
 TEMPLATE = app
-
 
 SOURCES += main.cpp\
         mainwindow.cpp \
@@ -20,3 +19,6 @@ HEADERS  += mainwindow.h \
     hs_concepts.h
 
 FORMS    += mainwindow.ui
+
+OTHER_FILES += \
+    resources/test.xml
