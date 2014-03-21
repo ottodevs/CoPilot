@@ -1,0 +1,456 @@
+<?xml version="1.1" encoding="utf-8"?>
+<tokens>
+	<token name="Laughing Sister" type="minion" rarity="common" set="dream" class="neutral">
+		<base cost="3" attack="3" health="5" type="none"/>
+		<text>Can't be targeted by Spells or Hero Powers.</text>
+	</token>
+	<token name="Emerald Drake" type="minion" rarity="common" set="dream" class="neutral">
+		<base cost="4" attack="7" health="6" type="Dragon"/>
+		<text></text>
+	</token>
+	<token name="Dream" type="spell" rarity="common" set="dream" class="neutral">
+		<base cost="0" type="none"/>
+		<text>Return a minion to its owner's hand.
+	</token>
+	<token name="Nightmare" type="spell" rarity="common" set="dream" class="neutral">
+		<base cost="0" type="none"/>
+		<text>Give a minion +5/+5. At the start of your next turn, destroy it.</text>
+	</token>
+	<token name="Ysera Awakens" type="spell" rarity="common" set="dream" class="neutral">
+		<base cost="2" type="none"/>
+		<text>Deal 5 damage to all characters except Ysera.</text>
+	</token>
+	
+	<token name="The Coin" type="spell" rarity="common" set="basic" class="neutral">
+		<base cost="0" type="none"/>
+		<text>Gain 1 Mana Crystal this turn only.</text>
+	</token>
+	
+	<token name="Baine Bloodhoof" type="minion" rarity="legendary" set="expert" class="neutral">
+		<base cost="4" attack="4" health="5" type="none"/>
+		<text></text>
+	</token>
+	<token name="Bananas" type="spell" rarity="common" set="basic" class="neutral">
+		<base cost="1" type="none"/>
+		<text>Give a minion +1/+1.</text>
+	</token>
+	<token name="Boar" type="minion" rarity="common" set="basic" class="neutral">
+		<base cost="1" attack="1" health="1" type="Beast"/>
+		<text></text>
+	</token>
+	<token name="Chicken" type="minion" rarity="common" set="promotion:basic" class="neutral">
+		<base cost="0" attack="1" health="1" type="Beast"/>
+		<text>Hey Chicken!</text>
+	</token>
+	<token name="Damaged Golem" type="minion" rarity="common" set="expert" class="neutral">
+		<base cost="1" attack="2" health="1" type="none"/>
+		<text></text>
+	</token>
+	<token name="Devilsaur" type="minion" rarity="common" set="expert" class="neutral">
+		<base cost="5" attack="5" health="5" type="Beast"/>
+		<text></text>
+	</token>
+	<token name="Emboldener 3000" type="minion" rarity="common" set="promotion:expert" class="neutral">
+		<base cost="1" attack="0" health="4" type="none"/>
+		<text>At the end of your turn, give a random minion +1/+1.</text>
+	</token>
+	<token name="Finkle Einhorn" type="minion" rarity="legendary" set="expert" class="neutral">
+		<base cost="2" attack="3" health="3" type="none"/>
+		<text></text>
+	</token>
+	<token name="Flame of Azzinoth" type="minion" rarity="common" set="basic" class="neutral">
+		<base cost="1" attack="2" health="1" type="none"/>
+		<text></text>
+	</token>
+	<token name="Frog" type="minion" rarity="common" set="basic" class="neutral">
+		<base cost="0" attack="0" health="1" type="Beast"/>
+		<text>Taunt</text>
+	</token>
+	<token name="Gnoll" type="minion" rarity="common" set="basic" class="neutral">
+		<base cost="2" attack="2" health="2" type="none"/>
+		<text>Taunt</text>
+	</token>
+	<token name="Homing Chicken" type="minion" rarity="common" set="promotion:expert" class="neutral">
+		<base cost="1" attack="0" health="1" type="none"/>
+		<text>At the start of your turn, destroy this minion and draw 3 cards.</text>
+	</token>
+	<token name="I Am Murloc" type="spell" rarity="common" set="promotion:basic" class="neutral">
+		<base cost="4" type="none"/>
+		<text>Summon three, four, or five 1/1 Murlocs.</text>
+	</token>
+	<token name="Imp" type="minion" rarity="rare" set="expert" class="neutral">
+		<base cost="1" attack="1" health="1" type="Demon"/>
+		<text></text>
+	</token>
+	<token name="Mechanical Dragonling" type="minion" rarity="common" set="basic" class="neutral">
+		<base cost="1" attack="2" health="1" type="none"/>
+		<text></text>
+	</token>
+	<token name="Murloc" type="minion" rarity="common" set="promotion:basic" class="neutral">
+		<base cost="1" attack="1" health="1" type="Murloc"/>
+		<text></text>
+	</token>
+	<token name="Murloc Scout" type="minion" rarity="common" set="basic" class="neutral">
+		<base cost="0" attack="1" health="1" type="Murloc"/>
+		<text></text>
+	</token>
+	<token name="Poultryizer" type="minion" rarity="common" set="promotion:expert" class="neutral">
+		<base cost="1" attack="0" health="3" type="none"/>
+		<text>At the start of your turn, transform a random minion into a 1/1 Chicken.</text>
+	</token>
+	<token name="Power of the Horde" type="spell" rarity="common" set="promotion:basic" class="neutral">
+		<base cost="4" type="none"/>
+		<text>Summon a random Horde Warrior.</text>
+	</token>
+	<token name="Repair Bot" type="minion" rarity="common" set="promotion:expert" class="neutral">
+		<base cost="1" attack="0" health="3" type="none"/>
+		<text>At the end of your turn, restore 6 Health to a damaged character.</text>
+	</token>
+	<token name="Rogues Do It..." type="spell" rarity="common" set="promotion:basic" class="neutral">
+		<base cost="4" type="none"/>
+		<text>Deal 4 damage. Draw a card.</text>
+	</token>
+	<token name="Sheep" type="minion" rarity="common" set="basic" class="neutral">
+		<base cost="0" attack="1" health="1" type="Beast"/>
+		<text></text>
+	</token>
+	<token name="Squire" type="minion" rarity="common" set="expert" class="neutral">
+		<base cost="1" attack="2" health="2" type="none"/>
+		<text></text>
+	</token>
+	<token name="Squirrel" type="minion" rarity="common" set="expert" class="neutral">
+		<base cost="1" attack="1" health="1" type="Beast"/>
+		<text></text>
+	</token>
+	<token name="Violet Apprentice" type="minion" rarity="common" set="basic" class="neutral">
+		<base cost="0" attack="1" health="1" type="none"/>
+		<text></text>
+	</token>
+	<token name="Whelp" type="minion" rarity="common" set="basic" class="neutral">
+		<base cost="1" attack="1" health="1" type="Dragon"/>
+		<text></text>
+	</token>
+	
+	<token name="Ancient Secrets" type="spell" rarity="common" set="basic" class="Druid">
+		<base cost="0" type="none"/>
+		<text>Restore 5 Health.</text>
+	</token>
+	<token name="Ancient Teachings" type="spell" rarity="common" set="basic" class="Druid">
+		<base cost="0" type="none"/>
+		<text>Draw 2 cards.</text>
+	</token>
+	<token name="Bear Form" type="spell" rarity="common" set="expert" class="Druid">
+		<base cost="0" type="none"/>
+		<text>+2 Health and Taunt.</text>
+	</token>
+	<token name="Cat Form" type="spell" rarity="common" set="expert" class="Druid">
+		<base cost="0" type="none"/>
+		<text>Charge</text>
+	</token>
+	<token name="Demigod's Favor" type="spell" rarity="common" set="basic" class="Druid">
+		<base cost="0" type="none"/>
+		<text>Give your other minions +2/+2.</text>
+	</token>
+	<token name="Dispel" type="spell" rarity="common" set="basic" class="Druid">
+		<base cost="0" type="none"/>
+		<text>Silence a minion.</text>
+	</token>
+	<token name="Druid of the Claw" type="minion" rarity="common" set="expert" class="Druid">
+		<base cost="5" attack="4" health="4" type="none"/>
+		<text>Charge</text>
+	</token>
+	<token name="Druid of the Claw" type="minion" rarity="common" set="expert" class="Druid">
+		<base cost="5" attack="4" health="6" type="none"/>
+		<text>Taunt</text>
+	</token>
+	<token name="Excess Mana" type="spell" rarity="common" set="basic" class="Druid">
+		<base cost="0" type="none"/>
+		<text>Draw a card. (You can only have 10 Mana in your tray.)</text>
+	</token>
+	<token name="Leader of the Pack" type="spell" rarity="common" set="basic" class="Druid">
+		<base cost="0" type="none"/>
+		<text>Give all of your minions +1/+1.</text>
+	</token>
+	<token name="Mark of Nature" type="spell" rarity="common" set="basic" class="Druid">
+		<base cost="0" type="none"/>
+		<text>+4 Health and Taunt.</text>
+	</token>
+	<token name="Mark of Nature" type="spell" rarity="common" set="basic" class="Druid">
+		<base cost="0" type="none"/>
+		<text>+4 Attack.</text>
+	</token>
+	<token name="Moonfire" type="spell" rarity="common" set="basic" class="Druid">
+		<base cost="0" type="none"/>
+		<text>Deal 2 damage.</text>
+	</token>
+	<token name="Nourish" type="spell" rarity="common" set="basic" class="Druid">
+		<base cost="0" type="none"/>
+		<text>Draw 3 cards.</text>
+	</token>
+	<token name="Nourish" type="spell" rarity="common" set="basic" class="Druid">
+		<base cost="0" type="none"/>
+		<text>Gain 2 Mana Crystals.</text>
+	</token>
+	<token name="Panther" type="minion" rarity="common" set="expert" class="Druid">
+		<base cost="2" attack="3" health="2" type="Beast"/>
+		<text></text>
+	</token>
+	<token name="Rooted" type="spell" rarity="common" set="basic" class="Druid">
+		<base cost="0" type="none"/>
+		<text>+5 Health and Taunt.</text>
+	</token>
+	<token name="Shan'do's Lesson" type="spell" rarity="common" set="basic" class="Druid">
+		<base cost="0" type="none"/>
+		<text>Summon two 2/2 Treants with Taunt.</text>
+	</token>
+	<token name="Starfall" type="spell" rarity="common" set="basic" class="Druid">
+		<base cost="0" type="none"/>
+		<text>Deal 5 damage to a minion.</text>
+	</token>
+	<token name="Starfall" type="spell" rarity="common" set="basic" class="Druid">
+		<base cost="0" type="none"/>
+		<text>Deal 2 damage to all enemy minions.</text>
+	</token>
+	<token name="Summon a Panther" type="spell" rarity="common" set="basic" class="Druid">
+		<base cost="0" type="none"/>
+		<text>Summon a 3/2 Panther.</text>
+	</token>
+	<token name="Treant" type="minion" rarity="common" set="basic" class="Druid">
+		<base cost="1" attack="2" health="2" type="none"/>
+		<text></text>
+	</token>
+	<token name="Treant" type="minion" rarity="common" set="basic" class="Druid">
+		<base cost="1" attack="2" health="2" type="none"/>
+		<text>Taunt</text>
+	</token>
+	<token name="Treant" type="minion" rarity="common" set="expert" class="Druid">
+		<base cost="1" attack="2" health="2" type="none"/>
+		<text>Charge. At the end of the turn, destroy this minion.</text>
+	</token>
+	<token name="Uproot" type="spell" rarity="common" set="basic" class="Druid">
+		<base cost="0" type="none"/>
+		<text>+5 Attack.</text>
+	</token>
+	<token name="Wrath" type="spell" rarity="common" set="basic" class="Druid">
+		<base cost="0" type="none"/>
+		<text>Deal 1 damage to a minion. Draw a card.</text>
+	</token>
+	<token name="Wrath" type="spell" rarity="common" set="basic" class="Druid">
+		<base cost="0" type="none"/>
+		<text>Deal 3 damage to a minion.</text>
+	</token>
+	
+	<token name="Hound" type="minion" rarity="common" set="basic" class="Hunter">
+		<base cost="1" attack="1" health="1" type="Beast"/>
+		<text>Charge</text>
+	</token>
+	<token name="Huffer" type="minion" rarity="common" set="basic" class="Hunter">
+		<base cost="3" attack="4" health="2" type="Beast"/>
+		<text>Charge</text>
+	</token>
+	<token name="Hyena" type="minion" rarity="rare" set="expert" class="Hunter">
+		<base cost="2" attack="2" health="2" type="Beast"/>
+		<text></text>
+	</token>
+	<token name="Leokk" type="minion" rarity="common" set="basic" class="Hunter">
+		<base cost="3" attack="2" health="4" type="Beast"/>
+		<text>Other friendly minions have +1 Attack.</text>
+	</token>
+	<token name="Misha" type="minion" rarity="common" set="basic" class="Hunter">
+		<base cost="3" attack="4" health="4" type="Beast"/>
+		<text>Taunt</text>
+	</token>
+	<token name="Snake" type="minion" rarity="common" set="expert" class="Hunter">
+		<base cost="0" attack="1" health="1" type="Beast"/>
+		<text></text>
+	</token>
+	
+	<token name="Mirror Image" type="minion" rarity="common" set="basic" class="Mage">
+		<base cost="0" attack="0" health="2" type="none"/>
+		<text>Taunt</text>
+	</token>
+	<token name="Spellbender" type="minion" rarity="epic" set="expert" class="Mage">
+		<base cost="0" attack="1" health="3" type="none"/>
+		<text></text>
+	</token>
+	
+	<token name="Ashbringer" type="weapon" rarity="legendary" set="expert" class="Paladin">
+		<base cost="5" attack="5" durability="3" type="none"/>
+		<text></text>
+	</token>
+	<token name="Defender" type="minion" rarity="common" set="expert" class="Paladin">
+		<base cost="1" attack="2" health="1" type="none"/>
+		<text></text>
+	</token>
+	<token name="Silver Hand Recruit" type="spell" rarity="common" set="basic" class="Paladin">
+		<base cost="1" attack="1" health="1" type="none"/>
+		<text></text>
+	</token>
+	
+	<token name="Shadow of Nothing" type="minion" rarity="epic" set="expert" class="Priest">
+		<base cost="0" attack="0" health="1" type="none"/>
+		<text>Mindgames whiffed! Your opponent had no minions!</text>
+	</token>
+	
+	<token name="Defias Bandit" type="minion" rarity="common" set="basic" class="Rogue">
+		<base cost="1" attack="2" health="1" type="none"/>
+		<text></text>
+	</token>
+	<token name="Wicked Knife" type="weapon" rarity="common" set="basic" class="Rogue">
+		<base cost="1" attack="1" durability="2" type="none"/>
+		<text></text>
+	</token>
+	
+	<token name="Healing Totem" type="minion" rarity="common" set="basic" class="Shaman">
+		<base cost="1" attack="0" health="2" type="Totem"/>
+		<text>At the end of your turn, restore 1 Health to all friendly minions.</text>
+	</token>
+	<token name="Searing Totem" type="minion" rarity="common" set="basic" class="Shaman">
+		<base cost="1" attack="1" health="1" type="Totem"/>
+		<text></text>
+	</token>
+	<token name="Spirit Wolf" type="minion" rarity="rare" set="expert" class="Shaman">
+		<base cost="2" attack="2" health="3" type="none"/>
+		<text>Taunt</text>
+	</token>
+	<token name="Stoneclaw Totem" type="minion" rarity="common" set="basic" class="Shaman">
+		<base cost="1" attack="0" health="2" type="Totem"/>
+		<text>Taunt</text>
+	</token>
+	<token name="Wrath of Air Totem" type="minion" rarity="common" set="basic" class="Shaman">
+		<base cost="1" attack="0" health="2" type="Totem"/>
+		<text>Spell Damage +1</text>
+	</token>
+	
+	<token name="Blood Fury" type="weapon" rarity="common" set="basic" class="Warlock">
+		<base cost="3" attack="3" durability="8" type="none"/>
+		<text></text>
+	</token>
+	<token name="Infernal" type="minion" rarity="common" set="expert" class="Warlock">
+		<base cost="6" attack="6" health="6" type="Demon"/>
+		<text></text>
+	</token>
+	<token name="Worthless Imp" type="minion" rarity="common" set="expert" class="Warlock">
+		<base cost="1" attack="1" health="1" type="Demon"/>
+		<text>You are out of demons! At least there are always imps...</text>
+	</token>
+	
+	<token name="Battle Axe" type="weapon" rarity="common" set="basic" class="Warrior">
+		<base cost="1" attack="2" durability="2" type="none"/>
+		<text></text>
+	</token>
+	<token name="Heavy Axe" type="weapon" rarity="common" set="basic" class="Warrior">
+		<base cost="1" attack="1" durability="3" type="none"/>
+		<text></text>
+	</token>
+	
+	<token name="Barrel" type="minion" rarity="common" set="missions" class="neutral">
+		<base cost="0" attack="0" health="2" type="none"/>
+		<text>Is something in this barrel?</text>
+	</token>
+	<token name="Barrel Toss" type="spell" rarity="common" set="missions" class="neutral">
+		<base cost="1" type="none"/>
+		<text>Deal 2 damage.</text>
+	</token>
+	<token name="Bananas" type="spell" rarity="common" set="missions" class="neutral">
+		<base cost="1" type="none"/>
+		<text>Give a friendly minion +1/+1. (+1 Attack/+1 Health)</text>
+	</token>
+	<token name="Brewmaster" type="minion" rarity="common" set="missions" class="neutral">
+		<base cost="4" attack="4" health="4" type="none"/>
+		<text></text>
+	</token>
+	<token name="Crazed Hunter" type="minion" rarity="common" set="missions" class="neutral">
+		<base cost="1" attack="1" health="1" type="none"/>
+		<text></text>
+	</token>
+	<token name="Crazy Monkey" type="minion" rarity="common" set="missions" class="neutral">
+		<base cost="1" attack="1" health="2" type="none"/>
+		<text>Battlecry: Throw Bananas.</text>
+	</token>
+	<token name="Dual Warglaives" type="weapon" rarity="common" set="missions" class="neutral">
+		<base cost="6" attack="4" durability="2" type="none"/>
+		<text></text>
+	</token>
+	<token name="Flame Burst" type="spell" rarity="common" set="missions" class="neutral">
+		<base cost="3" type="none"/>
+		<text>Shoot 5 missiles at random enemies for 1 damage each.</text>
+	</token>
+	<token name="Flame of Azzinoth" type="minion" rarity="common" set="missions" class="neutral">
+		<base cost="1" attack="2" health="1" type="none"/>
+		<text></text>
+	</token>
+	<token name="Gnoll" type="minion" rarity="common" set="missions" class="neutral">
+		<base cost="1" attack="1" health="1" type="none"/>
+		<text></text>
+	</token>
+	<token name="Hidden Gnome" type="minion" rarity="common" set="missions" class="neutral">
+		<base cost="2" attack="1" health="3" type="none"/>
+		<text>Was hiding in a barrel!</text>
+	</token>
+	<token name="Hogger SMASH!" type="spell" rarity="common" set="missions" class="neutral">
+		<base cost="3" type="none"/>
+		<text>Deal 4 damage.</text>
+	</token>
+	<token name="Legacy of the Emperor" type="spell" rarity="common" set="missions" class="neutral">
+		<base cost="3" type="none"/>
+		<text>Give your minions +2/+2. (+2 Attack/+2 Health)</text>
+	</token>
+	<token name="Massive Gnoll" type="minion" rarity="common" set="missions" class="neutral">
+		<base cost="4" attack="5" health="2" type="none"/>
+		<text></text>
+	</token>
+	<token name="Metamorphosis" type="spell" rarity="common" set="missions" class="neutral">
+		<base cost="6" type="none"/>
+		<text>Do something crazy.</text>
+	</token>
+	<token name="Mukla's Big Brother" type="minion" rarity="common" set="missions" class="neutral">
+		<base cost="6" attack="10" health="10" type="none"/>
+		<text>So strong! And only 6 Mana?!</text>
+	</token>
+	<token name="Naga Myrmidon" type="minion" rarity="common" set="missions" class="neutral">
+		<base cost="1" attack="1" health="1" type="none"/>
+		<text></text>
+	</token>
+	<token name="Pandaren Scout" type="minion" rarity="common" set="missions" class="neutral">
+		<base cost="1" attack="1" health="1" type="none"/>
+		<text></text>
+	</token>
+	<token name="Riverpaw Gnoll" type="minion" rarity="common" set="missions" class="neutral">
+		<base cost="1" attack="2" health="1" type="none"/>
+		<text></text>
+	</token>
+	<token name="Shado-Pan Monk" type="minion" rarity="common" set="missions" class="neutral">
+		<base cost="2" attack="2" health="2" type="none"/>
+		<text></text>
+	</token>
+	<token name="Stomp" type="spell" rarity="common" set="missions" class="neutral">
+		<base cost="2" type="none"/>
+		<text>Deal 2 damage to all enemies.</text>
+	</token>
+	<token name="Transcendence" type="spell" rarity="common" set="missions" class="neutral">
+		<base cost="1" type="none"/>
+		<text>Until you kill Cho's minions, he can't be attacked.</text>
+	</token>
+	<token name="Warglaive of Azzinoth" type="weapon" rarity="common" set="missions" class="neutral">
+		<base cost="2" attack="2" health="2" type="none"/>
+		<text></text>
+	</token>
+	<token name="Will of Mukla" type="spell" rarity="common" set="missions" class="neutral">
+		<base cost="3" type="none"/>
+		<text>Restore 8 Health.</text>
+	</token>
+	
+	<token name="Avatar of the Coin" type="minion" rarity="common" set="legacy" class="neutral">
+		<base cost="0" attack="1" health="1" type="none"/>
+		<text>You lost the coin flip, but gained a friend.</text>
+	</token>
+	<token name="Skeleton" type="spell" rarity="common" set="legacy" class="neutral">
+		<base cost="1" attack="1" health="1" type="none"/>
+		<text></text>
+	</token>
+	<token name="NOOOOOOOOOOOO" type="spell" rarity="common" set="legacy" class="neutral">
+		<base cost="2" type="none"/>
+		<text>Somehow, the card you USED to have has been deleted. Here, have this one instead!</text>
+	</token>
+</tokens>
