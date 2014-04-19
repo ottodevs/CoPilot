@@ -1,11 +1,18 @@
 #include "mainwindow.h"
-#include "ui_mainwindow.h"
+//#include "ui_mainwindow.h"
+#include "dommodel.h"
+
+#include <QDomDocument>
+#include <QTreeView>
+#include <QMenuBar>
+#include <QFileDialog>
 
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
 //	listWidget(new QListWidget),
-	ui(new Ui::MainWindow),
-	nRow(0)
+//	ui(new Ui::MainWindow),
+//	nRow(0)
+	model(0)
 {
 //	QHBoxLayout *layout = new QHBoxLayout();
 //	layout->addWidget(listWidget);
@@ -13,13 +20,23 @@ MainWindow::MainWindow(QWidget *parent) :
 //	setStyleSheet("* { background-color:rgb(199,147,88); padding: 7px ; color:rgb(255,255,255)}");
 //	setCentralWidget(listWidget);
 
-	ui->setupUi(this);
+//	ui->setupUi(this);
+	fileMenu = menuBar()->addMenu(tr("&File"));
+	fileMenu->addAction(tr("&Open..."), this, SLOT(openFile()), QKeySequence::Open);
+	fileMenu->addAction(tr("E&xit"), this, SLOT(close()), QKeySequence::Quit);
+
+	model = new DomModel(QDomDocument(), this);
+	view = new QTreeView(this);
+	view->setModel(model);
+
+	setCentralWidget(view);
+	setWindowTitle(tr("Simple DOM Model"));
 }
 
-MainWindow::~MainWindow() {
-	delete ui;
-}
-
+//MainWindow::~MainWindow() {
+//	delete ui;
+//}
+/*
 void MainWindow::FillTree(const QDomNode& dom, QStandardItemModel* model) {
 	if(!dom.isNull()){
 		std::string aux = dom.nodeName().toStdString();
@@ -51,4 +68,28 @@ void MainWindow::FillTree(const QDomNode& dom, QStandardItemModel* model) {
 }
 void MainWindow::SetModel(QStandardItemModel *mod) {
 	ui->treeView->setModel(mod);
+}
+*/
+
+void MainWindow::openFile() {
+//	QString filePath = QFileDialog::getOpenFileName(this, tr("Open File"),
+//		xmlPath, tr("XML files (*.xml);;HTML files (*.html);;"
+//					"SVG files (*.svg);;User Interface files (*.ui)"));
+	QString filePath = tr("W:\\CoPilot\\CoPilot\\resources\\cards.xml");
+	if(!filePath.isEmpty()) {
+		QFile file(filePath);
+		if(file.open(QIODevice::ReadOnly)) {
+			QDomDocument document;
+			if(document.setContent(&file)) {
+				DomModel *newModel = new DomModel(document, this);
+				view->setModel(newModel);
+				delete model;
+				model = newModel;
+				xmlPath = filePath;
+
+				model->Fill(Card::CardList,false);
+			}
+			file.close();
+		}
+	}
 }

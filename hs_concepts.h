@@ -4,6 +4,7 @@
 #include <map>
 #include <list>
 #include <string>
+#include <iostream>
 
 #define CST_BoardSize 7
 #define CST_HandSize 10
@@ -122,13 +123,18 @@ private:
 class Card {
 public:
 	Card(void);
-	~Card(void);
-private:
-	unsigned int cost;
-	Hero::Type card_class;
-	enum Type { spell, creature } type;
+	~Card(void) { }
 
-	static const std::map<std::string,Card> CardList;
+	static std::map<std::string,Card> CardList;
+	static void Print(void);
+
+	unsigned int cost;
+	enum Type { spell, creature, weapon } type;
+	enum Rarity { common, rare, epic, legendary } rarity;
+	enum Set { basic, expert, dream, promotion_basic, promotion_expert,
+			   missions, legacy } set;
+	Hero::Type card_class;
+private:
 	static std::map<std::string,Card> fillCardList(void);
 };
 

@@ -1,11 +1,17 @@
 #include "mainwindow.h"
 #include <QApplication>
 
+#include "hs_concepts.h"
+
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
+	MainWindow window;
+	window.resize(640,480);
+	window.show();
+	window.openFile();
 
-	QString filename("W:/CoPilot/CoPilot/resources/test.xml");
+/*	QString filename("W:/CoPilot/CoPilot/resources/test.xml");
 	int errorLine, errorColumn;
 	QString errorMsg;
 	QFile modelFile(filename);
@@ -48,6 +54,8 @@ int main(int argc, char *argv[])
 //to search for widget:
 //	QListWidget *listWidget = w.findChild<QListWidget*>("listWidget");
 //	Q_ASSERT(listWidget);
+*/
+	Card::Print();
 
     return a.exec();
 }

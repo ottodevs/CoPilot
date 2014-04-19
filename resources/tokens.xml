@@ -1,4 +1,4 @@
-<?xml version="1.1" encoding="utf-8"?>
+﻿<?xml version="1.1" encoding="utf-8"?>
 <tokens>
 	<token name="Laughing Sister" type="minion" rarity="common" set="dream" class="neutral">
 		<base cost="3" attack="3" health="5" type="none"/>
@@ -10,7 +10,7 @@
 	</token>
 	<token name="Dream" type="spell" rarity="common" set="dream" class="neutral">
 		<base cost="0" type="none"/>
-		<text>Return a minion to its owner's hand.
+		<text>Return a minion to its owner's hand.</text>
 	</token>
 	<token name="Nightmare" type="spell" rarity="common" set="dream" class="neutral">
 		<base cost="0" type="none"/>

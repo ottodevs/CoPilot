@@ -13,12 +13,16 @@ TEMPLATE = app
 
 SOURCES += main.cpp\
         mainwindow.cpp \
-    hs_concepts.cpp
+    hs_concepts.cpp \
+    dommodel.cpp
 
 HEADERS  += mainwindow.h \
-    hs_concepts.h
+    hs_concepts.h \
+    dommodel.h
 
-FORMS    += mainwindow.ui
+FORMS    +=
 
 OTHER_FILES += \
-    resources/test.xml
+    resources/test.xml \
+    resources/cards.xml \
+    resources/tokens.xml

@@ -1,4 +1,4 @@
-<?xml version="1.1" encoding="utf-8"?>
+ï»¿<?xml version="1.1" encoding="utf-8"?>
 <cards>
 	<card name="Abomination" type="minion" rarity="rare" set="expert" class="neutral">
 		<base cost="5" attack="4" health="4" type="none"/>
@@ -334,7 +334,7 @@
 	</card>
 	<card name="Lorewalker Cho" type="minion" rarity="legendary" set="expert" class="neutral">
 		<base cost="2" attack="0" health="4" type="none"/>
-		<text>Whenever a player casts a spell, put a copy into the other player’s hand.</text>
+		<text>Whenever a player casts a spell, put a copy into the other player? hand.</text>
 	</card>
 	<card name="Mad Bomber" type="minion" rarity="common" set="expert" class="neutral">
 		<base cost="2" attack="3" health="2" type="none"/>
@@ -1277,7 +1277,7 @@
 	</card>
 	<card name="Feral Spirit" type="spell" rarity="rare" set="expert" class="Shaman">
 		<base cost="3" type="none"/>
-		<text>Summon two 2/3 Spirit Wolves with Taunt. Overload: (2)
+		<text>Summon two 2/3 Spirit Wolves with Taunt. Overload: (2)</text>
 	</card>
 	<card name="Fire Elemental" type="minion" rarity="common" set="basic" class="Shaman">
 		<base cost="6" attack="6" health="5" type="none"/>
@@ -1354,7 +1354,7 @@
 	</card>
 	<card name="Demonfire" type="spell" rarity="common" set="expert" class="Warlock">
 		<base cost="2" type="none"/>
-		<text>Deal 2 damage to a minion. If it’s a friendly Demon, give it +2/+2 instead.</text>
+		<text>Deal 2 damage to a minion. If it? a friendly Demon, give it +2/+2 instead.</text>
 	</card>
 	<card name="Doomguard" type="minion" rarity="rare" set="expert" class="Warlock">
 		<base cost="5" attack="5" health="7" type="Demon"/>
