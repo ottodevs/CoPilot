@@ -8,17 +8,21 @@ QT       += core gui xml widgets
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
+QMAKE_CXXFLAGS += -std=c++11
+
 TARGET = CoPilot
 TEMPLATE = app
 
 SOURCES += main.cpp\
         mainwindow.cpp \
     hs_concepts.cpp \
-    dommodel.cpp
+    dommodel.cpp \
+    str_enum.cpp
 
 HEADERS  += mainwindow.h \
     hs_concepts.h \
-    dommodel.h
+    dommodel.h \
+    str_enum.h
 
 FORMS    +=
 

@@ -6,12 +6,14 @@
 #include <string>
 #include <iostream>
 
+#include "str_enum.h"
+
 #define CST_BoardSize 7
 #define CST_HandSize 10
 
 class Attack {
 public:
-	Attack(unsigned int val) : value(val) { }
+	Attack(unsigned int val) : value(val), base_value(val) { }
 
 	void Set(unsigned int val) { value=val; }
 	unsigned int Get(void) const { return value; }
@@ -22,25 +24,29 @@ public:
 	bool less(const Attack& other) const {
 		return value<other.value;
 	}
+	short checkBuff(void) const {	//1=green,0=white,-1=white
+		return (value>base_value ? 1 : (value<base_value ? -1 : 0));
+	}
 private:
-	unsigned int value;
+	unsigned int value, base_value;
 };
 class Health {
 public:
-	Health(int val) : max(val),value(val) { }
+	Health(int val) : value(val),max(val),base_max(val) { }
 
-	bool Add(int pt) {
+	short Add(int pt) {
 		if((value+=pt)>max) {
-			value=max; return false;
-		} else return true;
-	}
-	bool Subtract(int pt) {		//to show overkill
-		return ((value-=pt)>0);
+			value=max; return 1;
+		} else if(value<=0) {
+			return -1;
+		} else return 0;
 	}
 
-	void Set(int val) { max=val; value=val; }
-	int GetVal(void) const { return value; }
-	bool isDamaged(void) const { return value<max; }
+	void Set(int val) { max=val; Add(0); }
+	int Get(void) const { return value; }
+	short checkBuff(void) const {	//1=green,0=white,-1=red
+		return (value<max ? -1 : (max>base_max ? 1 : 0));
+	}
 
 	bool equal(const Health& other) const {
 		return max==other.max;
@@ -49,8 +55,7 @@ public:
 		return max<other.max;
 	}
 private:
-	int max;
-	int value;
+	int value, max, base_max;
 };
 
 class Hero {
@@ -65,15 +70,24 @@ public:
 		void Set(unsigned int val) { value=val; }
 		unsigned int Get(void) const { return value; }
 
-		void Add(unsigned int pt) { value+=pt; }
-		unsigned int Subtract(unsigned int pt) {
-			if(value>pt) { value-=pt; return 0; }
-			else { pt-=value; value=0; return pt; }
+		unsigned int Add(int pt) {
+			if(pt<0) {
+				unsigned int pt_tmp=static_cast<unsigned int>(-pt);
+				if(pt_tmp>value) {
+					value=0; return (pt_tmp-value);
+				} else {
+					value-=pt_tmp; return 0;
+				}
+			} else {
+				value+=pt;
+				return 0;
+			}
 		}
 	private:
 		unsigned int value;
 	};
 
+	static std::unordered_set<StrEnum,StrEnum::StrHash> type;
 	enum Type {
 		none, druid, hunter, mage,
 		paladin, priest, rogue,
@@ -93,8 +107,8 @@ public:
 	};
 	unsigned int getStatus(void) const {	//for effects and coloring
 		unsigned int result=normal;
-		if(health.isDamaged()) result|=damaged;
-		if(health.GetVal()<0) result|=killed;
+	//	if(health.isDamaged()) result|=damaged;
+	//	if(health.GetVal()<0) result|=killed;
 		if(!health.equal(base->health)) {
 			result|=(health.less(base->health)?debuffed:buffed);
 		}

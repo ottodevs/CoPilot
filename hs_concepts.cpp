@@ -17,3 +17,7 @@ void Card::Print(void) {
 	}
 	std::cout<<"CardList end"<<std::endl;
 }
+
+std::unordered_set<StrEnum,StrEnum::StrHash> Hero::type=std::unordered_set<StrEnum,StrEnum::StrHash>({
+	StrEnum("none"),StrEnum("Druid"),StrEnum("Hunter"),StrEnum("Mage"),StrEnum("Paladin"),
+	StrEnum("Priest"),StrEnum("Rogue"),StrEnum("Shaman"),StrEnum("Warlock"),StrEnum("Warrior")});
