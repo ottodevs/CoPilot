@@ -1,7 +1,7 @@
 #include "mainwindow.h"
 #include <QApplication>
 
-#include "hs_concepts.h"
+#include "hs/concepts.h"
 
 int main(int argc, char *argv[])
 {

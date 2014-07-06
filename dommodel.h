@@ -7,7 +7,7 @@
 #include <stdio.h>
 #include <iostream>
 
-#include "hs_concepts.h"
+#include "hs/concepts.h"
 
 class DomItem {
 public:

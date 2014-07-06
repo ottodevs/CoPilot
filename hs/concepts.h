@@ -11,6 +11,43 @@
 #define CST_BoardSize 7
 #define CST_HandSize 10
 
+class CardBase {
+public:
+	CardBase(void);
+
+	class Cost{
+	public:
+		Cost(void);
+	private:
+	};
+	class Attack{
+	public:
+		Attack(void);
+	private:
+	};
+	class Health{
+	public:
+		Health(void);
+	private:
+	};
+protected:
+	Cost* cost;
+	Attack* attack;
+	Health* health;
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
 class Attack {
 public:
 	Attack(unsigned int val) : value(val), base_value(val) { }

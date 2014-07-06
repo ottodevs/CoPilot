@@ -1,0 +1,501 @@
+﻿<?xml version="1.1" encoding="utf-8"?>
+<buffs>
+	<buff name="Bite">
+		<text>+4 Attack this turn.</text>
+		<utility label="EX1_570e" image="w11_005_d"/>
+	</buff>
+	<buff name="Claw">
+		<text>+2 Attack this turn.</text>
+		<utility label="CS2_005o" image="w2_259_d"/>
+	</buff>
+	<buff name="Claws">
+		<text>Your hero has +1 Attack this turn.</text>
+		<utility label="CS2_017o" image="w2_203_d"/>
+	</buff>
+	<buff name="Demoralizing Roar">
+		<text>This minion has -3 Attack this turn.</text>
+		<utility label="EX1_161o" image="w11_120_d"/>
+	</buff>
+	<buff name="Demigod's Favor">
+		<text>+2/+2.</text>
+		<utility label="EX1_573ae" image="w13_280_d"/>
+	</buff>
+	<buff name="Leader of the Pack">
+		<text>+1/+1</text>
+		<utility label="EX1_160be" image="w17_a030_d"/>
+	</buff>
+	<buff name="Mark of Nature">
+		<text>This minion has +4 Attack.</text>
+		<utility label="EX1_155ae" image="w6_024_d"/>
+	</buff>
+	<buff name="Mark of Nature">
+		<text>This minion has +4 Health and &lt;b&gt;Taunt&lt;/b&gt;.</text>
+		<utility label="EX1_155be" image="w6_024_d"/>
+	</buff>
+	<buff name="Mark of the Wild">
+		<text>This minion has +2/+2 and &lt;b&gt;Taunt&lt;/b&gt;.</text>
+		<utility label="CS2_009e" image="wow_act_073_blizzrt_d"/>
+	</buff>
+	<buff name="Rooted">
+		<text>+5 Health and &lt;b&gt;Taunt&lt;/b&gt;.</text>
+		<utility label="EX1_178ae" image="w10_a143_d"/>
+	</buff>
+	<buff name="Savage Roar">
+		<text>+2 Attack this turn.</text>
+		<utility label="CS2_011o" image="w14_a010_d"/>
+	</buff>
+	<buff name="Soul of the Forest">
+		<text>&lt;b&gt;Deathrattle:&lt;/b&gt; Summon a 2/2 Treant.</text>
+		<utility label="EX1_158e" image="w20_a025_d"/>
+	</buff>
+	<buff name="Uprooted">
+		<text>+5 Attack.</text>
+		<utility label="EX1_178be" image="w2_166_d"/>
+	</buff>
+	
+	<buff name="Bestial Wrath">
+		<text>+2 Attack and &lt;b&gt;Immune&lt;/b&gt; this turn.</text>
+		<utility label="EX1_549o" image="w16_a038_d"/>
+	</buff>
+	<buff name="Charge">
+		<text>Tundra Rhino grants &lt;b&gt;Charge&lt;/b&gt;.</text>
+		<utility label="DS1_178e" image="w12_a229_d"/>
+	</buff>
+	<buff name="Eye In The Sky">
+		<text>Leokk is granting this minion +1 Attack.</text>
+		<utility label="NEW1_033o" image="w4_138_d"/>
+	</buff>
+	<buff name="Furious Howl">
+		<text>This Beast has +1 Attack from Timber Wolf.</text>
+		<utility label="DS1_175o" image="w4_165_d"/>
+	</buff>
+	<buff name="Hunter's Mark">
+		<text>This minion has 1 Health.</text>
+		<utility label="CS2_084e" image="w2_221_d"/>
+	</buff>
+	<buff name="Master's Presence">
+		<text>+2/+2 and &lt;b&gt;Taunt&lt;/b&gt;.</text>
+		<utility label="DS1_070o" image="w13_196_d"/>
+	</buff>
+	<buff name="Trapped">
+		<text>Will be &lt;b&gt;Frozen&lt;/b&gt; again at the start of the next turn.</text>
+		<utility label="EX1_611e" image="w12_a048(ea)_d"/>
+	</buff>
+	<buff name="Upgraded">
+		<text>Increased Durability.</text>
+		<utility label="EX1_536e" image="w2_032_d"/>
+	</buff>
+	<buff name="Well Fed">
+		<text>Increased Attack and Health.</text>
+		<utility label="EX1_531e" image="w11_071_d"/>
+	</buff>
+	
+	<buff name="Ice Block">
+		<text>Your hero is &lt;b&gt;Immune&lt;/b&gt; this turn.</text>
+		<utility label="EX1_295o" image="wow_tal_011_d"/>
+	</buff>
+	<buff name="Mana Gorged">
+		<text>Increased attack.</text>
+		<utility label="NEW1_012o" image="mana_wyrm_d"/>
+	</buff>
+	<buff name="Polymorph">
+		<text>This minion has been transformed into a 1/1 Sheep.</text>
+		<utility label="CS2_022e" image="wow_lead_015_d"/>
+	</buff>
+	<buff name="Power of the Kirin Tor">
+		<text>Your next Secret costs (0).</text>
+		<utility label="EX1_612o" image="w16_a110_d"/>
+	</buff>
+	<buff name="Raw Power!">
+		<text>Increased stats.</text>
+		<utility label="EX1_274e" image="w20_a154_d"/>
+	</buff>
+	
+	<buff name="Blessing of Wisdom">
+		<text>When this minion attacks, the player who blessed it draws a card.</text>
+		<utility label="EX1_363e" image="w6_019_d"/>
+	</buff>
+	<buff name="Blessing of Kings">
+		<text>+4/+4.</text>
+		<utility label="CS2_092e" image="w9_a075_d"/>
+	</buff>
+	<buff name="Blessing of Might">
+		<text>+3 Attack.</text>
+		<utility label="CS2_087e" image="w16_a053_d"/>
+	</buff>
+	<buff name="Equality">
+		<text>Health changed to 1.</text>
+		<utility label="EX1_619e" image="w14_a024_d"/>
+	</buff>
+	<buff name="Justice Served">
+		<text>Has +1/+1.</text>
+		<utility label="EX1_366e" image="w11_181(ea)_d"/>
+	</buff>
+	<buff name="Humility">
+		<text>Attack has been changed to 1.</text>
+		<utility label="EX1_360e" image="w3_032_d"/>
+	</buff>
+	<buff name="Repentance">
+		<text>Health reduced to 1.</text>
+		<utility label="EX1_379e" image="w12_a129_d"/>
+	</buff>
+	<buff name="Stand Down!">
+		<text>Attack changed to 1.</text>
+		<utility label="EX1_382e" image="w4_062_d"/>
+	</buff>
+	<buff name="Templar's Verdict">
+		<text>This minion's Attack has been doubled.</text>
+		<utility label="EX1_355e" image="w12_a074_d"/>
+	</buff>
+	
+	<buff name="Cabal Control">
+		<text>This minion has been stolen by Cabal Shadow Priest.</text>
+		<utility label="EX1_091o" image="w8_122_d"/>
+	</buff>
+	<buff name="Divine Spirit">
+		<text>This minion has double Health.</text>
+		<utility label="CS2_236e" image="w6_073_d"/>
+	</buff>
+	<buff name="Dark Command">
+		<text>This minion has switched controllers this turn.</text>
+		<utility label="EX1_334e" image="w5_080_d"/>
+	</buff>
+	<buff name="Infusion">
+		<text>+3 Health.</text>
+		<utility label="EX1_623e" image="w3_265_d"/>
+	</buff>
+	<buff name="Inner Fire">
+		<text>This minion's Attack is equal to its Health.</text>
+		<utility label="CS1_129e" image="w9_a132_d"/>
+	</buff>
+	<buff name="Mind Control">
+		<text>This minion has switched controllers.</text>
+		<utility label="CS1_113e" image="w3_141_d"/>
+	</buff>
+	<buff name="Power Word: Shield">
+		<text>+2 Health.</text>
+		<utility label="CS2_004e" image="w13_066_d"/>
+	</buff>
+
+	<buff name="Concealed">
+		<text>Stealthed until your next turn.</text>
+		<utility label="EX1_128e" image="w6_128_d"/>
+	</buff>
+	<buff name="Cold Blood">
+		<text>+2 Attack.</text>
+		<utility label="CS2_073e" image="w13_270_d"/>
+	</buff>
+	<buff name="Cold Blood">
+		<text>+4 Attack.</text>
+		<utility label="CS2_073e2" image="w13_270_d"/>
+	</buff>
+	<buff name="Deadly Poison">
+		<text>+2 Attack.</text>
+		<utility label="CS2_074e" image="wow_act_035_d"/>
+	</buff>
+	<buff name="Preparation">
+		<text>The next spell you cast this turn costs (3) less.</text>
+		<utility label="EX1_145o" image="w4_052_d"/>
+	</buff>
+	<buff name="Sharpened">
+		<text>+1 Attack this turn.</text>
+		<utility label="CS2_083e" image="w10_a163_d"/>
+	</buff>
+	<buff name="VanCleef's Vengeance">
+		<text>This minion has increased Attack and Health.</text>
+		<utility label="EX1_613e" image="r7_a065_d"/>
+	</buff>
+	
+	<buff name="Ancestral Spirit">
+		<text>&lt;b&gt;Deathrattle:&lt;/b&gt; Return this minion to the battlefield.</text>
+		<utility label="CS2_038e" image="w2_423_d"/>
+	</buff>
+	<buff name="Ancestral Infusion">
+		<text>&lt;b&gt;Taunt&lt;/b&gt;.</text>
+		<utility label="CS2_041e" image="wow_trink_015_d"/>
+	</buff>
+	<buff name="Bloodlust">
+		<text>+3 Attack this turn.</text>
+		<utility label="CS2_046e" image="w17_a120_d_1"/>
+	</buff>
+	<buff name="Far Sight">
+		<text>One of your cards costs (3) less.</text>
+		<utility label="CS2_053e" image="w13_275_d"/>
+	</buff>
+	<buff name="Flametongue">
+		<text>+2 Attack from Flametongue Totem.</text>
+		<utility label="EX1_565o" image="w14_a137_d"/>
+	</buff>
+	<buff name="Hexxed">
+		<text>+2 Health.</text>
+		<utility label="EX1_246e" image="w5_120_d"/>
+	</buff>
+	<buff name="Overloading">
+		<text>Increased stats.</text>
+		<utility label="EX1_258e" image="w14_a250_d"/>
+	</buff>
+	<buff name="Rockbiter Weapon">
+		<text>This character has +3 Attack this turn.</text>
+		<utility label="CS2_045e" image="w19_a255_d"/>
+	</buff>
+	<buff name="Totemic Might">
+		<text>+2 Health.</text>
+		<utility label="EX1_244e" image="w5_128_d"/>
+	</buff>
+	<buff name="Windfury">
+		<text>This minion has Windfury.</text>
+		<utility label="EX1_587e" image="w9_a139_d"/>
+	</buff>
+	
+	<buff name="Blood Pact">
+		<text>Increased Health.</text>
+		<utility label="CS2_059o" image="w5_015_d"/>
+	</buff>
+	<buff name="Consume">
+		<text>Increased stats.</text>
+		<utility label="EX1_304e" image="w21_a125"/>
+	</buff>
+	<buff name="Corruption">
+		<text>At the start of the corrupting player's turn, destroy this minion.</text>
+		<utility label="CS2_063e" image="w8_179_d"/>
+	</buff>
+	<buff name="Demonfire">
+		<text>This Demon has +2/+2.</text>
+		<utility label="EX1_596e" image="w14_a046_d"/>
+	</buff>
+	<buff name="Power Overwhelming">
+		<text>This minion has +4/+4, but will die a horrible death at the end of the turn.</text>
+		<utility label="EX1_316e" image="w7_129_d"/>
+	</buff>
+	
+	<buff name="Berserk">
+		<text>Increased Attack.</text>
+		<utility label="EX1_604o" image="w6_222_d"/>
+	</buff>
+	<buff name="Bloodrage">
+		<text>No durability loss.</text>
+		<utility label="EX1_411e" image="w8_111_d"/>
+	</buff>
+	<buff name="Charge">
+		<text>+2 Attack and &lt;b&gt;Charge&lt;/b&gt;.</text>
+		<utility label="CS2_103e2" image="wow_act_055_d"/>
+	</buff>
+	<buff name="Charge">
+		<text>This minion has &lt;b&gt;Charge&lt;/b&gt;.</text>
+		<utility label="EX1_084e" image="w11_101_d"/>
+	</buff>
+	<buff name="Commanding Shout">
+		<text>Your minions can't be reduced below 1 Health this turn.</text>
+		<utility label="NEW1_036e2" image="w2_414_d"/>
+	</buff>
+	<buff name="Inner Rage">
+		<text>+2 Attack.</text>
+		<utility label="EX1_607e" image="w17_a197_d"/>
+	</buff>
+	<buff name="Heroic Strike">
+		<text>+4 Attack this turn.</text>
+		<utility label="CS2_105e" image="w11_045_d"/>
+	</buff>
+	<buff name="Needs Sharpening">
+		<text>Decreased Attack.</text>
+		<utility label="EX1_411e2" image="w8_111_d"/>
+	</buff>
+	<buff name="Rampage">
+		<text>+3/+3.</text>
+		<utility label="CS2_104e" image="w6_075_d"/>
+	</buff>
+	<buff name="Whipped Into Shape">
+		<text>+2 Attack.</text>
+		<utility label="EX1_603e" image="w6_196_d"/>
+	</buff>
+	<buff name="Upgraded">
+		<text>+1 Attack and +1 Durability.</text>
+		<utility label="EX1_409e" image="w4_183_d"/>
+	</buff>
+	
+	<buff name="Enhanced">
+		<text>Raid Leader is granting this minion +1 Attack.</text>
+		<utility label="CS2_122e" image="wow_blz_003_d"/>
+	</buff>
+	<buff name="Sharpened">
+		<text>+1 Durability.</text>
+		<utility label="CS2_146o" image="r7_a019_d"/>
+	</buff>
+	<buff name="Full Strength">
+		<text>This minion has +2 Attack.</text>
+		<utility label="CS2_181e" image="blademaster_d"/>
+	</buff>
+	<buff name="'Inspired'">
+		<text>This minion has +2 Attack this turn.</text>
+		<utility label="CS2_188o" image="w2_326_d"/>
+	</buff>
+	<buff name="Sharp!">
+		<text>+2 Attack from Spiteful Smith.</text>
+		<utility label="CS2_221e" image="w2_319_d"/>
+	</buff>
+	<buff name="Might of Stormwind">
+		<text>Has +1/+1.</text>
+		<utility label="CS2_222o" image="w13_007_d"/>
+	</buff>
+	<buff name="Frostwolf Banner">
+		<text>Increased stats.</text>
+		<utility label="CS2_226e" image="w11_084(ea)_d"/>
+	</buff>
+	<buff name="Commanding">
+		<text>Frostwolf Warlord has increased Attack and Health.</text>
+		<utility label="CS2_226o" image="w11_084(ea)_d"/>
+	</buff>
+	<buff name="Nightmare">
+		<text>This minion has +5/+5, but will be destroyed soon.</text>
+		<utility label="DREAM_05e" image="w16_a062_d"/>
+	</buff>
+	<buff name="Warded">
+		<text>Increased Attack.</text>
+		<utility label="EX1_001e" image="w4_285_d"/>
+	</buff>
+	<buff name="Elune's Grace">
+		<text>Increased Health.</text>
+		<utility label="EX1_004e" image="w7_133_d"/>
+	</buff>
+	<buff name="Bananas">
+		<text>Has +1/+1.</text>
+		<utility label="EX1_014te" image="bananas2_d"/>
+	</buff>
+	<buff name="Cleric's Blessing">
+		<text>+1/+1.</text>
+		<utility label="EX1_019e" image="w13_005_d"/>
+	</buff>
+	<buff name="Hour of Twilight">
+		<text>Increased Health.</text>
+		<utility label="EX1_043e" image="w15_a153_d"/>
+	</buff>
+	<buff name="Level Up!">
+		<text>Increased Attack and Health.</text>
+		<utility label="EX1_044e" image="wow_misc_028_d"/>
+	</buff>
+	<buff name="Tempered">
+		<text>+2 Attack this turn.</text>
+		<utility label="EX1_046e" image="wow_alyn_010a_d"/>
+	</buff>
+	<buff name="Empowered">
+		<text>Mana Addict has increased Attack.</text>
+		<utility label="EX1_055o" image="w5_175_d"/>
+	</buff>
+	<buff name="Experiments!">
+		<text>Attack and Health have been swapped by Crazed Alchemist.</text>
+		<utility label="EX1_059e2" image="w2_341_d"/>
+	</buff>
+	<buff name="Keeping Secrets">
+		<text>Increased stats.</text>
+		<utility label="EX1_080o" image="w8_140_d"/>
+	</buff>
+	<buff name="Hand of Argus">
+		<text>+1/+1 and &lt;b&gt;Taunt&lt;/b&gt;.</text>
+		<utility label="EX1_093e" image="w5_008_d"/>
+	</buff>
+	<buff name="Mrghlglhal">
+		<text>+2 Health.</text>
+		<utility label="EX1_103e" image="w16_a207_d"/>
+	</buff>
+	<buff name="Strength of the Pack">
+		<text>Dire Wolf Alpha is granting +1 Attack to this minion.</text>
+		<utility label="EX1_162o" image="wow_tal_008_d"/>
+	</buff>
+	<buff name="Berserking">
+		<text>This minion has increased Attack.</text>
+		<utility label="EX1_399e" image="w13_002_d"/>
+	</buff>
+	<buff name="Mlarggragllabl!">
+		<text>This Murloc has +1 Attack.</text>
+		<utility label="EX1_508o" image="w16_a185_d"/>
+	</buff>
+	<buff name="Mrgglaargl!">
+		<text>Murloc Warleader is granting +2/+1.</text>
+		<utility label="EX1_507e" image="w18_a149_d"/>
+	</buff>
+	<buff name="Blarghghl">
+		<text>Increased Attack.</text>
+		<utility label="EX1_509e" image="w17_a104_d"/>
+	</buff>
+	<buff name="Alexstrasza's Fire">
+		<text>Health set to 15.</text>
+		<utility label="EX1_561e" image="r8_a002_d"/>
+	</buff>
+	<buff name="Teachings of the Kirin Tor">
+		<text>&lt;b&gt;Spell Damage +1&lt;/b&gt;.</text>
+		<utility label="EX1_584e" image="w2_297_d"/>
+	</buff>
+	<buff name="Shadows of M'uru">
+		<text>This minion has consumed Divine Shields and has increased Attack and Health.</text>
+		<utility label="EX1_590e" image="w2_105_d"/>
+	</buff>
+	<buff name="Mind Controlling">
+		<text></text>
+		<utility label="EX1_tk31" image="w11_049_d"/>
+	</buff>
+	<buff name="Emboldened!">
+		<text>Increased Stats.</text>
+		<utility label="Mekka3e" image="w12_a163_d"/>
+	</buff>
+	<buff name="Transformed">
+		<text>Has been transformed into a chicken!</text>
+		<utility label="Mekka4e" image="w14_a202_d"/>
+	</buff>
+	<buff name="Full Belly">
+		<text>+2/+2. Full of Murloc.</text>
+		<utility label="NEW1_017e" image="w16_a043_d"/>
+	</buff>
+	<buff name="Treasure Crazed">
+		<text>Increased Attack.</text>
+		<utility label="NEW1_018e" image="w5_155_d"/>
+	</buff>
+	<buff name="Greenskin's Command">
+		<text>+1/+1.</text>
+		<utility label="NEW1_024o" image="w8_131_d"/>
+	</buff>
+	<buff name="Bolstered">
+		<text>Increased Health.</text>
+		<utility label="NEW1_025e" image="w4_237_d"/>
+	</buff>
+	<buff name="Yarrr!">
+		<text>Southsea Captain is granting +1/+1.</text>
+		<utility label="NEW1_027e" image="wow_alyn_001_d"/>
+	</buff>
+	<buff name="Kill Millhouse!">
+		<text>Spells cost (0) this turn!</text>
+		<utility label="NEW1_029t" image="w5_215a_d"/>
+	</buff>
+	<buff name="Equipped">
+		<text>Increased Attack.</text>
+		<utility label="NEW1_037e" image="w6_047_d"/>
+	</buff>
+	<buff name="Growth">
+		<text>Gruul is growing...</text>
+		<utility label="NEW1_038o" image="w17_a162_d"/>
+	</buff>
+	<buff name="Cannibalize">
+		<text>Increased Attack.</text>
+		<utility label="tt_004o" image="dkpr_a027(final)_d"/>
+	</buff>
+
+	<buff name="The Coin">
+		<text></text>
+		<utility label="GAME_005e" image="coin_d"/>
+	</buff>
+	<buff name="Bananas">
+		<text>This minion has +1/+1. &lt;i&gt;(+1 Attack/+1 Health)&lt;/i&gt;</text>
+		<utility label="TU4c_006e" image="bananas2_d"/>
+	</buff>
+	<buff name="Might of Mukla">
+		<text>King Mukla has +8 Attack this turn.</text>
+		<utility label="TU4c_008e" image="w12_a165_d"/>
+	</buff>
+	<buff name="Legacy of the Emperor">
+		<text>Has +2/+2. &lt;i&gt;(+2 Attack/+2 Health)&lt;/i&gt;</text>
+		<utility label="TU4f_004o" image="w3_085_d"/>
+	</buff>
+	<buff name="Transcendence">
+		<text>Until you kill Cho's minions, he can't be attacked.</text>
+		<utility label="TU4f_006o" image="transcendence_d"/>
+	</buff>
+</buffs>

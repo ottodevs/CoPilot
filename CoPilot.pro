@@ -15,18 +15,21 @@ TEMPLATE = app
 
 SOURCES += main.cpp\
         mainwindow.cpp \
-    hs_concepts.cpp \
     dommodel.cpp \
-    str_enum.cpp
+    str_enum.cpp \
+    hs/engine.cpp \
+    hs/concepts.cpp \
+    hs/events.cpp
 
 HEADERS  += mainwindow.h \
-    hs_concepts.h \
     dommodel.h \
-    str_enum.h
+    str_enum.h \
+    hs/engine.h \
+    hs/concepts.h \
+    hs/events.h
 
 FORMS    +=
 
 OTHER_FILES += \
-    resources/test.xml \
     resources/cards.xml \
     resources/tokens.xml

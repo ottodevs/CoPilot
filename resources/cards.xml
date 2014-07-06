@@ -2,1543 +2,2007 @@
 <cards>
 	<card name="Abomination" type="minion" rarity="rare" set="expert" class="neutral">
 		<base cost="5" attack="4" health="4" type="none"/>
-		<text>Taunt. Deathrattle: Deal 2 damage to ALL characters.</text>
+		<text>&lt;b&gt;Taunt&lt;/b&gt;. &lt;b&gt;Deathrattle:&lt;/b&gt; Deal 2 damage to ALL characters.</text>
+		<utility label="EX1_097" image="r5_a005_d"/>
 	</card>
 	<card name="Abusive Sergeant" type="minion" rarity="common" set="expert" class="neutral">
 		<base cost="1" attack="2" health="1" type="none"/>
-		<text>Battlecry: Give a minion +2 Attack this turn.</text>
+		<text>&lt;b&gt;Battlecry:&lt;/b&gt; Give a minion +2 Attack this turn.</text>
+		<utility label="CS2_188" image="w2_326_d"/>
 	</card>
 	<card name="Acidic Swamp Ooze" type="minion" rarity="common" set="basic" class="neutral">
 		<base cost="2" attack="3" health="2" type="none"/>
-		<text>Battlecry: Destroy your opponent's weapon.</text>
+		<text>&lt;b&gt;Battlecry:&lt;/b&gt; Destroy your opponent's weapon.</text>
+		<utility label="EX1_066" image="acidicswampooze_d"/>
 	</card>
 	<card name="Acolyte of Pain" type="minion" rarity="common" set="expert" class="neutral">
 		<base cost="3" attack="1" health="3" type="none"/>
 		<text>Whenever this minion takes damage, draw a card.</text>
+		<utility label="EX1_007" image="w10_a031_d"/>
 	</card>
 	<card name="Alarm-o-Bot" type="minion" rarity="rare" set="expert" class="neutral">
 		<base cost="3" attack="0" health="3" type="none"/>
 		<text>At the start of your turn, swap this minion with a random one in your hand.</text>
+		<utility label="EX1_006" image="r7_a091_d"/>
 	</card>
 	<card name="Alexstrasza" type="minion" rarity="legendary" set="expert" class="neutral">
 		<base cost="9" attack="8" health="8" type="Dragon"/>
-		<text>Battlecry: Set a hero's remaining Health to 15.</text>
+		<text>&lt;b&gt;Battlecry:&lt;/b&gt; Set a hero's remaining Health to 15.</text>
+		<utility label="EX1_561" image="r8_a002_d"/>
 	</card>
 	<card name="Amani Berserker" type="minion" rarity="common" set="expert" class="neutral">
 		<base cost="2" attack="2" health="3" type="none"/>
-		<text>Enrage: +3 Attack</text>
-	</card>
-	<card name="Amani Berserker" type="minion" rarity="common" set="expert" class="neutral">
-		<base cost="2" attack="2" health="3" type="none"/>
-		<text>Enrage: +3 Attack</text>
+		<text>&lt;b&gt;Enrage:&lt;/b&gt; +3 Attack</text>
+		<utility label="EX1_393" image="w2_024_d"/>
 	</card>
 	<card name="Ancient Brewmaster" type="minion" rarity="common" set="expert" class="neutral">
 		<base cost="4" attack="5" health="4" type="none"/>
-		<text>Battlecry: Return a friendly minion from the battlefield to your hand.</text>
+		<text>&lt;b&gt;Battlecry:&lt;/b&gt; Return a friendly minion from the battlefield to your hand.</text>
+		<utility label="EX1_057" image="gecko_auction_d"/>
 	</card>
 	<card name="Ancient Mage" type="minion" rarity="rare" set="expert" class="neutral">
 		<base cost="4" attack="2" health="5" type="none"/>
-		<text>Battlecry: Give adjacent minions Spell Damage +1.</text>
+		<text>&lt;b&gt;Battlecry:&lt;/b&gt; Give adjacent minions &lt;b&gt;Spell Damage +1&lt;/b&gt;.</text>
+		<utility label="EX1_584" image="w2_297_d"/>
 	</card>
 	<card name="Ancient Watcher" type="minion" rarity="rare" set="expert" class="neutral">
 		<base cost="2" attack="4" health="5" type="none"/>
 		<text>Can't Attack.</text>
+		<utility label="EX1_045" image="w18_a191_d"/>
 	</card>
 	<card name="Angry Chicken" type="minion" rarity="rare" set="expert" class="neutral">
 		<base cost="1" attack="1" health="1" type="Beast"/>
-		<text>Enrage: +5 Attack.</text>
+		<text>&lt;b&gt;Enrage:&lt;/b&gt; +5 Attack.</text>
+		<utility label="EX1_009" image="w12_a222_d"/>
 	</card>
 	<card name="Arcane Golem" type="minion" rarity="rare" set="expert" class="neutral">
 		<base cost="3" attack="4" health="2" type="none"/>
-		<text>Charge. Battlecry: Give your opponent a Mana Crystal.</text>
+		<text>&lt;b&gt;Charge&lt;/b&gt;. &lt;b&gt;Battlecry:&lt;/b&gt; Give your opponent a Mana Crystal.</text>
+		<utility label="EX1_089" image="w20_a159_d"/>
 	</card>
 	<card name="Archmage" type="minion" rarity="common" set="basic" class="neutral">
 		<base cost="6" attack="4" health="7" type="none"/>
-		<text>Spell Damage +1</text>
+		<text>&lt;b&gt;Spell Damage +1&lt;/b&gt;</text>
+		<utility label="CS2_155" image="w9_a130_d"/>
 	</card>
 	<card name="Argent Commander" type="minion" rarity="rare" set="expert" class="neutral">
 	<base cost="6" attack="4" health="2" type="none"/>
-	<text>Charge, Divine Shield</text>
+	<text>&lt;b&gt;Charge&lt;/b&gt;, &lt;b&gt;Divine Shield&lt;/b&gt;</text>
+		<utility label="EX1_067" image="w7_049_d"/>
 	</card>
 	<card name="Argent Squire" type="minion" rarity="common" set="expert" class="neutral">
 		<base cost="1" attack="1" health="1" type="none"/>
-		<text>Divine Shield</text>
+		<text>&lt;b&gt;Divine Shield&lt;/b&gt;</text>
+		<utility label="EX1_008" image="w11_059_d"/>
 	</card>
 	<card name="Azure Drake" type="minion" rarity="rare" set="expert" class="neutral">
 		<base cost="5" attack="4" health="4" type="Dragon"/>
-		<text>Spell Damage +1. Battlecry: Draw a card.</text>
+		<text>&lt;b&gt;Spell Damage +1&lt;/b&gt;. &lt;b&gt;Battlecry:&lt;/b&gt; Draw a card.</text>
+		<utility label="EX1_284" image="w15_a169_d"/>
 	</card>
 	<card name="Baron Geddon" type="minion" rarity="legendary" set="expert" class="neutral">
 		<base cost="7" attack="7" health="5" type="none"/>
 		<text>At the end of your turn, deal 2 damage to ALL other characters.</text>
+		<utility label="EX1_249" image="w14_a082_d"/>
 	</card>
 	<card name="Big Game Hunter" type="minion" rarity="epic" set="expert" class="neutral">
 		<base cost="3" attack="4" health="2" type="none"/>
-		<text>Battlecry: Destroy a minion with an Attack of 7 or more.</text>
+		<text>&lt;b&gt;Battlecry:&lt;/b&gt; Destroy a minion with an Attack of 7 or more.</text>
+		<utility label="EX1_005" image="w5_030_d"/>
 	</card>
 	<card name="Blood Knight" type="minion" rarity="epic" set="expert" class="neutral">
 		<base cost="3" attack="3" health="3" type="none"/>
-		<text>Battlecry: All minions lose Divine Shield. Gain +3/+3 for each Shield lost.</text>
+		<text>&lt;b&gt;Battlecry:&lt;/b&gt; All minions lose &lt;b&gt;Divine Shield&lt;/b&gt;. Gain +3/+3 for each Shield lost.</text>
+		<utility label="EX1_590" image="w2_105_d"/>
 	</card>
 	<card name="Bloodfen Raptor" type="minion" rarity="common" set="basic" class="neutral">
 		<base cost="2" attack="3" health="2" type="none"/>
 		<text></text>
+		<utility label="CS2_172" image="wow_spe_004_d"/>
 	</card>
 	<card name="Bloodmage Thalnos" type="minion" rarity="legendary" set="expert" class="neutral">
 		<base cost="2" attack="1" health="1" type="none"/>
-		<text>Spell Damage +1. Deathrattle: Draw a card.</text>
+		<text>&lt;b&gt;Spell Damage +1&lt;/b&gt;. &lt;b&gt;Deathrattle:&lt;/b&gt; Draw a card.</text>
+		<utility label="EX1_012" image="w12_a115_d"/>
 	</card>
 	<card name="Bloodsail Corsair" type="minion" rarity="rare" set="expert" class="neutral">
 		<base cost="1" attack="1" health="2" type="Pirate"/>
-		<text>Battlecry: Remove 1 Durability from your opponent's weapon.</text>
+		<text>&lt;b&gt;Battlecry:&lt;/b&gt; Remove 1 Durability from your opponent's weapon.</text>
+		<utility label="NEW1_025" image="w4_237_d"/>
 	</card>
 	<card name="Bloodsail Raider" type="minion" rarity="common" set="expert" class="neutral">
 		<base cost="2" attack="2" health="3" type="Pirate"/>
-		<text>Battlecry: Gain Attack equal to the Attack of your weapon.</text>
+		<text>&lt;b&gt;Battlecry:&lt;/b&gt; Gain Attack equal to the Attack of your weapon.</text>
+		<utility label="NEW1_018" image="w5_155_d"/>
 	</card>
 	<card name="Bluegill Warrior" type="minion" rarity="common" set="basic" class="neutral">
 		<base cost="2" attack="2" health="1" type="Murloc"/>
-		<text>Charge</text>
+		<text>&lt;b&gt;Charge&lt;/b&gt;</text>
+		<utility label="CS2_173" image="w16_a206_d"/>
 	</card>
 	<card name="Booty Bay Bodyguard" type="minion" rarity="common" set="basic" class="neutral">
 		<base cost="5" attack="5" health="4" type="none"/>
-		<text>Taunt</text>
+		<text>&lt;b&gt;Taunt&lt;/b&gt;</text>
+		<utility label="CS2_187" image="w7_183_d"/>
 	</card>
 	<card name="Boulderfist Ogre" type="minion" rarity="common" set="basic" class="neutral">
 		<base cost="6" attack="6" health="7" type="none"/>
 		<text></text>
+		<utility label="CS2_200" image="w17_a123_d"/>
 	</card>
 	<card name="Cairne Bloodhoof" type="minion" rarity="legendary" set="expert" class="neutral">
 		<base cost="6" attack="4" health="5" type="none"/>
-		<text>Deathrattle: Summon a 4/5 Baine Bloodhoof.</text>
+		<text>&lt;b&gt;Deathrattle:&lt;/b&gt; Summon a 4/5 Baine Bloodhoof.</text>
+		<utility label="EX1_110" image="w13_127_d"/>
 	</card>
 	<card name="Captain Greenskin" type="minion" rarity="legendary" set="expert" class="neutral">
 		<base cost="5" attack="5" health="4" type="Pirate"/>
-		<text>Battlecry: Give your weapon +1/+1.</text>
+		<text>&lt;b&gt;Battlecry:&lt;/b&gt; Give your weapon +1/+1.</text>
+		<utility label="NEW1_024" image="w8_131_d"/>
 	</card>
 	<card name="Captain's Parrot" type="minion" rarity="epic" set="reward" class="neutral">
 		<base cost="2" attack="1" health="1" type="Beast"/>
-		<text>Battlecry: Put a random Pirate from your deck into your hand.</text>
+		<text>&lt;b&gt;Battlecry:&lt;/b&gt; Put a random Pirate from your deck into your hand.</text>
+		<utility label="NEW1_016" image="w6_036_d"/>
 	</card>
 	<card name="Chillwind Yeti" type="minion" rarity="common" set="basic" class="neutral">
 		<base cost="4" attack="4" health="5" type="none"/>
 		<text></text>
+		<utility label="CS2_182" image="wow_act_105_d"/>
 	</card>
 	<card name="Coldlight Oracle" type="minion" rarity="rare" set="expert" class="neutral">
 		<base cost="3" attack="2" health="2" type="Murloc"/>
-		<text>Battlecry: Each player draws 2 cards.</text>
+		<text>&lt;b&gt;Battlecry:&lt;/b&gt; Each player draws 2 cards.</text>
+		<utility label="EX1_050" image="w16_a096_d"/>
 	</card>
 	<card name="Coldlight Seer" type="minion" rarity="rare" set="expert" class="neutral">
 		<base cost="3" attack="2" health="3" type="Murloc"/>
-		<text>Battlecry: Give ALL other Murlocs +2 Health.</text>
+		<text>&lt;b&gt;Battlecry:&lt;/b&gt; Give ALL other Murlocs +2 Health.</text>
+		<utility label="EX1_103" image="w16_a207_d"/>
 	</card>
 	<card name="Core Hound" type="minion" rarity="common" set="basic" class="neutral">
 		<base cost="7" attack="9" health="5" type="Beast"/>
 		<text></text>
+		<utility label="CS2_201" image="w2_054_d"/>
 	</card>
 	<card name="Crazed Alchemist" type="minion" rarity="rare" set="expert" class="neutral">
 		<base cost="2" attack="2" health="2" type="none"/>
-		<text>Battlecry: Swap the Attack and Health of a minion.</text>
+		<text>&lt;b&gt;Battlecry:&lt;/b&gt; Swap the Attack and Health of a minion.</text>
+		<utility label="EX1_059" image="w2_341_d"/>
 	</card>
 	<card name="Cult Master" type="minion" rarity="common" set="expert" class="neutral">
 		<base cost="4" attack="4" health="2" type="none"/>
 		<text>Whenever one of your other minions dies, draw a card.</text>
+		<utility label="EX1_595" image="r5_a091_d"/>
 	</card>
 	<card name="Dalaran Mage" type="minion" rarity="common" set="basic" class="neutral">
 		<base cost="3" attack="1" health="4" type="none"/>
-		<text>Spell Damage +1</text>
+		<text>&lt;b&gt;Spell Damage +1&lt;/b&gt;</text>
+		<utility label="EX1_582" image="w12_a088(ea)_d"/>
 	</card>
 	<card name="Dark Iron Dwarf" type="minion" rarity="common" set="expert" class="neutral">
 		<base cost="4" attack="4" health="4" type="none"/>
-		<text>Battlecry: Give a minion +2 Attack this turn.</text>
+		<text>&lt;b&gt;Battlecry:&lt;/b&gt; Give a minion +2 Attack this turn.</text>
+		<utility label="EX1_046" image="wow_alyn_010a_d"/>
 	</card>
 	<card name="Darkscale Healer" type="minion" rarity="common" set="basic" class="neutral">
 		<base cost="5" attack="4" health="5" type="none"/>
-		<text>Battlecry: Restore 2 Health to all friendly characters.</text>
+		<text>&lt;b&gt;Battlecry:&lt;/b&gt; Restore 2 Health to all friendly characters.</text>
+		<utility label="DS1_055" image="w16_a022_d"/>
 	</card>
 	<card name="Deathwing" type="minion" rarity="legendary" set="expert" class="neutral">
 		<base cost="10" attack="12" health="12" type="Dragon"/>
-		<text>Battlecry: Destroy all other minions and discard your hand.</text>
+		<text>&lt;b&gt;Battlecry:&lt;/b&gt; Destroy all other minions and discard your hand.</text>
+		<utility label="NEW1_030" image="deathwing_genius_final_add_d"/>
 	</card>
 	<card name="Defender of Argus" type="minion" rarity="rare" set="expert" class="neutral">
 		<base cost="4" attack="2" health="3" type="none"/>
-		<text>Battlecry: Give adjacent minions +1/+1 and Taunt.</text>
+		<text>&lt;b&gt;Battlecry:&lt;/b&gt; Give adjacent minions +1/+1 and &lt;b&gt;Taunt&lt;/b&gt;.</text>
+		<utility label="EX1_093" image="w5_008_d"/>
 	</card>
 	<card name="Demolisher" type="minion" rarity="rare" set="expert" class="neutral">
 		<base cost="3" attack="1" health="4" type="none"/>
 		<text>At the start of your turn, deal 2 damage to a random enemy.</text>
+		<utility label="EX1_102" image="w10_a260_d"/>
 	</card>
 	<card name="Dire Wolf Alpha" type="minion" rarity="common" set="expert" class="neutral">
 		<base cost="2" attack="2" health="2" type="Beast"/>
 		<text>Adjacent minions have +1 Attack.</text>
+		<utility label="EX1_162" image="wow_tal_008_d"/>
 	</card>
 	<card name="Doomsayer" type="minion" rarity="epic" set="expert" class="neutral">
 		<base cost="2" attack="0" health="7" type="none"/>
 		<text>At the start of your turn, destroy ALL minions.</text>
+		<utility label="NEW1_021" image="w2_209_d"/>
 	</card>
 	<card name="Dragonling Mechanic" type="minion" rarity="common" set="basic" class="neutral">
 		<base cost="4" attack="2" health="4" type="none"/>
-		<text>Battlecry: Summon a 2/1 Mechanical Dragonling.</text>
+		<text>&lt;b&gt;Battlecry:&lt;/b&gt; Summon a 2/1 Mechanical Dragonling.</text>
+		<utility label="EX1_025" image="w2_265_d"/>
 	</card>
 	<card name="Dread Corsair" type="minion" rarity="common" set="expert" class="neutral">
 		<base cost="4" attack="3" health="3" type="Pirate"/>
-		<text>Taunt. Costs (1) less per Attack of your weapon.</text>
+		<text>&lt;b&gt;Taunt&lt;/b&gt;. Costs (1) less per Attack of your weapon.</text>
+		<utility label="NEW1_022" image="w2_229_d"/>
 	</card>
 	<card name="Earthen Ring Farseer" type="minion" rarity="common" set="expert" class="neutral">
 		<base cost="3" attack="3" health="3" type="none"/>
-		<text>Battlecry: Restore 3 Health.</text>
+		<text>&lt;b&gt;Battlecry:&lt;/b&gt; Restore 3 Health.</text>
+		<utility label="CS2_117" image="w10_a005_d"/>
 	</card>
 	<card name="Elite Tauren Chieftain" type="minion" rarity="legendary" set="promotion" class="neutral">
 		<base cost="5" attack="5" health="5" type="none"/>
-		<text>Battlecry: Give both players the power to ROCK! (with a Power Chord card)</text>
+		<text>&lt;b&gt;Battlecry:&lt;/b&gt; Give both players the power to ROCK! (with a Power Chord card)</text>
+		<utility label="PRO_001" image="etc_d"/>
 	</card>
 	<card name="Elven Archer" type="minion" rarity="common" set="basic" class="neutral">
 		<base cost="1" attack="1" health="1" type="none"/>
-		<text>Battlecry: Deal 1 damage.</text>
+		<text>&lt;b&gt;Battlecry:&lt;/b&gt; Deal 1 damage.</text>
+		<utility label="CS2_189" image="w10_a109_d"/>
 	</card>
 	<card name="Emperor Cobra" type="minion" rarity="rare" set="expert" class="neutral">
 		<base cost="3" attack="2" health="3" type="Beast"/>
 		<text>Destroy any minion damaged by this minion.</text>
+		<utility label="EX1_170" image="w15_a041_d"/>
 	</card>
 	<card name="Faceless Manipulator" type="minion" rarity="epic" set="expert" class="neutral">
 		<base cost="5" attack="3" health="3" type="none"/>
-		<text>Battlecry: Choose a minion and become a copy of it.</text>
+		<text>&lt;b&gt;Battlecry:&lt;/b&gt; Choose a minion and become a copy of it.</text>
+		<utility label="EX1_564" image="w16_a188_d"/>
 	</card>
 	<card name="Faerie Dragon" type="minion" rarity="common" set="expert" class="neutral">
 		<base cost="2" attack="3" health="2" type="Dragon"/>
 		<text>Can't be targeted by Spells or Hero Powers.</text>
+		<utility label="NEW1_023" image="faeriedragon_d"/>
 	</card>
 	<card name="Fen Creeper" type="minion" rarity="common" set="expert" class="neutral">
 		<base cost="5" attack="3" health="6" type="none"/>
-		<text>Taunt</text>
+		<text>&lt;b&gt;Taunt&lt;/b&gt;</text>
+		<utility label="CS1_069" image="w3_269_d"/>
 	</card>
 	<card name="Flesheating Ghoul" type="minion" rarity="common" set="expert" class="neutral">
 		<base cost="3" attack="2" health="3" type="none"/>
 		<text>Whenever a minion dies, gain +1 Attack.</text>
+		<utility label="tt_004" image="dkpr_a027(final)_d"/>
 	</card>
 	<card name="Frost Elemental" type="minion" rarity="common" set="expert" class="neutral">
 		<base cost="6" attack="5" health="5" type="none"/>
-		<text>Battlecry: Freeze a character.</text>
+		<text>&lt;b&gt;Battlecry:&lt;/b&gt; &lt;b&gt;Freeze&lt;/b&gt; a character.</text>
+		<utility label="EX1_283" image="w2_140_d"/>
 	</card>
 	<card name="Frostwolf Grunt" type="minion" rarity="common" set="basic" class="neutral">
 		<base cost="2" attack="2" health="2" type="none"/>
-		<text>Taunt</text>
+		<text>&lt;b&gt;Taunt&lt;/b&gt;</text>
+		<utility label="CS2_121" image="w15_a233_d"/>
 	</card>
 	<card name="Frostwolf Warlord" type="minion" rarity="common" set="basic" class="neutral">
 		<base cost="5" attack="4" health="4" type="none"/>
-		<text>Battlecry: Gain +1/+1 for each other friendly minion on the battlefield.</text>
+		<text>&lt;b&gt;Battlecry:&lt;/b&gt; Gain +1/+1 for each other friendly minion on the battlefield.</text>
+		<utility label="CS2_226" image="w11_084(ea)_d"/>
 	</card>
 	<card name="Gadgetzan Auctioneer" type="minion" rarity="rare" set="expert" class="neutral">
 		<base cost="5" attack="4" health="4" type="none"/>
 		<text>Whenever you cast a spell, draw a card.</text>
+		<utility label="EX1_095" image="w8_071_d"/>
 	</card>
 	<card name="Gelbin Mekkatorque" type="minion" rarity="legendary" set="promotion" class="neutral">
 		<base cost="6" attack="6" health="6" type="none"/>
-		<text>Battlecry: Summon an AWESOME invention.</text>
+		<text>&lt;b&gt;Battlecry:&lt;/b&gt; Summon an AWESOME invention.</text>
+		<utility label="EX1_112" image="gelbin-lullabi-v3_d"/>
 	</card>
 	<card name="Gnomish Inventor" type="minion" rarity="common" set="basic" class="neutral">
 		<base cost="4" attack="2" health="4" type="none"/>
-		<text>Battlecry: Draw a card.</text>
+		<text>&lt;b&gt;Battlecry:&lt;/b&gt; Draw a card.</text>
+		<utility label="CS2_147" image="w7_031_d"/>
 	</card>
 	<card name="Goldshire Footman" type="minion" rarity="common" set="basic" class="neutral">
 		<base cost="1" attack="1" health="2" type="none"/>
-		<text>Taunt</text>
+		<text>&lt;b&gt;Taunt&lt;/b&gt;</text>
+		<utility label="CS1_042" image="w2_279_d"/>
 	</card>
 	<card name="Grimscale Oracle" type="minion" rarity="common" set="basic" class="neutral">
 		<base cost="1" attack="1" health="1" type="Murloc"/>
 		<text>ALL other Murlocs have +1 Attack.</text>
+		<utility label="EX1_508" image="w16_a185_d"/>
 	</card>
 	<card name="Gruul" type="minion" rarity="legendary" set="expert" class="neutral">
 		<base cost="8" attack="7" health="7" type="none"/>
 		<text>At the end of each turn, gain +1/+1 .</text>
+		<utility label="NEW1_038" image="w17_a162_d"/>
 	</card>
 	<card name="Gurubashi Berserker" type="minion" rarity="common" set="basic" class="neutral">
 		<base cost="5" attack="2" health="7" type="none"/>
 		<text>Whenever this minion takes damage, gain +3 Attack.</text>
+		<utility label="EX1_399" image="w13_002_d"/>
 	</card>
 	<card name="Harrison Jones" type="minion" rarity="legendary" set="expert" class="neutral">
 		<base cost="5" attack="5" health="4" type="none"/>
-		<text>Battlecry: Destroy your opponent's weapon and draw cards equal to its Durability.</text>
+		<text>&lt;b&gt;Battlecry:&lt;/b&gt; Destroy your opponent's weapon and draw cards equal to its Durability.</text>
+		<utility label="EX1_558" image="w18_a158_d"/>
 	</card>
 	<card name="Harvest Golem" type="minion" rarity="common" set="expert" class="neutral">
 		<base cost="3" attack="2" health="3" type="none"/>
-		<text>Deathrattle: Summon a 2/1 Damaged Golem.</text>
+		<text>&lt;b&gt;Deathrattle:&lt;/b&gt; Summon a 2/1 Damaged Golem.</text>
+		<utility label="EX1_556" image="r7_a017_d"/>
 	</card>
 	<card name="Hogger" type="minion" rarity="legendary" set="expert" class="neutral">
 		<base cost="6" attack="4" health="4" type="none"/>
-		<text>At the end of your turn, summon a 2/2 Gnoll with Taunt.</text>
+		<text>At the end of your turn, summon a 2/2 Gnoll with &lt;b&gt;Taunt&lt;/b&gt;.</text>
+		<utility label="NEW1_040" image="w17_a071_d"/>
 	</card>
 	<card name="Hungry Crab" type="minion" rarity="epic" set="expert" class="neutral">
 		<base cost="1" attack="1" health="2" type="Beast"/>
-		<text>Battlecry: Destroy a Murloc and gain +2/+2.</text>
+		<text>&lt;b&gt;Battlecry:&lt;/b&gt; Destroy a Murloc and gain +2/+2.</text>
+		<utility label="NEW1_017" image="w16_a043_d"/>
 	</card>
 	<card name="Illidan Stormrage" type="minion" rarity="legendary" set="expert" class="neutral">
 		<base cost="6" attack="7" health="5" type="Demon"/>
 		<text>Whenever you play a card, summon a 2/1 Flame of Azzinoth.</text>
+		<utility label="EX1_614" image="w19_a026_d2"/>
 	</card>
 	<card name="Imp Master" type="minion" rarity="rare" set="expert" class="neutral">
 		<base cost="3" attack="1" health="5" type="none"/>
 		<text>At the end of your turn, deal 1 damage to this minion and summon a 1/1 Imp.</text>
+		<utility label="EX1_597" image="wow_awk_001_d"/>
 	</card>
 	<card name="Injured Blademaster" type="minion" rarity="rare" set="expert" class="neutral">
 		<base cost="3" attack="4" health="7" type="none"/>
-		<text>Battlecry: Deal 4 damage to HIMSELF.</text>
+		<text>&lt;b&gt;Battlecry:&lt;/b&gt; Deal 4 damage to HIMSELF.</text>
+		<utility label="CS2_181" image="blademaster_d"/>
 	</card>
 	<card name="Ironbeak Owl" type="minion" rarity="common" set="expert" class="neutral">
 		<base cost="2" attack="2" health="1" type="Beast"/>
-		<text>Battlecry: Silence a minion.</text>
+		<text>&lt;b&gt;Battlecry:&lt;/b&gt; &lt;b&gt;Silence&lt;/b&gt; a minion.</text>
+		<utility label="CS2_203" image="w4_280_d"/>
 	</card>
 	<card name="Ironforge Rifleman" type="minion" rarity="common" set="basic" class="neutral">
 		<base cost="3" attack="2" health="2" type="none"/>
-		<text>Battlecry: Deal 1 damage.</text>
+		<text>&lt;b&gt;Battlecry:&lt;/b&gt; Deal 1 damage.</text>
+		<utility label="CS2_141" image="climbing_d"/>
 	</card>
 	<card name="Ironfur Grizzly" type="minion" rarity="common" set="basic" class="neutral">
 		<base cost="3" attack="3" health="3" type="Beast"/>
-		<text>Taunt</text>
+		<text>&lt;b&gt;Taunt&lt;/b&gt;</text>
+		<utility label="CS2_125" image="w6_239_d"/>
 	</card>
 	<card name="Jungle Panther" type="minion" rarity="common" set="expert" class="neutral">
 		<base cost="3" attack="4" health="2" type="Beast"/>
-		<text>Stealth</text>
+		<text>&lt;b&gt;Stealth&lt;/b&gt;</text>
+		<utility label="EX1_017" image="w18_a076_d"/>
 	</card>
 	<card name="King Mukla" type="minion" rarity="legendary" set="expert" class="neutral">
 		<base cost="3" attack="5" health="5" type="Beast"/>
-		<text>Battlecry: Give your opponent 2 Bananas.</text>
+		<text>&lt;b&gt;Battlecry:&lt;/b&gt; Give your opponent 2 Bananas.</text>
+		<utility label="EX1_014" image="w2_450a_d"/>
 	</card>
 	<card name="Knife Juggler" type="minion" rarity="rare" set="expert" class="neutral">
 		<base cost="2" attack="3" health="2" type="none"/>
 		<text>After you summon a minion, deal 1 damage to a random enemy.</text>
+		<utility label="NEW1_019" image="w12_a081_d"/>
 	</card>
 	<card name="Kobold Geomancer" type="minion" rarity="common" set="basic" class="neutral">
 		<base cost="2" attack="2" health="2" type="none"/>
-		<text>Spell Damage +1</text>
+		<text>&lt;b&gt;Spell Damage +1&lt;/b&gt;</text>
+		<utility label="CS2_142" image="w15_a215_d"/>
 	</card>
 	<card name="Leeroy Jenkins" type="minion" rarity="legendary" set="expert" class="neutral">
 		<base cost="4" attack="6" health="2" type="none"/>
-		<text>Charge. Battlecry: Summon two 1/1 Whelps for your opponent.</text>
+		<text>&lt;b&gt;Charge&lt;/b&gt;. &lt;b&gt;Battlecry:&lt;/b&gt; Summon two 1/1 Whelps for your opponent.</text>
+		<utility label="EX1_116" image="wow_penny_003_d"/>
 	</card>
 	<card name="Leper Gnome" type="minion" rarity="common" set="expert" class="neutral">
 		<base cost="1" attack="2" health="1" type="none"/>
-		<text>Deathrattle: Deal 2 damage to the enemy hero.</text>
+		<text>&lt;b&gt;Deathrattle:&lt;/b&gt; Deal 2 damage to the enemy hero.</text>
+		<utility label="EX1_029" image="leper_gnome_d"/>
 	</card>
 	<card name="Lightwarden" type="minion" rarity="rare" set="expert" class="neutral">
 		<base cost="1" attack="1" health="2" type="none"/>
 		<text>Whenever a character is healed, gain +2 Attack.</text>
+		<utility label="EX1_001" image="w4_285_d"/>
 	</card>
 	<card name="Loot Hoarder" type="minion" rarity="common" set="expert" class="neutral">
 		<base cost="2" attack="2" health="1" type="none"/>
-		<text>Deathrattle: Draw a card.</text>
+		<text>&lt;b&gt;Deathrattle:&lt;/b&gt; Draw a card.</text>
+		<utility label="EX1_096" image="w9_a058_d"/>
 	</card>
 	<card name="Lord of the Arena" type="minion" rarity="common" set="basic" class="neutral">
 		<base cost="6" attack="6" health="5" type="none"/>
-		<text>Taunt</text>
+		<text>&lt;b&gt;Taunt&lt;/b&gt;</text>
+		<utility label="CS2_162" image="w14_a158_d"/>
 	</card>
 	<card name="Lorewalker Cho" type="minion" rarity="legendary" set="expert" class="neutral">
 		<base cost="2" attack="0" health="4" type="none"/>
 		<text>Whenever a player casts a spell, put a copy into the other player? hand.</text>
+		<utility label="EX1_100" image="cho_minion_d"/>
 	</card>
 	<card name="Mad Bomber" type="minion" rarity="common" set="expert" class="neutral">
 		<base cost="2" attack="3" health="2" type="none"/>
-		<text>Battlecry: Deal 3 damage randomly split between all other characters.</text>
+		<text>&lt;b&gt;Battlecry:&lt;/b&gt; Deal 3 damage randomly split between all other characters.</text>
+		<utility label="EX1_082" image="w20_a127_d"/>
 	</card>
 	<card name="Magma Rager" type="minion" rarity="common" set="basic" class="neutral">
 		<base cost="3" attack="5" health="1" type="none"/>
 		<text></text>
+		<utility label="CS2_118" image="w14_a249_d"/>
 	</card>
 	<card name="Malygos" type="minion" rarity="legendary" set="expert" class="neutral">
 		<base cost="9" attack="4" health="12" type="Dragon"/>
-		<text>Spell Damage +5</text>
+		<text>&lt;b&gt;Spell Damage +5&lt;/b&gt;</text>
+		<utility label="EX1_563" image="r8_a005_d"/>
 	</card>
 	<card name="Mana Addict" type="minion" rarity="rare" set="expert" class="neutral">
 		<base cost="2" attack="1" health="3" type="none"/>
 		<text>Whenever you cast a spell, gain +2 Attack this turn.</text>
+		<utility label="EX1_055" image="w5_175_d"/>
 	</card>
 	<card name="Mana Wraith" type="minion" rarity="rare" set="expert" class="neutral">
 		<base cost="2" attack="2" health="2" type="none"/>
 		<text>ALL minions cost (1) more.</text>
+		<utility label="EX1_616" image="r6_a024_d"/>
 	</card>
 	<card name="Master Swordsmith" type="minion" rarity="rare" set="expert" class="neutral">
 		<base cost="2" attack="1" health="3" type="none"/>
 		<text>At the end of your turn, give another random friendly minion +1 Attack.</text>
+		<utility label="NEW1_037" image="w6_047_d"/>
 	</card>
 	<card name="Millhouse Manastorm" type="minion" rarity="legendary" set="expert" class="neutral">
 		<base cost="2" attack="4" health="4" type="none"/>
-		<text>Battlecry: Enemy spells cost (0) next turn.</text>
+		<text>&lt;b&gt;Battlecry:&lt;/b&gt; Enemy spells cost (0) next turn.</text>
+		<utility label="NEW1_029" image="w5_215a_d"/>
 	</card>
 	<card name="Mind Control Tech" type="minion" rarity="rare" set="expert" class="neutral">
 		<base cost="3" attack="3" health="3" type="none"/>
-		<text>Battlecry: If your opponent has 4 or more minions, take control of one at random.</text>
+		<text>&lt;b&gt;Battlecry:&lt;/b&gt; If your opponent has 4 or more minions, take control of one at random.</text>
+		<utility label="EX1_085" image="w11_049_d"/>
 	</card>
 	<card name="Mogu'shan Warden" type="minion" rarity="common" set="expert" class="neutral">
 		<base cost="4" attack="1" health="7" type="none"/>
-		<text>Taunt</text>
+		<text>&lt;b&gt;Taunt&lt;/b&gt;</text>
+		<utility label="EX1_396" image="mogu_d"/>
 	</card>
 	<card name="Molten Giant" type="minion" rarity="epic" set="expert" class="neutral">
 		<base cost="20" attack="8" health="8" type="none"/>
 		<text>Costs (1) less for each damage your hero has taken.</text>
+		<utility label="EX1_620" image="w2_434_d"/>
 	</card>
 	<card name="Mountain Giant" type="minion" rarity="epic" set="expert" class="neutral">
 		<base cost="12" attack="8" health="8" type="none"/>
 		<text>Costs (1) less for each other card in your hand.</text>
+		<utility label="EX1_105" image="mountaingiant_d"/>
 	</card>
 	<card name="Murloc Raider" type="minion" rarity="common" set="basic" class="neutral">
 		<base cost="1" attack="2" health="1" type="Murloc"/>
 		<text></text>
+		<utility label="CS2_168" image="bestiary-final_d"/>
 	</card>
 	<card name="Murloc Tidecaller" type="minion" rarity="rare" set="expert" class="neutral">
 		<base cost="1" attack="1" health="2" type="Murloc"/>
 		<text>Whenever a Murloc is summoned, gain +1 Attack.</text>
+		<utility label="EX1_509" image="w17_a104_d"/>
 	</card>
 	<card name="Murloc Tidehunter" type="minion" rarity="common" set="basic" class="neutral">
 		<base cost="2" attack="2" health="1" type="Murloc"/>
-		<text>Battlecry: Summon a 1/1 Murloc Scout.</text>
+		<text>&lt;b&gt;Battlecry:&lt;/b&gt; Summon a 1/1 Murloc Scout.</text>
+		<utility label="EX1_506" image="promo_001_d"/>
 	</card>
 	<card name="Murloc Warleader" type="minion" rarity="epic" set="expert" class="neutral">
 		<base cost="3" attack="3" health="3" type="Murloc"/>
 		<text>ALL other Murlocs have +2/+1.</text>
+		<utility label="EX1_507" image="w18_a149_d"/>
 	</card>
 	<card name="Nat Pagle" type="minion" rarity="legendary" set="expert" class="neutral">
 		<base cost="2" attack="0" health="4" type="none"/>
 		<text>At the start of your turn, you have a 50% chance to draw a card.</text>
+		<utility label="EX1_557" image="nat_pagle_d"/>
 	</card>
 	<card name="Nightblade" type="minion" rarity="common" set="basic" class="neutral">
 		<base cost="5" attack="4" health="4" type="none"/>
-		<text>Battlecry: Deal 3 damage to the enemy hero.</text>
+		<text>&lt;b&gt;Battlecry:&lt;/b&gt; Deal 3 damage to the enemy hero.</text>
+		<utility label="EX1_593" image="w11_061_d"/>
 	</card>
 	<card name="Novice Engineer" type="minion" rarity="common" set="basic" class="neutral">
 		<base cost="2" attack="1" health="1" type="none"/>
-		<text>Battlecry: Draw a card.</text>
+		<text>&lt;b&gt;Battlecry:&lt;/b&gt; Draw a card.</text>
+		<utility label="EX1_015" image="w7_078_d"/>
 	</card>
 	<card name="Nozdormu" type="minion" rarity="legendary" set="expert" class="neutral">
 		<base cost="9" attack="8" health="8" type="Dragon"/>
 		<text>Players only have 15 seconds to take their turns.</text>
+		<utility label="EX1_560" image="w14_a074_d"/>
 	</card>
 	<card name="Oasis Snapjaw" type="minion" rarity="common" set="basic" class="neutral">
 		<base cost="4" attack="2" health="7" type="Beast"/>
 		<text></text>
+		<utility label="CS2_119" image="w14_a012_d"/>
 	</card>
 	<card name="Ogre Magi" type="minion" rarity="common" set="basic" class="neutral">
 		<base cost="4" attack="4" health="4" type="none"/>
-		<text>Spell Damage +1</text>
+		<text>&lt;b&gt;Spell Damage +1&lt;/b&gt;</text>
+		<utility label="CS2_197" image="w8_148_d"/>
 	</card>
 	<card name="Old Murk-Eye" type="minion" rarity="legendary" set="reward" class="neutral">
 		<base cost="4" attack="2" health="4" type="Murloc"/>
-		<text>Charge. Has +1 Attack for each other Murloc on the battlefield.</text>
+		<text>&lt;b&gt;Charge&lt;/b&gt;. Has +1 Attack for each other Murloc on the battlefield.</text>
+		<utility label="EX1_062" image="bestiary-final2_d"/>
 	</card>
 	<card name="Onyxia" type="minion" rarity="legendary" set="expert" class="neutral">
 		<base cost="9" attack="8" health="8" type="Dragon"/>
-		<text>Battlecry: Summon 1/1 Whelps until your side of the battlefield is full.</text>
+		<text>&lt;b&gt;Battlecry:&lt;/b&gt; Summon 1/1 Whelps until your side of the battlefield is full.</text>
+		<utility label="EX1_562" image="ony_stk_017_d"/>
 	</card>
 	<card name="Pint-Sized Summoner" type="minion" rarity="rare" set="expert" class="neutral">
 		<base cost="2" attack="2" health="2" type="none"/>
 		<text>The first minion you play each turn costs (1) less.</text>
+		<utility label="EX1_076" image="w2_374_d"/>
 	</card>
 	<card name="Priestess of Elune" type="minion" rarity="common" set="expert" class="neutral">
 		<base cost="6" attack="5" health="4" type="none"/>
-		<text>Battlecry: Restore 4 Health to your hero.</text>
+		<text>&lt;b&gt;Battlecry:&lt;/b&gt; Restore 4 Health to your hero.</text>
+		<utility label="EX1_583" image="w8_130_d"/>
 	</card>
 	<card name="Questing Adventurer" type="minion" rarity="rare" set="expert" class="neutral">
 		<base cost="3" attack="2" health="2" type="none"/>
 		<text>Whenever you play a card, gain +1/+1.</text>
+		<utility label="EX1_044" image="wow_misc_028_d"/>
 	</card>
 	<card name="Raging Worgen" type="minion" rarity="common" set="expert" class="neutral">
 		<base cost="3" attack="3" health="3" type="none"/>
-		<text>Enrage: Windfury and +1 Attack</text>
+		<text>&lt;b&gt;Enrage:&lt;/b&gt; &lt;b&gt;Windfury&lt;/b&gt; and +1 Attack</text>
+		<utility label="EX1_412" image="ex1_412_d"/>
 	</card>
 	<card name="Ragnaros the Firelord" type="minion" rarity="legendary" set="expert" class="neutral">
 		<base cost="8" attack="8" health="8" type="none"/>
 		<text>Can't Attack. At the end of your turn, deal 8 damage to a random enemy.</text>
+		<utility label="EX1_298" image="w2_059_d"/>
 	</card>
 	<card name="Raid Leader" type="minion" rarity="common" set="basic" class="neutral">
 		<base cost="3" attack="2" health="2" type="none"/>
 		<text>Your other minions have +1 Attack.</text>
+		<utility label="CS2_122" image="wow_blz_003_d"/>
 	</card>
 	<card name="Ravenholdt Assassin" type="minion" rarity="rare" set="expert" class="neutral">
 		<base cost="7" attack="7" health="5" type="none"/>
-		<text>Stealth</text>
+		<text>&lt;b&gt;Stealth&lt;/b&gt;</text>
+		<utility label="CS2_161" image="w10_a098_d"/>
 	</card>
 	<card name="Razorfen Hunter" type="minion" rarity="common" set="basic" class="neutral">
 		<base cost="3" attack="2" health="3" type="none"/>
-		<text>Battlecry: Summon a 1/1 Boar.</text>
+		<text>&lt;b&gt;Battlecry:&lt;/b&gt; Summon a 1/1 Boar.</text>
+		<utility label="CS2_196" image="w8_018_d"/>
 	</card>
 	<card name="Reckless Rocketeer" type="minion" rarity="common" set="basic" class="neutral">
 		<base cost="6" attack="5" health="2" type="none"/>
-		<text>Charge</text>
+		<text>&lt;b&gt;Charge&lt;/b&gt;</text>
+		<utility label="CS2_213" image="goblinrocket2_d"/>
 	</card>
 	<card name="River Crocolisk" type="minion" rarity="common" set="basic" class="neutral">
 		<base cost="2" attack="2" health="3" type="Beast"/>
 		<text></text>
+		<utility label="CS2_120" image="w9_a160_d"/>
 	</card>
 	<card name="Scarlet Crusader" type="minion" rarity="common" set="expert" class="neutral">
 		<base cost="3" attack="3" health="1" type="none"/>
-		<text>Divine Shield</text>
+		<text>&lt;b&gt;Divine Shield&lt;/b&gt;</text>
+		<utility label="EX1_020" image="r7_a033_d"/>
 	</card>
 	<card name="Sea Giant" type="minion" rarity="epic" set="expert" class="neutral">
 		<base cost="10" attack="8" health="8" type="none"/>
 		<text>Costs (1) less for each other minion on the battlefield.</text>
+		<utility label="EX1_586" image="w4_097_d"/>
 	</card>
 	<card name="Secretkeeper" type="minion" rarity="rare" set="expert" class="neutral">
 		<base cost="1" attack="1" health="2" type="none"/>
-		<text>Whenever a Secret is played, gain +1/+1.</text>
+		<text>Whenever a &lt;b&gt;Secret&lt;/b&gt; is played, gain +1/+1.</text>
+		<utility label="EX1_080" image="w8_140_d"/>
 	</card>
 	<card name="Sen'jin Shieldmasta" type="minion" rarity="common" set="basic" class="neutral">
 		<base cost="4" attack="3" health="5" type="none"/>
-		<text>Taunt</text>
+		<text>&lt;b&gt;Taunt&lt;/b&gt;</text>
+		<utility label="CS2_179" image="w3_018_d"/>
 	</card>
 	<card name="Shattered Sun Cleric" type="minion" rarity="common" set="basic" class="neutral">
 		<base cost="3" attack="3" health="2" type="none"/>
-		<text>Battlecry: Give a friendly minion +1/+1.</text>
+		<text>&lt;b&gt;Battlecry:&lt;/b&gt; Give a friendly minion +1/+1.</text>
+		<utility label="EX1_019" image="w13_005_d"/>
 	</card>
 	<card name="Shieldbearer" type="minion" rarity="common" set="expert" class="neutral">
 		<base cost="1" attack="0" health="4" type="none"/>
-		<text>Taunt</text>
+		<text>&lt;b&gt;Taunt&lt;/b&gt;</text>
+		<utility label="EX1_405" image="w5_186_d"/>
 	</card>
 	<card name="Silver Hand Knight" type="minion" rarity="common" set="expert" class="neutral">
 		<base cost="5" attack="4" health="4" type="none"/>
-		<text>Battlecry: Summon a 2/2 Squire.</text>
+		<text>&lt;b&gt;Battlecry:&lt;/b&gt; Summon a 2/2 Squire.</text>
+		<utility label="CS2_151" image="w9_a091_d"/>
 	</card>
 	<card name="Silverback Patriarch" type="minion" rarity="common" set="basic" class="neutral">
 		<base cost="3" attack="1" health="4" type="Beast"/>
-		<text>Taunt</text>
+		<text>&lt;b&gt;Taunt&lt;/b&gt;</text>
+		<utility label="CS2_127" image="w5_041_d"/>
 	</card>
 	<card name="Silvermoon Guardian" type="minion" rarity="common" set="expert" class="neutral">
 		<base cost="4" attack="3" health="3" type="none"/>
-		<text>Divine Shield</text>
+		<text>&lt;b&gt;Divine Shield&lt;/b&gt;</text>
+		<utility label="EX1_023" image="w11_099_d"/>
 	</card>
 	<card name="Southsea Captain" type="minion" rarity="epic" set="expert" class="neutral">
 		<base cost="3" attack="3" health="3" type="Pirate"/>
 		<text>Your other Pirates have +1/+1.</text>
+		<utility label="NEW1_027" image="wow_alyn_001_d"/>
 	</card>
 	<card name="Southsea Deckhand" type="minion" rarity="common" set="expert" class="neutral">
 		<base cost="1" attack="2" health="1" type="Pirate"/>
-		<text>Has Charge while you have a weapon equipped.</text>
+		<text>Has &lt;b&gt;Charge&lt;/b&gt; while you have a weapon equipped.</text>
+		<utility label="CS2_146" image="r7_a019_d"/>
 	</card>
 	<card name="Spellbreaker" type="minion" rarity="common" set="expert" class="neutral">
 		<base cost="4" attack="4" health="3" type="none"/>
-		<text>Battlecry: Silence a minion.</text>
+		<text>&lt;b&gt;Battlecry:&lt;/b&gt; &lt;b&gt;Silence&lt;/b&gt; a minion.</text>
+		<utility label="EX1_048" image="w4_182_d"/>
 	</card>
 	<card name="Spiteful Smith" type="minion" rarity="common" set="expert" class="neutral">
 		<base cost="5" attack="4" health="6" type="none"/>
-		<text>Enrage: Your weapon has +2 Attack.</text>
+		<text>&lt;b&gt;Enrage:&lt;/b&gt; Your weapon has +2 Attack.</text>
+		<utility label="CS2_221" image="w2_319_d"/>
 	</card>
 	<card name="Stampeding Kodo" type="minion" rarity="rare" set="expert" class="neutral">
 		<base cost="5" attack="3" health="5" type="Beast"/>
-		<text>Battlecry: Destroy a random enemy minion with 2 or less Attack.</text>
+		<text>&lt;b&gt;Battlecry:&lt;/b&gt; Destroy a random enemy minion with 2 or less Attack.</text>
+		<utility label="NEW1_041" image="w8_135_d"/>
 	</card>
 	<card name="Stonetusk Boar" type="minion" rarity="common" set="basic" class="neutral">
 		<base cost="1" attack="1" health="1" type="Beast"/>
-		<text>Charge</text>
+		<text>&lt;b&gt;Charge&lt;/b&gt;</text>
+		<utility label="CS2_171" image="w9_a043_d"/>
 	</card>
 	<card name="Stormpike Commando" type="minion" rarity="common" set="basic" class="neutral">
 		<base cost="5" attack="4" health="2" type="none"/>
-		<text>Battlecry: Deal 2 damage.</text>
+		<text>&lt;b&gt;Battlecry:&lt;/b&gt; Deal 2 damage.</text>
+		<utility label="CS2_150" image="w2_089_d"/>
 	</card>
 	<card name="Stormwind Champion" type="minion" rarity="common" set="basic" class="neutral">
 		<base cost="7" attack="6" health="6" type="none"/>
 		<text>Your other minions have +1/+1.</text>
+		<utility label="CS2_222" image="w13_007_d"/>
 	</card>
 	<card name="Stormwind Knight" type="minion" rarity="common" set="basic" class="neutral">
 		<base cost="4" attack="2" health="5" type="none"/>
-		<text>Charge</text>
+		<text>&lt;b&gt;Charge&lt;/b&gt;</text>
+		<utility label="CS2_131" image="wow_che_027_d"/>
 	</card>
 	<card name="Stranglethorn Tiger" type="minion" rarity="common" set="expert" class="neutral">
 		<base cost="5" attack="5" health="5" type="Beast"/>
-		<text>Stealth</text>
+		<text>&lt;b&gt;Stealth&lt;/b&gt;</text>
+		<utility label="EX1_028" image="w13_309_d"/>
 	</card>
 	<card name="Sunfury Protector" type="minion" rarity="rare" set="expert" class="neutral">
 		<base cost="2" attack="2" health="3" type="none"/>
-		<text>Battlecry: Give adjacent minions Taunt.</text>
+		<text>&lt;b&gt;Battlecry:&lt;/b&gt; Give adjacent minions &lt;b&gt;Taunt&lt;/b&gt;.</text>
+		<utility label="EX1_058" image="w9_a047_d"/>
 	</card>
 	<card name="Sunwalker" type="minion" rarity="rare" set="expert" class="neutral">
 		<base cost="6" attack="4" health="5" type="none"/>
-		<text>Taunt. Divine Shield</text>
+		<text>&lt;b&gt;Taunt&lt;/b&gt;. &lt;b&gt;Divine Shield&lt;/b&gt;</text>
+		<utility label="EX1_032" image="w15_a015_d"/>
 	</card>
 	<card name="Sylvanas Windrunner" type="minion" rarity="legendary" set="expert" class="neutral">
 		<base cost="6" attack="5" health="5" type="none"/>
-		<text>Deathrattle: Take control of a random enemy minion.</text>
+		<text>&lt;b&gt;Deathrattle:&lt;/b&gt; Take control of a random enemy minion.</text>
+		<utility label="EX1_016" image="w11_218_d"/>
 	</card>
 	<card name="Tauren Warrior" type="minion" rarity="common" set="expert" class="neutral">
 		<base cost="3" attack="2" health="3" type="none"/>
-		<text>Taunt. Enrage: +3 Attack</text>
+		<text>&lt;b&gt;Taunt&lt;/b&gt;. &lt;b&gt;Enrage:&lt;/b&gt; +3 Attack</text>
+		<utility label="EX1_390" image="w17_a171_d"/>
 	</card>
 	<card name="The Beast" type="minion" rarity="legendary" set="expert" class="neutral">
 		<base cost="6" attack="9" health="7" type="Beast"/>
-		<text>Deathrattle: Summon a 3/3 Finkle Einhorn for your opponent.</text>
+		<text>&lt;b&gt;Deathrattle:&lt;/b&gt; Summon a 3/3 Finkle Einhorn for your opponent.</text>
+		<utility label="EX1_577" image="r2_003_d"/>
 	</card>
 	<card name="The Black Knight" type="minion" rarity="legendary" set="expert" class="neutral">
 		<base cost="6" attack="4" health="5" type="none"/>
-		<text>Battlecry: Destroy an enemy minion with Taunt.</text>
+		<text>&lt;b&gt;Battlecry:&lt;/b&gt; Destroy an enemy minion with &lt;b&gt;Taunt&lt;/b&gt;.</text>
+		<utility label="EX1_002" image="r5_a004_d"/>
 	</card>
 	<card name="Thrallmar Farseer" type="minion" rarity="common" set="expert" class="neutral">
 		<base cost="3" attack="2" health="3" type="none"/>
-		<text>Windfury</text>
+		<text>&lt;b&gt;Windfury&lt;/b&gt;</text>
+		<utility label="EX1_021" image="w12_a179_d"/>
 	</card>
 	<card name="Tinkmaster Overspark" type="minion" rarity="legendary" set="expert" class="neutral">
 		<base cost="3" attack="3" health="3" type="none"/>
-		<text>Battlecry: Transform another random minion into a 5/5 Devilsaur or a 1/1 Squirrel.</text>
+		<text>&lt;b&gt;Battlecry:&lt;/b&gt; Transform another random minion into a 5/5 Devilsaur or a 1/1 Squirrel.</text>
+		<utility label="EX1_083" image="wow_alyh_015_d"/>
 	</card>
 	<card name="Twilight Drake" type="minion" rarity="rare" set="expert" class="neutral">
 		<base cost="4" attack="4" health="1" type="Dragon"/>
-		<text>Battlecry: Gain +1 Health for each card in your hand.</text>
+		<text>&lt;b&gt;Battlecry:&lt;/b&gt; Gain +1 Health for each card in your hand.</text>
+		<utility label="EX1_043" image="w15_a153_d"/>
 	</card>
 	<card name="Venture Co. Mercenary" type="minion" rarity="common" set="expert" class="neutral">
 		<base cost="5" attack="7" health="6" type="none"/>
 		<text>Your minions cost (3) more.</text>
+		<utility label="CS2_227" image="w14_a099_d"/>
 	</card>
 	<card name="Violet Teacher" type="minion" rarity="rare" set="expert" class="neutral">
 		<base cost="4" attack="3" health="5" type="none"/>
 		<text>Whenever you cast a spell, summon a 1/1 Violet Apprentice.</text>
+		<utility label="NEW1_026" image="w7_064_d"/>
 	</card>
 	<card name="Voodoo Doctor" type="minion" rarity="common" set="basic" class="neutral">
 		<base cost="1" attack="2" health="1" type="none"/>
-		<text>Battlecry: Restore 2 Health.</text>
+		<text>&lt;b&gt;Battlecry:&lt;/b&gt; Restore 2 Health.</text>
+		<utility label="EX1_011" image="wow_dbl_011_d"/>
 	</card>
 	<card name="War Golem" type="minion" rarity="common" set="basic" class="neutral">
 		<base cost="7" attack="7" health="7" type="none"/>
 		<text></text>
+		<utility label="CS2_186" image="wow_lead_043_d"/>
 	</card>
 	<card name="Wild Pyromancer" type="minion" rarity="rare" set="expert" class="neutral">
 		<base cost="2" attack="3" health="2" type="none"/>
 		<text>After you cast a spell, deal 1 damage to ALL minions.</text>
+		<utility label="NEW1_020" image="w6_011_d"/>
 	</card>
 	<card name="Windfury Harpy" type="minion" rarity="common" set="expert" class="neutral">
 		<base cost="6" attack="4" health="5" type="none"/>
-		<text>Windfury</text>
+		<text>&lt;b&gt;Windfury&lt;/b&gt;</text>
+		<utility label="EX1_033" image="w17_a066_d"/>
 	</card>
 	<card name="Wisp" type="minion" rarity="common" set="expert" class="neutral">
 		<base cost="0" attack="1" health="1" type="none"/>
 		<text></text>
+		<utility label="CS2_231" image="w2_332_d"/>
 	</card>
 	<card name="Wolfrider" type="minion" rarity="common" set="basic" class="neutral">
 		<base cost="3" attack="3" health="1" type="none"/>
-		<text>Charge</text>
+		<text>&lt;b&gt;Charge&lt;/b&gt;</text>
+		<utility label="CS2_124" image="w11_116_d"/>
 	</card>
 	<card name="Worgen Infiltrator" type="minion" rarity="common" set="expert" class="neutral">
 		<base cost="1" attack="2" health="1" type="none"/>
-		<text>Stealth</text>
+		<text>&lt;b&gt;Stealth&lt;/b&gt;</text>
+		<utility label="EX1_010" image="w14_a113_d"/>
 	</card>
 	<card name="Young Dragonhawk" type="minion" rarity="common" set="expert" class="neutral">
 		<base cost="1" attack="1" health="1" type="Beast"/>
-		<text>Windfury</text>
+		<text>&lt;b&gt;Windfury&lt;/b&gt;</text>
+		<utility label="CS2_169" image="w15_a037_d"/>
 	</card>
 	<card name="Young Priestess" type="minion" rarity="rare" set="expert" class="neutral">
 		<base cost="1" attack="2" health="1" type="none"/>
 		<text>At the end of your turn, give another random friendly minion +1 Health.</text>
+		<utility label="EX1_004" image="w7_133_d"/>
 	</card>
 	<card name="Youthful Brewmaster" type="minion" rarity="common" set="expert" class="neutral">
 		<base cost="2" attack="3" health="2" type="none"/>
-		<text>Battlecry: Return a friendly minion from the battlefield to your hand.</text>
+		<text>&lt;b&gt;Battlecry:&lt;/b&gt; Return a friendly minion from the battlefield to your hand.</text>
+		<utility label="EX1_049" image="wow_wei_pandaren_final_v1_d"/>
 	</card>
 	<card name="Ysera" type="minion" rarity="legendary" set="expert" class="neutral">
 		<base cost="9" attack="4" health="12" type="Dragon"/>
 		<text>At the end of your turn, draw a Dream Card.</text>
+		<utility label="EX1_572" image="r8_a003_d"/>
+	</card>
+
+	<card name="Jason Chayes" type="minion" rarity="legendary" set="credits" class="neutral">
+		<base cost="6" attack="7" health="6" type="none"/>
+		<text>&lt;b&gt;Enrage:&lt;/b&gt; Just kidding! He never Enrages.</text>
+		<utility label="CRED_01" image="jchayes_d"/>
+	</card>
+	<card name="Eric Dodds" type="minion" rarity="legendary" set="credits" class="neutral">
+		<base cost="6" attack="5" health="5" type="none"/>
+		<text>&lt;b&gt;Battlecry:&lt;/b&gt; Summon a 2/2 Pirate and destroy all Ninjas.</text>
+		<utility label="CRED_02" image="w6_174_d"/>
+	</card>
+	<card name="Bob Fitch" type="minion" rarity="legendary" set="credits" class="neutral">
+		<base cost="3" attack="2" health="4" type="none"/>
+		<text>&lt;b&gt;Super Taunt&lt;/b&gt; &lt;i&gt;(EVERY character must attack this minion.)&lt;/i&gt;</text>
+		<utility label="CRED_03" image="w7_124_d"/>
+	</card>
+	<card name="Steven Gabriel" type="minion" rarity="legendary" set="credits" class="neutral">
+		<base cost="1" attack="3" health="3" type="none"/>
+		<text>&lt;b&gt;Battlecry:&lt;/b&gt; Summon a frothy beverage.</text>
+		<utility label="CRED_04" image="sgabriel_d"/>
+	</card>
+	<card name="Kyle Harrison" type="minion" rarity="legendary" set="credits" class="neutral">
+		<base cost="3" attack="5" health="4" type="none"/>
+		<text>&lt;i&gt;3 for a 5/4? That's a good deal!&lt;/i&gt;</text>
+		<utility label="CRED_05" image="w18_a189_d"/>
+	</card>
+	<card name="Derek Sakamoto" type="minion" rarity="legendary" set="credits" class="neutral">
+		<base cost="1" attack="3" health="1" type="none"/>
+		<text>&lt;i&gt;The notorious Footclapper.&lt;/i&gt;</text>
+		<utility label="CRED_06" image="r8_a027_d"/>
+	</card>
+	<card name="Zwick" type="minion" rarity="legendary" set="credits" class="neutral">
+		<base cost="2" attack="2" health="2" type="none"/>
+		<text>&lt;b&gt;Battlecry:&lt;/b&gt; Complain about bacon prices.</text>
+		<utility label="CRED_07" image="zwick_d"/>
+	</card>
+	<card name="Ben Brode" type="minion" rarity="legendary" set="credits" class="neutral">
+		<base cost="3" attack="4" health="1" type="none"/>
+		<text>Your volume can't be reduced below maximum.</text>
+		<utility label="CRED_08" image="brode_d"/>
+	</card>
+	<card name="Ben Thompson" type="minion" rarity="legendary" set="credits" class="neutral">
+		<base cost="6" attack="4" health="7" type="none"/>
+		<text>&lt;b&gt;Battlecry:&lt;/b&gt; Draw some cards. With a pen.</text>
+		<utility label="CRED_09" image="bthompson_d"/>
+	</card>
+	<card name="Michael Schweitzer" type="minion" rarity="legendary" set="credits" class="neutral">
+		<base cost="2" attack="2" health="2" type="none"/>
+		<text>&lt;b&gt;C-C-C-COMBO:&lt;/b&gt; Destroy a minion.</text>
+		<utility label="CRED_10" image="mschweitzer_d"/>
+	</card>
+	<card name="Jay Baxter" type="minion" rarity="legendary" set="credits" class="neutral">
+		<base cost="4" attack="1" health="4" type="none"/>
+		<text>&lt;b&gt;Battlecry:&lt;/b&gt; Summon FIVE random Inventions.</text>
+		<utility label="CRED_11" image="jbaxter_d"/>
+	</card>
+	<card name="Rachelle Davis" type="minion" rarity="legendary" set="credits" class="neutral">
+		<base cost="2" attack="1" health="2" type="none"/>
+		<text>&lt;b&gt;Battlecry:&lt;/b&gt; Draw TWO cards. &lt;i&gt;She's not a novice engineer.&lt;/i&gt;</text>
+		<utility label="CRED_12" image="wow_trink_005_d"/>
+	</card>
+	<card name="Brian Schwab" type="minion" rarity="legendary" set="credits" class="neutral">
+		<base cost="10" attack="10" health="10" type="none"/>
+		<text>At the end of your turn, give a random minion +1 Attack.</text>
+		<utility label="CRED_13" image="bschwab_d"/>
+	</card>
+	<card name="Yong Woo" type="minion" rarity="legendary" set="credits" class="neutral">
+		<base cost="5" attack="3" health="2" type="none"/>
+		<text>Your other minions have +3 Attack and &lt;b&gt;Charge&lt;/b&gt;.</text>
+		<utility label="CRED_14" image="w8_022_d"/>
+	</card>
+	<card name="Andy Brock" type="minion" rarity="legendary" set="credits" class="neutral">
+		<base cost="1" attack="1" health="3" type="none"/>
+		<text>Can't be &lt;b&gt;Silenced. Divine Shield, Stealth.&lt;/b&gt;</text>
+		<utility label="CRED_15" image="abrock_d"/>
+	</card>
+	<card name="Hamilton Chu" type="minion" rarity="legendary" set="credits" class="neutral">
+		<base cost="7" attack="9" health="5" type="none"/>
+		<text>&lt;i&gt;Was successfully NOT part of the problem! ...most of the time.&lt;/i&gt;</text>
+		<utility label="CRED_16" image="hchu_d"/>
+	</card>
+	<card name="Rob Pardo" type="minion" rarity="legendary" set="credits" class="neutral">
+		<base cost="9" attack="9" health="9" type="none"/>
+		<text>You can't start a game without this minion in your deck.</text>
+		<utility label="CRED_17" image="pardo_d"/>
 	</card>
 	
 	<card name="Ancient of Lore" type="minion" rarity="epic" set="expert" class="Druid">
 		<base cost="7" attack="5" health="5" type="none"/>
-		<text>Choose One - Draw 2 cards; or Restore 5 Health.</text>
+		<text>&lt;b&gt;Choose One&lt;/b&gt; - Draw 2 cards; or Restore 5 Health.</text>
+		<utility label="NEW1_008" image="fan_art_entries_1287955529201_d"/>
 	</card>
 	<card name="Ancient of War" type="minion" rarity="epic" set="expert" class="Druid">
 		<base cost="7" attack="5" health="5" type="none"/>
-		<text>Choose One - Taunt and +5 Health; or +5 Attack.</text>
+		<text>&lt;b&gt;Choose One&lt;/b&gt; -\n+5 Attack; or +5 Health and &lt;b&gt;Taunt&lt;/b&gt;.</text>
+		<utility label="EX1_178" image="w2_217_d"/>
 	</card>
 	<card name="Bite" type="spell" rarity="rare" set="expert" class="Druid">
 		<base cost="4" type="none"/>
 		<text>Give your hero +4 Attack this turn and 4 Armor.</text>
+		<utility label="EX1_570" image="w11_005_d"/>
 	</card>
 	<card name="Cenarius" type="minion" rarity="legendary" set="expert" class="Druid">
 		<base cost="9" attack="5" health="8" type="none"/>
-		<text>Choose One - Give your other minions +2/+2; or Summon two 2/2 Treants with Taunt.</text>
+		<text>&lt;b&gt;Choose One&lt;/b&gt; - Give your other minions +2/+2; or Summon two 2/2 Treants with &lt;b&gt;Taunt&lt;/b&gt;.</text>
+		<utility label="EX1_573" image="w17_a013_d"/>
 	</card>
 	<card name="Claw" type="spell" rarity="common" set="basic" class="Druid">
 		<base cost="1" type="none"/>
 		<text>Give your hero +2 Attack this turn and 2 Armor.</text>
+		<utility label="CS2_005" image="w2_259_d"/>
 	</card>
 	<card name="Druid of the Claw" type="minion" rarity="common" set="expert" class="Druid">
 		<base cost="5" attack="4" health="4" type="none"/>
-		<text>Choose One - Charge; or +2 Health and Taunt.</text>
+		<text>&lt;b&gt;Choose One&lt;/b&gt; - &lt;b&gt;Charge&lt;/b&gt;; or +2 Health and &lt;b&gt;Taunt&lt;/b&gt;.</text>
+		<utility label="EX1_165" image="w11_016_d"/>
 	</card>
 	<card name="Force of Nature" type="spell" rarity="epic" set="expert" class="Druid">
 		<base cost="6" type="none"/>
-		<text>Summon three 2/2 Treants with Charge that die at the end of the turn.</text>
+		<text>Summon three 2/2 Treants with &lt;b&gt;Charge&lt;/b&gt; that die at the end of the turn.</text>
+		<utility label="EX1_571" image="w3_098_d"/>
 	</card>
 	<card name="Healing Touch" type="spell" rarity="common" set="basic" class="Druid">
 		<base cost="3" type="none"/>
-		<text>Restore 8 Health.</text>
+		<text>Restore #8 Health.</text>
+		<utility label="CS2_007" image="wow_par_010_d"/>
 	</card>
 	<card name="Innervate" type="spell" rarity="common" set="basic" class="Druid">
 		<base cost="0" type="none"/>
 		<text>Gain 2 Mana Crystals this turn only.</text>
+		<utility label="EX1_169" image="wow_tal_002_d"/>
 	</card>
 	<card name="Ironbark Protector" type="minion" rarity="common" set="basic" class="Druid">
 		<base cost="8" attack="8" health="8" type="none"/>
-		<text>Taunt</text>
+		<text>&lt;b&gt;Taunt&lt;/b&gt;</text>
+		<utility label="CS2_232" image="wow_clo_006_blizzrt_d"/>
 	</card>
 	<card name="Keeper of the Grove" type="minion" rarity="rare" set="expert" class="Druid">
 		<base cost="4" attack="2" health="4" type="none"/>
-		<text>Choose One - Deal 2 damage; or Silence a minion.</text>
+		<text>&lt;b&gt;Choose One&lt;/b&gt; - Deal 2 damage; or &lt;b&gt;Silence&lt;/b&gt; a minion.</text>
+		<utility label="EX1_166" image="w17_a088_d"/>
 	</card>
 	<card name="Mark of Nature" type="spell" rarity="common" set="expert" class="Druid">
 		<base cost="3" type="none"/>
-		<text>Choose One - Give a minion +4 Attack; or +4 Health and Taunt.</text>
+		<text>&lt;b&gt;Choose One&lt;/b&gt; - Give a minion +4 Attack; or +4 Health and &lt;b&gt;Taunt&lt;/b&gt;.</text>
+		<utility label="EX1_155" image="w6_024_d"/>
 	</card>
 	<card name="Mark of the Wild" type="spell" rarity="common" set="basic" class="Druid">
 		<base cost="2" type="none"/>
-		<text>Give a minion Taunt and +2/+2. (+2 Attack/+2 Health)</text>
+		<text>Give a minion &lt;b&gt;Taunt&lt;/b&gt; and +2/+2.&lt;i&gt; (+2 Attack/+2 Health)&lt;/i&gt;</text>
+		<utility label="CS2_009" image="wow_act_073_blizzrt_d"/>
 	</card>
 	<card name="Moonfire" type="spell" rarity="common" set="basic" class="Druid">
 		<base cost="0" type="none"/>
-		<text>Deal 1 damage.</text>
+		<text>Deal $1 damage.</text>
+		<utility label="CS2_008" image="w14_a120_d"/>
 	</card>
 	<card name="Naturalize" type="spell" rarity="common" set="expert" class="Druid">
 		<base cost="1" type="none"/>
 		<text>Destroy a minion. Your opponent draws 2 cards.</text>
+		<utility label="EX1_161" image="w11_120_d"/>
 	</card>
 	<card name="Nourish" type="spell" rarity="rare" set="expert" class="Druid">
 		<base cost="5" type="none"/>
-		<text>Choose One - Gain 2 Mana Crystals; or Draw 3 cards.</text>
+		<text>&lt;b&gt;Choose One&lt;/b&gt; - Gain 2 Mana Crystals; or Draw 3 cards.</text>
+		<utility label="EX1_164" image="w11_127(ea)_d"/>
 	</card>
 	<card name="Power of the Wild" type="spell" rarity="common" set="expert" class="Druid">
 		<base cost="2" type="none"/>
-		<text>Choose One - Give your minions +1/+1; or Summon a 3/2 Panther.</text>
+		<text>&lt;b&gt;Choose One&lt;/b&gt; - Give your minions +1/+1; or Summon a 3/2 Panther.</text>
+		<utility label="EX1_160" image="w17_a030_d"/>
 	</card>
 	<card name="Savage Roar" type="spell" rarity="common" set="basic" class="Druid">
 		<base cost="3" type="none"/>
 		<text>Give your characters +2 Attack this turn.</text>
+		<utility label="CS2_011" image="w14_a010_d"/>
 	</card>
 	<card name="Savagery" type="spell" rarity="rare" set="expert" class="Druid">
 		<base cost="1" type="none"/>
 		<text>Deal damage equal to your hero's Attack to a minion.</text>
+		<utility label="EX1_578" image="w18_a116_d"/>
 	</card>
 	<card name="Soul of the Forest" type="spell" rarity="common" set="expert" class="Druid">
 		<base cost="4" type="none"/>
-		<text>Give your minions "Deathrattle: Summon a 2/2 Treant."</text>
+		<text>Give your minions "&lt;b&gt;Deathrattle:&lt;/b&gt; Summon a 2/2 Treant."</text>
+		<utility label="EX1_158" image="w20_a025_d"/>
 	</card>
 	<card name="Starfall" type="spell" rarity="rare" set="expert" class="Druid">
 		<base cost="5" type="none"/>
-		<text>Choose One - Deal 5 damage to a minion; or 2 damage to all enemy minions.</text>
+		<text>&lt;b&gt;Choose One&lt;/b&gt; - Deal $5 damage to a minion; or $2 damage to all enemy minions.</text>
+		<utility label="NEW1_007" image="w14_a122_d"/>
 	</card>
 	<card name="Starfire" type="spell" rarity="common" set="basic" class="Druid">
 		<base cost="6" type="none"/>
-		<text>Deal 5 damage. Draw a card.</text>
+		<text>Deal $5 damage. Draw a card.</text>
+		<utility label="EX1_173" image="wow_chi_049_d"/>
 	</card>
 	<card name="Swipe" type="spell" rarity="common" set="basic" class="Druid">
 		<base cost="4" type="none"/>
-		<text>Deal 4 damage to an enemy and 1 damage to all other enemies.</text>
+		<text>Deal $4 damage to an enemy and $1 damage to all other enemies.</text>
+		<utility label="CS2_012" image="w4_260_d"/>
 	</card>
 	<card name="Wild Growth" type="spell" rarity="common" set="basic" class="Druid">
 		<base cost="2" type="none"/>
 		<text>Gain an empty Mana Crystal.</text>
+		<utility label="CS2_013" image="w9_a169_d"/>
 	</card>
 	<card name="Wrath" type="spell" rarity="common" set="expert" class="Druid">
 		<base cost="2" type="none"/>
-		<text>Choose One - Deal 3 damage to a minion; or 1 damage and draw a card.</text>
+		<text>&lt;b&gt;Choose One&lt;/b&gt; - Deal $3 damage to a minion; or $1 damage and draw a card.</text>
+		<utility label="EX1_154" image="w17_a102_d"/>
 	</card>
 	
 	<card name="Animal Companion" type="spell" rarity="common" set="basic" class="Hunter">
 		<base cost="3" type="none"/>
 		<text>Summon a random Beast Companion.</text>
+		<utility label="NEW1_031" image="w21_a114_d"/>
 	</card>
 	<card name="Arcane Shot" type="spell" rarity="common" set="basic" class="Hunter">
 		<base cost="1" type="none"/>
-		<text>Deal 2 damage.</text>
+		<text>Deal $2 damage.</text>
+		<utility label="DS1_185" image="w10_a198_d"/>
 	</card>
 	<card name="Bestial Wrath" type="spell" rarity="epic" set="expert" class="Hunter">
 		<base cost="1" type="none"/>
-		<text>Give a Beast +2 Attack and Immune this turn.</text>
+		<text>Give a Beast +2 Attack and &lt;b&gt;Immune&lt;/b&gt; this turn.</text>
+		<utility label="EX1_549" image="w16_a038_d"/>
 	</card>
 	<card name="Deadly Shot" type="spell" rarity="common" set="expert" class="Hunter">
 		<base cost="3" type="none"/>
 		<text>Destroy a random enemy minion.</text>
+		<utility label="EX1_617" image="r8_a032_d"/>
 	</card>
 	<card name="Eaglehorn Bow" type="weapon" rarity="rare" set="expert" class="Hunter">
 		<base cost="3" attack="3" durability="2" type="none"/>
-		<text>Whenever a Secret is revealed, gain +1 Durability.</text>
+		<text>Whenever a &lt;b&gt;Secret&lt;/b&gt; is revealed, gain +1 Durability.</text>
+		<utility label="EX1_536" image="w2_032_d"/>
 	</card>
 	<card name="Explosive Shot" type="spell" rarity="rare" set="expert" class="Hunter">
 		<base cost="5" type="none"/>
-		<text>Deal 5 damage to a minion and 2 damage to adjacent ones.</text>
+		<text>Deal $5 damage to a minion and $2 damage to adjacent ones.</text>
+		<utility label="EX1_537" image="w11_207_d"/>
 	</card>
 	<card name="Explosive Trap" type="spell" rarity="common" set="expert" class="Hunter">
 		<base cost="2" type="secret"/>
-		<text>Secret: When your hero is attacked, deal 2 damage to all enemies.</text>
+		<text>&lt;b&gt;Secret:&lt;/b&gt; When your hero is attacked, deal $2 damage to all enemies.</text>
+		<utility label="EX1_610" image="w5_185_d"/>
 	</card>
 	<card name="Flare" type="spell" rarity="rare" set="expert" class="Hunter">
 		<base cost="1" type="none"/>
-		<text>All minions lose Stealth. Destroy all enemy Secrets. Draw a card.</text>
+		<text>All minions lose &lt;b&gt;Stealth&lt;/b&gt;. Destroy all enemy &lt;b&gt;Secrets&lt;/b&gt;. Draw a card.</text>
+		<utility label="EX1_544" image="w13_227_d"/>
 	</card>
 	<card name="Freezing Trap" type="spell" rarity="common" set="expert" class="Hunter">
 		<base cost="2" type="secret"/>
-		<text>Secret: When an enemy minion attacks, return it to its owner's hand and it costs (2) more.</text>
+		<text>&lt;b&gt;Secret:&lt;/b&gt; When an enemy minion attacks, return it to its owner's hand and it costs (2) more.</text>
+		<utility label="EX1_611" image="w12_a048(ea)_d"/>
 	</card>
 	<card name="Gladiator's Longbow" type="weapon" rarity="epic" set="expert" class="Hunter">
 		<base cost="7" attack="5" durability="2" type="none"/>
-		<text>Your hero is Immune while attacking.</text>
+		<text>Your hero is &lt;b&gt;Immune&lt;/b&gt; while attacking.</text>
+		<utility label="DS1_188" image="w8_081_d"/>
 	</card>
 	<card name="Houndmaster" type="minion" rarity="common" set="basic" class="Hunter">
 		<base cost="4" attack="4" health="3" type="none"/>
-		<text>Battlecry: Give a friendly Beast +2/+2 and Taunt.</text>
+		<text>&lt;b&gt;Battlecry:&lt;/b&gt; Give a friendly Beast +2/+2 and &lt;b&gt;Taunt&lt;/b&gt;.</text>
+		<utility label="DS1_070" image="w13_196_d"/>
 	</card>
 	<card name="Hunter's Mark" type="spell" rarity="common" set="basic" class="Hunter">
 		<base cost="0" type="none"/>
 		<text>Change a minion's Health to 1.</text>
+		<utility label="CS2_084" image="w2_221_d"/>
 	</card>
 	<card name="Kill Command" type="spell" rarity="common" set="basic" class="Hunter">
 		<base cost="3" type="none"/>
-		<text>Deal 3 damage. If you have a Beast, deal 5 damage instead.</text>
+		<text>Deal $3 damage. If you have a Beast, deal $5 damage instead.</text>
+		<utility label="EX1_539" image="w3_116_d"/>
 	</card>
 	<card name="King Krush" type="minion" rarity="legendary" set="expert" class="Hunter">
 		<base cost="9" attack="8" health="8" type="Beast"/>
-		<text>Charge</text>
+		<text>&lt;b&gt;Charge&lt;/b&gt;</text>
+		<utility label="EX1_543" image="w2_211_d"/>
 	</card>
 	<card name="Misdirection" type="spell" rarity="rare" set="expert" class="Hunter">
 		<base cost="2" type="secret"/>
-		<text>Secret: When a character attacks your hero, instead he attacks another random character.</text>
+		<text>&lt;b&gt;Secret:&lt;/b&gt; When a character attacks your hero, instead he attacks another random character.</text>
+		<utility label="EX1_533" image="w3_118_d"/>
 	</card>
 	<card name="Multi-Shot" type="spell" rarity="common" set="basic" class="Hunter">
 		<base cost="4" type="none"/>
-		<text>Deal 3 damage to two random enemy minions.</text>
+		<text>Deal $3 damage to two random enemy minions.</text>
+		<utility label="DS1_183" image="w18_a018_d"/>
 	</card>
 	<card name="Savannah Highmane" type="minion" rarity="rare" set="expert" class="Hunter">
 		<base cost="6" attack="6" health="5" type="Beast"/>
-		<text>Deathrattle: Summon two 2/2 Hyenas.</text>
+		<text>&lt;b&gt;Deathrattle:&lt;/b&gt; Summon two 2/2 Hyenas.</text>
+		<utility label="EX1_534" image="w20_a157_d"/>
 	</card>
 	<card name="Scavenging Hyena" type="minion" rarity="common" set="expert" class="Hunter">
 		<base cost="2" attack="2" health="2" type="Beast"/>
 		<text>Whenever a friendly Beast dies, gain +2/+1.</text>
+		<utility label="EX1_531" image="w11_071_d"/>
 	</card>
 	<card name="Snake Trap" type="spell" rarity="epic" set="expert" class="Hunter">
 		<base cost="2" type="secret"/>
-		<text>Secret: When one of your minions is attacked, summon three 1/1 Snakes.</text>
+		<text>&lt;b&gt;Secret:&lt;/b&gt; When one of your minions is attacked, summon three 1/1 Snakes.</text>
+		<utility label="EX1_554" image="w5_014_d"/>
 	</card>
 	<card name="Snipe" type="spell" rarity="common" set="expert" class="Hunter">
 		<base cost="2" type="secret"/>
-		<text>Secret: When your opponent plays a minion, deal 4 damage to it.</text>
+		<text>&lt;b&gt;Secret:&lt;/b&gt; When your opponent plays a minion, deal $4 damage to it.</text>
+		<utility label="EX1_609" image="w19_a276_d"/>
 	</card>
 	<card name="Starving Buzzard" type="minion" rarity="common" set="basic" class="Hunter">
 		<base cost="2" attack="2" health="1" type="Beast"/>
 		<text>Whenever you summon a Beast, draw a card.</text>
+		<utility label="CS2_237" image="w4_026_d"/>
 	</card>
 	<card name="Timber Wolf" type="minion" rarity="common" set="basic" class="Hunter">
 		<base cost="1" attack="1" health="1" type="Beast"/>
 		<text>Your other Beasts have +1 Attack.</text>
+		<utility label="DS1_175" image="w4_165_d"/>
 	</card>
 	<card name="Tracking" type="spell" rarity="common" set="basic" class="Hunter">
 		<base cost="1" type="none"/>
 		<text>Look at the top three cards of your deck. Draw one and discard the others.</text>
+		<utility label="DS1_184" image="wow_par_011_d"/>
 	</card>
 	<card name="Tundra Rhino" type="minion" rarity="common" set="basic" class="Hunter">
 		<base cost="5" attack="2" health="5" type="Beast"/>
-		<text>Your Beasts have Charge.</text>
+		<text>Your Beasts have &lt;b&gt;Charge&lt;/b&gt;.</text>
+		<utility label="DS1_178" image="w12_a229_d"/>
 	</card>
 	<card name="Unleash the Hounds" type="spell" rarity="common" set="expert" class="Hunter">
-		<base cost="2" type="none"/>
-		<text>For each enemy minion, summon a 1/1 Hound with Charge.</text>
+		<base cost="3" type="none"/>
+		<text>For each enemy minion, summon a 1/1 Hound with &lt;b&gt;Charge&lt;/b&gt;.</text>
+		<utility label="EX1_538" image="w20_a161_d"/>
 	</card>
 	
 	<card name="Arcane Explosion" type="spell" rarity="common" set="basic" class="Mage">
 		<base cost="2" type="none"/>
-		<text>Deal 1 damage to all enemy minions.</text>
+		<text>Deal $1 damage to all enemy minions.</text>
+		<utility label="CS2_025" image="w10_a176_d"/>
 	</card>
 	<card name="Arcane Intellect" type="spell" rarity="common" set="basic" class="Mage">
 		<base cost="3" type="none"/>
 		<text>Draw 2 cards.</text>
+		<utility label="CS2_023" image="wow_act_078_d"/>
 	</card>
 	<card name="Arcane Missiles" type="spell" rarity="common" set="basic" class="Mage">
 		<base cost="1" type="none"/>
-		<text>Deal 3 damage randomly split among enemy characters.</text>
+		<text>Deal $3 damage randomly split among enemy characters.</text>
+		<utility label="EX1_277" image="w5_247_d"/>
 	</card>
 	<card name="Archmage Antonidas" type="minion" rarity="legendary" set="expert" class="Mage">
 		<base cost="7" attack="5" health="7" type="none"/>
 		<text>Whenever you cast a spell, put a 'Fireball' spell into your hand.</text>
+		<utility label="EX1_559" image="antonidas_d"/>
 	</card>
 	<card name="Blizzard" type="spell" rarity="rare" set="expert" class="Mage">
 		<base cost="6" type="none"/>
-		<text>Deal 2 damage to all enemy minions and Freeze them.</text>
+		<text>Deal $2 damage to all enemy minions and &lt;b&gt;Freeze&lt;/b&gt; them.</text>
+		<utility label="CS2_028" image="r6_a081_d"/>
 	</card>
 	<card name="Cone of Cold" type="spell" rarity="common" set="expert" class="Mage">
 		<base cost="4" type="none"/>
-		<text>Freeze a minion and the minions next to it, and deal 1 damage to them.</text>
+		<text>&lt;b&gt;Freeze&lt;/b&gt; a minion and the minions next to it, and deal $1 damage to them.</text>
+		<utility label="EX1_275" image="w12_a049(ea)_d"/>
 	</card>
 	<card name="Counterspell" type="spell" rarity="rare" set="expert" class="Mage">
 		<base cost="3" type="secret"/>
-		<text>Secret: When your opponent casts a spell, Counter it.</text>
+		<text>&lt;b&gt;Secret:&lt;/b&gt; When your opponent casts a spell, &lt;b&gt;Counter&lt;/b&gt; it.</text>
+		<utility label="EX1_287" image="w4_118_d"/>
 	</card>
 	<card name="Ethereal Arcanist" type="minion" rarity="rare" set="expert" class="Mage">
 		<base cost="4" attack="3" health="3" type="none"/>
-		<text>If you control a Secret at the end of your turn, gain +2/+2.</text>
+		<text>If you control a &lt;b&gt;Secret&lt;/b&gt; at the end of your turn, gain +2/+2.</text>
+		<utility label="EX1_274" image="w20_a154_d"/>
 	</card>
 	<card name="Fireball" type="spell" rarity="common" set="basic" class="Mage">
 		<base cost="4" type="none"/>
-		<text>Deal 6 damage.</text>
+		<text>Deal $6 damage.</text>
+		<utility label="CS2_029" image="w15_a087_d"/>
 	</card>
 	<card name="Flamestrike" type="spell" rarity="common" set="basic" class="Mage">
 		<base cost="7" type="none"/>
-		<text>Deal 4 damage to all enemy minions.</text>
+		<text>Deal $4 damage to all enemy minions.</text>
+		<utility label="CS2_032" image="wow_spe_006(b)_d"/>
 	</card>
 	<card name="Frost Nova" type="spell" rarity="common" set="basic" class="Mage">
 		<base cost="3" type="none"/>
-		<text>Freeze all enemy minions.</text>
+		<text>&lt;b&gt;Freeze&lt;/b&gt; all enemy minions.</text>
+		<utility label="CS2_026" image="wow_blz_004_d"/>
 	</card>
 	<card name="Frostbolt" type="spell" rarity="common" set="basic" class="Mage">
 		<base cost="2" type="none"/>
-		<text>Deal 3 damage to a character and Freeze it.</text>
+		<text>Deal $3 damage to a character and &lt;b&gt;Freeze&lt;/b&gt; it.</text>
+		<utility label="CS2_024" image="wow_chi_006_d"/>
 	</card>
 	<card name="Ice Barrier" type="spell" rarity="common" set="expert" class="Mage">
 		<base cost="3" type="secret"/>
-		<text>Secret: As soon as your hero is attacked, gain 8 Armor.</text>
+		<text>&lt;b&gt;Secret:&lt;/b&gt; As soon as your hero is attacked, gain 8 Armor.</text>
+		<utility label="EX1_289" image="w12_a032_d"/>
 	</card>
 	<card name="Ice Block" type="spell" rarity="epic" set="expert" class="Mage">
 		<base cost="3" type="secret"/>
-		<text>Secret: When your hero takes fatal damage, prevent it and become Immune this turn.</text>
+		<text>&lt;b&gt;Secret:&lt;/b&gt; When your hero takes fatal damage, prevent it and become &lt;b&gt;Immune&lt;/b&gt; this turn.</text>
+		<utility label="EX1_295" image="wow_tal_011_d"/>
 	</card>
 	<card name="Ice Lance" type="spell" rarity="common" set="expert" class="Mage">
 		<base cost="1" type="none"/>
-		<text>Freeze a character. If it was already Frozen, deal 4 damage instead.</text>
+		<text>&lt;b&gt;Freeze&lt;/b&gt; a character. If it was already &lt;b&gt;Frozen&lt;/b&gt;, deal $4 damage instead.</text>
+		<utility label="CS2_031" image="w3_006_d"/>
 	</card>
 	<card name="Kirin Tor Mage" type="minion" rarity="rare" set="expert" class="Mage">
 		<base cost="3" attack="4" health="3" type="none"/>
-		<text>Battlecry: The next Secret you play this turn costs (0).</text>
+		<text>&lt;b&gt;Battlecry:&lt;/b&gt; The next &lt;b&gt;Secret&lt;/b&gt; you play this turn costs (0).</text>
+		<utility label="EX1_612" image="w16_a110_d"/>
 	</card>
 	<card name="Mana Wyrm" type="minion" rarity="common" set="expert" class="Mage">
 		<base cost="1" attack="1" health="3" type="none"/>
 		<text>Whenever you cast a spell, gain +1 Attack.</text>
+		<utility label="NEW1_012" image="mana_wyrm_d"/>
 	</card>
 	<card name="Mirror Entity" type="spell" rarity="common" set="expert" class="Mage">
 		<base cost="3" type="secret"/>
-		<text>Secret: When your opponent plays a minion, summon a copy of it.</text>
+		<text>&lt;b&gt;Secret:&lt;/b&gt; When your opponent plays a minion, summon a copy of it.</text>
+		<utility label="EX1_294" image="w12_a188_d"/>
 	</card>
 	<card name="Mirror Image" type="spell" rarity="common" set="basic" class="Mage">
 		<base cost="1" type="none"/>
-		<text>Summon two 0/2 minions with Taunt.</text>
+		<text>Summon two 0/2 minions with &lt;b&gt;Taunt&lt;/b&gt;.</text>
+		<utility label="CS2_027" image="w10_a191_d"/>
 	</card>
 	<card name="Polymorph" type="spell" rarity="common" set="basic" class="Mage">
 		<base cost="4" type="none"/>
 		<text>Transform a minion into a 1/1 Sheep.</text>
+		<utility label="CS2_022" image="wow_lead_015_d"/>
 	</card>
 	<card name="Pyroblast" type="spell" rarity="epic" set="expert" class="Mage">
 		<base cost="10" type="none"/>
-		<text>Deal 10 damage.</text>
+		<text>Deal $10 damage.</text>
+		<utility label="EX1_279" image="w8_159_d"/>
 	</card>
 	<card name="Sorcerer's Apprentice" type="minion" rarity="common" set="expert" class="Mage">
 		<base cost="2" attack="3" health="2" type="none"/>
 		<text>Your spells cost (1) less.</text>
+		<utility label="EX1_608" image="w2_210_d"/>
 	</card>
 	<card name="Spellbender" type="spell" rarity="epic" set="expert" class="Mage">
 		<base cost="3" type="secret"/>
-		<text>Secret: When an enemy casts a spell on a minion, summon a 1/3 as the new target.</text>
+		<text>&lt;b&gt;Secret:&lt;/b&gt; When an enemy casts a spell on a minion, summon a 1/3 as the new target.</text>
+		<utility label="tt_010" image="w9_a039_d"/>
 	</card>
 	<card name="Vaporize" type="spell" rarity="rare" set="expert" class="Mage">
 		<base cost="3" type="secret"/>
-		<text>Secret: When a minion attacks your hero, destroy it.</text>
+		<text>&lt;b&gt;Secret:&lt;/b&gt; When a minion attacks your hero, destroy it.</text>
+		<utility label="EX1_594" image="w5_231_d"/>
 	</card>
 	<card name="Water Elemental" type="minion" rarity="common" set="basic" class="Mage">
 		<base cost="4" attack="3" health="6" type="none"/>
-		<text>Freeze any character damaged by this minion.</text>
+		<text>&lt;b&gt;Freeze&lt;/b&gt; any character damaged by this minion.</text>
+		<utility label="CS2_033" image="w3_057_d"/>
 	</card>
 	
 	<card name="Aldor Peacekeeper" type="minion" rarity="rare" set="expert" class="Paladin">
 		<base cost="3" attack="3" health="3" type="none"/>
-		<text>Battlecry: Change an enemy minion's Attack to 1.</text>
+		<text>&lt;b&gt;Battlecry:&lt;/b&gt; Change an enemy minion's Attack to 1.</text>
+		<utility label="EX1_382" image="w4_062_d"/>
 	</card>
 	<card name="Argent Protector" type="minion" rarity="common" set="expert" class="Paladin">
 		<base cost="2" attack="2" health="2" type="none"/>
-		<text>Battlecry: Give a friendly minion Divine Shield.</text>
+		<text>&lt;b&gt;Battlecry:&lt;/b&gt; Give a friendly minion &lt;b&gt;Divine Shield&lt;/b&gt;.</text>
+		<utility label="EX1_362" image="wow_tal_014_d"/>
 	</card>
 	<card name="Avenging Wrath" type="spell" rarity="epic" set="expert" class="Paladin">
 		<base cost="6" type="none"/>
-		<text>Deal 8 damage randomly split among enemy characters.</text>
+		<text>Deal $8 damage randomly split among enemy characters.</text>
+		<utility label="EX1_384" image="w15_a055_d"/>
 	</card>
 	<card name="Blessed Champion" type="spell" rarity="rare" set="expert" class="Paladin">
 		<base cost="5" type="none"/>
 		<text>Double a minion's Attack.</text>
+		<utility label="EX1_355" image="w12_a074_d"/>
 	</card>
 	<card name="Blessing of Kings" type="spell" rarity="common" set="basic" class="Paladin">
 		<base cost="4" type="none"/>
-		<text>Give a minion +4/+4. (+4 Attack/+4 Health)</text>
+		<text>Give a minion +4/+4. &lt;i&gt;(+4 Attack/+4 Health)&lt;/i&gt;</text>
+		<utility label="CS2_092" image="w9_a075_d"/>
 	</card>
 	<card name="Blessing of Might" type="spell" rarity="common" set="basic" class="Paladin">
 		<base cost="1" type="none"/>
 		<text>Give a minion +3 Attack.</text>
+		<utility label="CS2_087" image="w16_a053_d"/>
 	</card>
 	<card name="Blessing of Wisdom" type="spell" rarity="common" set="expert" class="Paladin">
 		<base cost="1" type="none"/>
 		<text>Choose a minion. Whenever it attacks, draw a card.</text>
+		<utility label="EX1_363" image="w6_019_d"/>
 	</card>
 	<card name="Consecration" type="spell" rarity="common" set="basic" class="Paladin">
 		<base cost="4" type="none"/>
-		<text>Deal 2 damage to all enemies.</text>
+		<text>Deal $2 damage to all enemies.</text>
+		<utility label="CS2_093" image="w8_174_d"/>
 	</card>
 	<card name="Divine Favor" type="spell" rarity="rare" set="expert" class="Paladin">
 		<base cost="3" type="none"/>
 		<text>Draw cards until you have as many in hand as your opponent.</text>
+		<utility label="EX1_349" image="r6_a92_d"/>
 	</card>
 	<card name="Equality" type="spell" rarity="rare" set="expert" class="Paladin">
 		<base cost="2" type="none"/>
 		<text>Change the Health of ALL minions to 1.</text>
+		<utility label="EX1_619" image="w14_a024_d"/>
 	</card>
 	<card name="Eye for an Eye" type="spell" rarity="common" set="expert" class="Paladin">
 		<base cost="1" type="secret"/>
-		<text>Secret: When your hero takes damage, deal that much damage to the enemy hero.</text>
+		<text>&lt;b&gt;Secret:&lt;/b&gt; When your hero takes damage, deal that much damage to the enemy hero.</text>
+		<utility label="EX1_132" image="w8_044_d"/>
 	</card>
 	<card name="Guardian of Kings" type="minion" rarity="common" set="basic" class="Paladin">
 		<base cost="7" attack="5" health="6" type="none"/>
-		<text>Battlecry: Restore 6 Health to your hero.</text>
+		<text>&lt;b&gt;Battlecry:&lt;/b&gt; Restore 6 Health to your hero.</text>
+		<utility label="CS2_088" image="w20_a046_d"/>
 	</card>
 	<card name="Hammer of Wrath" type="spell" rarity="common" set="basic" class="Paladin">
 		<base cost="4" type="none"/>
-		<text>Deal 3 damage. Draw a card.</text>
+		<text>Deal $3 damage. Draw a card.</text>
+		<utility label="CS2_094" image="r6_a091_d"/>
 	</card>
 	<card name="Hand of Protection" type="spell" rarity="common" set="basic" class="Paladin">
 		<base cost="1" type="none"/>
-		<text>Give a minion Divine Shield.</text>
+		<text>Give a minion &lt;b&gt;Divine Shield&lt;/b&gt;.</text>
+		<utility label="EX1_371" image="wow_act_018_d"/>
 	</card>
 	<card name="Holy Light" type="spell" rarity="common" set="basic" class="Paladin">
 		<base cost="2" type="none"/>
-		<text>Restore 6 Health.</text>
+		<text>Restore #6 Health.</text>
+		<utility label="CS2_089" image="w11_048(ea)_d"/>
 	</card>
 	<card name="Holy Wrath" type="spell" rarity="rare" set="expert" class="Paladin">
 		<base cost="5" type="none"/>
 		<text>Draw a card and deal damage equal to its cost.</text>
+		<utility label="EX1_365" image="w11_034(ea)_d"/>
 	</card>
 	<card name="Humility" type="spell" rarity="common" set="basic" class="Paladin">
 		<base cost="1" type="none"/>
 		<text>Change a minion's Attack to 1.</text>
+		<utility label="EX1_360" image="w3_032_d"/>
 	</card>
 	<card name="Lay on Hands" type="spell" rarity="epic" set="expert" class="Paladin">
 		<base cost="8" type="none"/>
-		<text>Restore 8 Health. Draw 3 cards.</text>
+		<text>Restore #8 Health. Draw 3 cards.</text>
+		<utility label="EX1_354" image="w13_241_d"/>
 	</card>
 	<card name="Light's Justice" type="weapon" rarity="common" set="basic" class="Paladin">
 		<base cost="1" attack="1" durability="4" type="none"/>
 		<text></text>
+		<utility label="CS2_091" image="w7_197_d"/>
 	</card>
 	<card name="Noble Sacrifice" type="spell" rarity="common" set="expert" class="Paladin">
 		<base cost="1" type="secret"/>
-		<text>Secret: When an enemy attacks, summon a 2/1 Defender as the new target.</text>
+		<text>&lt;b&gt;Secret:&lt;/b&gt; When an enemy attacks, summon a 2/1 Defender as the new target.</text>
+		<utility label="EX1_130" image="w6_219_d"/>
 	</card>
 	<card name="Redemption" type="spell" rarity="common" set="expert" class="Paladin">
 		<base cost="1" type="secret"/>
-		<text>Secret: When one of your minions dies, return it to life with 1 Health.</text>
+		<text>&lt;b&gt;Secret:&lt;/b&gt; When one of your minions dies, return it to life with 1 Health.</text>
+		<utility label="EX1_136" image="w15_a057_d"/>
 	</card>
 	<card name="Repentance" type="spell" rarity="common" set="expert" class="Paladin">
 		<base cost="1" type="secret"/>
-		<text>Secret: When your opponent plays a minion, reduce its Health to 1.</text>
+		<text>&lt;b&gt;Secret:&lt;/b&gt; When your opponent plays a minion, reduce its Health to 1.</text>
+		<utility label="EX1_379" image="w12_a129_d"/>
 	</card>
 	<card name="Sword of Justice" type="weapon" rarity="epic" set="expert" class="Paladin">
 		<base cost="3" attack="1" durability="5" type="none"/>
 		<text>Whenever you summon a minion, give it +1/+1 and this loses 1 Durability.</text>
+		<utility label="EX1_366" image="w11_181(ea)_d"/>
 	</card>
 	<card name="Tirion Fordring" type="minion" rarity="legendary" set="expert" class="Paladin">
 		<base cost="8" attack="6" health="6" type="none"/>
-		<text>Divine Shield. Taunt. Deathrattle: Equip a 5/3 Ashbringer.</text>
+		<text>&lt;b&gt;Divine Shield&lt;/b&gt;. &lt;b&gt;Taunt&lt;/b&gt;. &lt;b&gt;Deathrattle:&lt;/b&gt; Equip a 5/3 Ashbringer.</text>
+		<utility label="EX1_383" image="w11_064_d"/>
 	</card>
 	<card name="Truesilver Champion" type="weapon" rarity="common" set="basic" class="Paladin">
 		<base cost="4" attack="4" durability="2" type="none"/>
 		<text>Whenever your hero attacks, restore 2 Health to it.</text>
+		<utility label="CS2_097" image="wow_equ_010_d"/>
 	</card>
 	
 	<card name="Auchenai Soulpriest" type="minion" rarity="rare" set="expert" class="Priest">
 		<base cost="4" attack="3" health="5" type="none"/>
 		<text>Your cards and powers that restore Health now deal damage instead.</text>
+		<utility label="EX1_591" image="w13_004_d"/>
 	</card>
 	<card name="Cabal Shadow Priest" type="minion" rarity="epic" set="expert" class="Priest">
 		<base cost="6" attack="4" health="5" type="none"/>
-		<text>Battlecry: Take control of an enemy minion that has 2 or less Attack.</text>
+		<text>&lt;b&gt;Battlecry:&lt;/b&gt; Take control of an enemy minion that has 2 or less Attack.</text>
+		<utility label="EX1_091" image="w8_122_d"/>
 	</card>
 	<card name="Circle of Healing" type="spell" rarity="common" set="expert" class="Priest">
 		<base cost="0" type="none"/>
-		<text>Restore 4 Health to ALL minions.</text>
+		<text>Restore #4 Health to ALL minions.</text>
+		<utility label="EX1_621" image="w7_100_d"/>
 	</card>
 	<card name="Divine Spirit" type="spell" rarity="common" set="basic" class="Priest">
 		<base cost="2" type="none"/>
 		<text>Double a minion's Health.</text>
+		<utility label="CS2_236" image="w6_073_d"/>
 	</card>
 	<card name="Holy Fire" type="spell" rarity="rare" set="expert" class="Priest">
 		<base cost="6" type="none"/>
-		<text>Deal 5 damage. Restore 5 Health to your hero.</text>
+		<text>Deal $5 damage. Restore #5 Health to your hero.</text>
+		<utility label="EX1_624" image="w2_354_d"/>
 	</card>
 	<card name="Holy Nova" type="spell" rarity="common" set="basic" class="Priest">
 		<base cost="5" type="none"/>
-		<text>Deal 2 damage to all enemies. Restore 2 Health to all friendly characters.</text>
+		<text>Deal $2 damage to all enemies. Restore #2 Health to all friendly characters.</text>
+		<utility label="CS1_112" image="r3_063_d"/>
 	</card>
 	<card name="Holy Smite" type="spell" rarity="common" set="basic" class="Priest">
 		<base cost="1" type="none"/>
-		<text>Deal 2 damage.</text>
+		<text>Deal $2 damage.</text>
+		<utility label="CS1_130" image="wow_chi_014_d"/>
 	</card>
 	<card name="Inner Fire" type="spell" rarity="common" set="expert" class="Priest">
 		<base cost="1" type="none"/>
 		<text>Change a minion's Attack to be equal to its Health.</text>
+		<utility label="CS1_129" image="w9_a132_d"/>
 	</card>
 	<card name="Lightspawn" type="minion" rarity="common" set="expert" class="Priest">
 		<base cost="4" attack="0" health="5" type="none"/>
 		<text>This minion's Attack is always equal to its Health.</text>
+		<utility label="EX1_335" image="w9_a157_d"/>
 	</card>
 	<card name="Lightwell" type="minion" rarity="rare" set="expert" class="Priest">
 		<base cost="2" attack="0" health="5" type="none"/>
 		<text>At the start of your turn, restore 3 Health to a damaged friendly character.</text>
+		<utility label="EX1_341" image="w2_268_d"/>
 	</card>
 	<card name="Mass Dispel" type="spell" rarity="rare" set="expert" class="Priest">
 		<base cost="4" type="none"/>
-		<text>Silence all enemy minions. Draw a card.</text>
+		<text>&lt;b&gt;Silence&lt;/b&gt; all enemy minions. Draw a card.</text>
+		<utility label="EX1_626" image="w16_a060_d"/>
 	</card>
 	<card name="Mind Blast" type="spell" rarity="common" set="basic" class="Priest">
 		<base cost="2" type="none"/>
-		<text>Deal 5 damage to the enemy hero.</text>
+		<text>Deal $5 damage to the enemy hero.</text>
+		<utility label="DS1_233" image="w9_a028_d"/>
 	</card>
 	<card name="Mind Control" type="spell" rarity="common" set="basic" class="Priest">
 		<base cost="10" type="none"/>
 		<text>Take control of an enemy minion.</text>
+		<utility label="CS1_113" image="w3_141_d"/>
 	</card>
 	<card name="Mind Vision" type="spell" rarity="common" set="basic" class="Priest">
 		<base cost="1" type="none"/>
 		<text>Put a copy of a random card in your opponent's hand into your hand.</text>
+		<utility label="CS2_003" image="w2_348_d"/>
 	</card>
 	<card name="Mindgames" type="spell" rarity="epic" set="expert" class="Priest">
 		<base cost="4" type="none"/>
 		<text>Put a copy of a random minion from your opponent's deck into the battlefield.</text>
+		<utility label="EX1_345" image="w7_139_d"/>
 	</card>
 	<card name="Northshire Cleric" type="minion" rarity="common" set="basic" class="Priest">
 		<base cost="1" attack="1" health="3" type="none"/>
 		<text>Whenever a minion is healed, draw a card.</text>
+		<utility label="CS2_235" image="w4_268_d"/>
 	</card>
 	<card name="Power Word: Shield" type="spell" rarity="common" set="basic" class="Priest">
 		<base cost="1" type="none"/>
 		<text>Give a minion +2 Health. Draw a card.</text>
+		<utility label="CS2_004" image="w13_066_d"/>
 	</card>
 	<card name="Prophet Velen" type="minion" rarity="legendary" set="expert" class="Priest">
 		<base cost="7" attack="7" health="7" type="none"/>
 		<text>Double the damage and healing of your spells and Hero Power.</text>
+		<utility label="EX1_350" image="draenei2_d"/>
 	</card>
 	<card name="Shadow Madness" type="spell" rarity="rare" set="expert" class="Priest">
 		<base cost="4" type="none"/>
 		<text>Gain control of an enemy minion with 3 or less Attack until end of turn.</text>
+		<utility label="EX1_334" image="w5_080_d"/>
 	</card>
 	<card name="Shadow Word: Death" type="spell" rarity="common" set="basic" class="Priest">
 		<base cost="3" type="none"/>
 		<text>Destroy a minion with an Attack of 5 or more.</text>
+		<utility label="EX1_622" image="w12_a067_d"/>
 	</card>
 	<card name="Shadow Word: Pain" type="spell" rarity="common" set="basic" class="Priest">
 		<base cost="2" type="none"/>
 		<text>Destroy a minion with 3 or less Attack.</text>
+		<utility label="CS2_234" image="w10_a233_d"/>
 	</card>
 	<card name="Shadowform" type="spell" rarity="epic" set="expert" class="Priest">
 		<base cost="3" type="none"/>
 		<text>Your Hero Power becomes 'Deal 2 damage'. If already in Shadowform: 3 damage.</text>
+		<utility label="EX1_625" image="wow_chi_027_d"/>
 	</card>
 	<card name="Silence" type="spell" rarity="common" set="expert" class="Priest">
 		<base cost="0" type="none"/>
-		<text>Silence a minion.</text>
+		<text>&lt;b&gt;Silence&lt;/b&gt; a minion.</text>
+		<utility label="EX1_332" image="w13_212_d"/>
 	</card>
 	<card name="Temple Enforcer" type="minion" rarity="common" set="expert" class="Priest">
 		<base cost="6" attack="6" health="6" type="none"/>
-		<text>Battlecry: Give a friendly minion +3 Health.</text>
+		<text>&lt;b&gt;Battlecry:&lt;/b&gt; Give a friendly minion +3 Health.</text>
+		<utility label="EX1_623" image="w3_265_d"/>
 	</card>
 	<card name="Thoughtsteal" type="spell" rarity="common" set="expert" class="Priest">
 		<base cost="3" type="none"/>
 		<text>Copy 2 cards from your opponent's deck and put them into your hand.</text>
+		<utility label="EX1_339" image="w7_145_d"/>
 	</card>
 	
 	<card name="Assassinate" type="spell" rarity="common" set="basic" class="Rogue">
 		<base cost="5" type="none"/>
 		<text>Destroy an enemy minion.</text>
+		<utility label="CS2_076" image="wow_spe_011(a)_d"/>
 	</card>
 	<card name="Assassin's Blade" type="weapon" rarity="common" set="basic" class="Rogue">
 		<base cost="5" attack="3" durability="4" type="none"/>
 		<text></text>
+		<utility label="CS2_080" image="w8_014_d"/>
 	</card>
 	<card name="Backstab" type="spell" rarity="common" set="basic" class="Rogue">
 		<base cost="0" type="none"/>
-		<text>Deal 2 damage to an undamaged minion.</text>
+		<text>Deal $2 damage to an undamaged minion.</text>
+		<utility label="CS2_072" image="wow_chi_003_d"/>
 	</card>
 	<card name="Betrayal" type="spell" rarity="common" set="expert" class="Rogue">
 		<base cost="2" type="none"/>
 		<text>An enemy minion deals its damage to the minions next to it.</text>
+		<utility label="EX1_126" image="w13_263_d"/>
 	</card>
 	<card name="Blade Flurry" type="spell" rarity="rare" set="expert" class="Rogue">
 		<base cost="2" type="none"/>
 		<text>Destroy your weapon and deal its damage to all enemies.</text>
+		<utility label="CS2_233" image="w6_054_d"/>
 	</card>
 	<card name="Cold Blood" type="spell" rarity="common" set="expert" class="Rogue">
 		<base cost="1" type="none"/>
-		<text>Give a minion +2 Attack. Combo: +4 Attack instead.</text>
+		<text>Give a minion +2 Attack. &lt;b&gt;Combo:&lt;/b&gt; +4 Attack instead.</text>
+		<utility label="CS2_073" image="w13_270_d"/>
 	</card>
 	<card name="Conceal" type="spell" rarity="common" set="expert" class="Rogue">
 		<base cost="1" type="none"/>
-		<text>Give your minions Stealth until your next turn.</text>
+		<text>Give your minions &lt;b&gt;Stealth&lt;/b&gt; until your next turn.</text>
+		<utility label="EX1_128" image="w6_128_d"/>
 	</card>
 	<card name="Deadly Poison" type="spell" rarity="common" set="basic" class="Rogue">
 		<base cost="1" type="none"/>
 		<text>Give your weapon +2 Attack.</text>
+		<utility label="CS2_074" image="wow_act_035_d"/>
 	</card>
 	<card name="Defias Ringleader" type="minion" rarity="common" set="expert" class="Rogue">
 		<base cost="2" attack="2" health="2" type="none"/>
-		<text>Combo: Summon a 2/1 Defias Bandit.</text>
+		<text>&lt;b&gt;Combo:&lt;/b&gt; Summon a 2/1 Defias Bandit.</text>
+		<utility label="EX1_131" image="w4_059_d"/>
 	</card>
 	<card name="Edwin VanCleef" type="minion" rarity="legendary" set="expert" class="Rogue">
 		<base cost="3" attack="2" health="2" type="none"/>
-		<text>Combo: Gain +2/+2 for each card played earlier this turn.</text>
+		<text>&lt;b&gt;Combo:&lt;/b&gt; Gain +2/+2 for each card played earlier this turn.</text>
+		<utility label="EX1_613" image="r7_a065_d"/>
 	</card>
 	<card name="Eviscerate" type="spell" rarity="common" set="expert" class="Rogue">
 		<base cost="2" type="none"/>
-		<text>Deal 2 damage. Combo: Deal 4 damage instead.</text>
+		<text>Deal $2 damage. &lt;b&gt;Combo:&lt;/b&gt; Deal $4 damage instead.</text>
+		<utility label="EX1_124" image="wow_lead_031_d"/>
 	</card>
 	<card name="Fan of Knives" type="spell" rarity="common" set="basic" class="Rogue">
 		<base cost="3" type="none"/>
-		<text>Deal 1 damage to all enemy minions. Draw a card.</text>
+		<text>Deal $1 damage to all enemy minions. Draw a card.</text>
+		<utility label="EX1_129" image="w12_a057_d"/>
 	</card>
 	<card name="Headcrack" type="spell" rarity="rare" set="expert" class="Rogue">
 		<base cost="3" type="none"/>
-		<text>Deal 2 damage to the enemy hero. Combo: Return this to your hand next turn.</text>
+		<text>Deal $2 damage to the enemy hero. &lt;b&gt;Combo:&lt;/b&gt; Return this to your hand next turn.</text>
+		<utility label="EX1_137" image="w4_107_d"/>
 	</card>
 	<card name="Kidnapper" type="minion" rarity="epic" set="expert" class="Rogue">
 		<base cost="6" attack="5" health="3" type="none"/>
-		<text>Combo: Return a minion to its owner's hand.</text>
+		<text>&lt;b&gt;Combo:&lt;/b&gt; Return a minion to its owner's hand.</text>
+		<utility label="NEW1_005" image="w6_170_d"/>
 	</card>
 	<card name="Master of Disguise" type="minion" rarity="rare" set="expert" class="Rogue">
 		<base cost="4" attack="4" health="4" type="none"/>
-		<text>Battlecry: Give a friendly minion Stealth.</text>
+		<text>&lt;b&gt;Battlecry:&lt;/b&gt; Give a friendly minion &lt;b&gt;Stealth&lt;/b&gt;.</text>
+		<utility label="NEW1_014" image="r3_084_d"/>
 	</card>
 	<card name="Patient Assassin" type="minion" rarity="epic" set="expert" class="Rogue">
 		<base cost="2" attack="1" health="1" type="none"/>
-		<text>Stealth. Destroy any minion damaged by this minion.</text>
+		<text>&lt;b&gt;Stealth&lt;/b&gt;. Destroy any minion damaged by this minion.</text>
+		<utility label="EX1_522" image="w16_a105_d"/>
 	</card>
 	<card name="Perdition's Blade" type="weapon" rarity="rare" set="expert" class="Rogue">
 		<base cost="3" attack="2" durability="2" type="none"/>
-		<text>Battlecry: Deal 1 damage. Combo: Deal 2 instead.</text>
+		<text>&lt;b&gt;Battlecry:&lt;/b&gt; Deal 1 damage. &lt;b&gt;Combo:&lt;/b&gt; Deal 2 instead.</text>
+		<utility label="EX1_133" image="w2_041_d"/>
 	</card>
 	<card name="Preparation" type="spell" rarity="epic" set="expert" class="Rogue">
 		<base cost="0" type="none"/>
 		<text>The next spell you cast this turn costs (3) less.</text>
+		<utility label="EX1_145" image="w4_052_d"/>
 	</card>
 	<card name="Sap" type="spell" rarity="common" set="basic" class="Rogue">
 		<base cost="2" type="none"/>
 		<text>Return an enemy minion to your opponent's hand.</text>
+		<utility label="EX1_581" image="w7_184_d"/>
 	</card>
 	<card name="Shadowstep" type="spell" rarity="common" set="expert" class="Rogue">
 		<base cost="0" type="none"/>
 		<text>Return a friendly minion to your hand. It costs (2) less.</text>
+		<utility label="EX1_144" image="w6_050_d"/>
 	</card>
 	<card name="Shiv" type="spell" rarity="common" set="basic" class="Rogue">
 		<base cost="2" type="none"/>
-		<text>Deal 1 damage. Draw a card.</text>
+		<text>Deal $1 damage. Draw a card.</text>
+		<utility label="EX1_278" image="w5_203_d"/>
 	</card>
 	<card name="SI:7 Agent" type="minion" rarity="rare" set="expert" class="Rogue">
 		<base cost="3" attack="3" health="3" type="none"/>
-		<text>Combo: Deal 2 damage.</text>
+		<text>&lt;b&gt;Combo:&lt;/b&gt; Deal 2 damage.</text>
+		<utility label="EX1_134" image="w9_a015_d"/>
 	</card>
 	<card name="Sinister Strike" type="spell" rarity="common" set="basic" class="Rogue">
 		<base cost="1" type="none"/>
-		<text>Deal 3 damage to the enemy hero.</text>
+		<text>Deal $3 damage to the enemy hero.</text>
+		<utility label="CS2_075" image="wow_chi_021_d"/>
 	</card>
 	<card name="Sprint" type="spell" rarity="common" set="basic" class="Rogue">
 		<base cost="7" type="none"/>
 		<text>Draw 4 cards.</text>
+		<utility label="CS2_077" image="w2_301_d"/>
 	</card>
 	<card name="Vanish" type="spell" rarity="common" set="basic" class="Rogue">
 		<base cost="6" type="none"/>
 		<text>Return all minions to their owner's hand.</text>
+		<utility label="NEW1_004" image="w4_261_d"/>
 	</card>
 	
 	<card name="Al'Akir the Windlord" type="minion" rarity="legendary" set="expert" class="Shaman">
 		<base cost="8" attack="3" health="5" type="none"/>
-		<text>Windfury, Charge, Divine Shield, Taunt</text>
+		<text>&lt;b&gt;Windfury, Charge, Divine Shield, Taunt&lt;/b&gt;</text>
+		<utility label="NEW1_010" image="w14_a190_d"/>
 	</card>
 	<card name="Ancestral Healing" type="spell" rarity="common" set="basic" class="Shaman">
 		<base cost="0" type="none"/>
-		<text>Restore a minion to full Health and give it Taunt.</text>
+		<text>Restore a minion to full Health and give it &lt;b&gt;Taunt&lt;/b&gt;.</text>
+		<utility label="CS2_041" image="wow_trink_015_d"/>
 	</card>
 	<card name="Ancestral Spirit" type="spell" rarity="rare" set="expert" class="Shaman">
 		<base cost="2" type="none"/>
 		<text>Choose a minion. When that minion is destroyed, return it to the battlefield.</text>
+		<utility label="CS2_038" image="w2_423_d"/>
 	</card>
 	<card name="Bloodlust" type="spell" rarity="common" set="basic" class="Shaman">
 		<base cost="5" type="none"/>
 		<text>Give your minions +3 Attack this turn.</text>
+		<utility label="CS2_046" image="w17_a120_d_1"/>
 	</card>
 	<card name="Doomhammer" type="weapon" rarity="epic" set="expert" class="Shaman">
 		<base cost="5" attack="2" durability="8" type="none"/>
-		<text>Windfury, Overload: (2)</text>
+		<text>&lt;b&gt;Windfury&lt;/b&gt;, &lt;b&gt;Overload:&lt;/b&gt; (2)</text>
+		<utility label="EX1_567" image="jp_cataclysm_book_cover_final_d"/>
 	</card>
 	<card name="Dust Devil" type="minion" rarity="common" set="expert" class="Shaman">
 		<base cost="1" attack="3" health="1" type="none"/>
-		<text>Windfury. Overload: (2)</text>
+		<text>&lt;b&gt;Windfury&lt;/b&gt;. &lt;b&gt;Overload:&lt;/b&gt; (2)</text>
+		<utility label="EX1_243" image="w21_a047_d"/>
 	</card>
 	<card name="Earth Elemental" type="minion" rarity="epic" set="expert" class="Shaman">
 		<base cost="5" attack="7" health="8" type="none"/>
-		<text>Taunt. Overload: (3)</text>
+		<text>&lt;b&gt;Taunt&lt;/b&gt;. &lt;b&gt;Overload:&lt;/b&gt; (3)</text>
+		<utility label="EX1_250" image="w2_256_d"/>
 	</card>
 	<card name="Earth Shock" type="spell" rarity="common" set="expert" class="Shaman">
 		<base cost="1" type="none"/>
-		<text>Silence a minion, then deal 1 damage to it.</text>
+		<text>&lt;b&gt;Silence&lt;/b&gt; a minion, then deal $1 damage to it.</text>
+		<utility label="EX1_245" image="w3_264_d"/>
 	</card>
 	<card name="Far Sight" type="spell" rarity="epic" set="expert" class="Shaman">
 		<base cost="3" type="none"/>
 		<text>Draw a card. That card costs (3) less.</text>
+		<utility label="CS2_053" image="w13_275_d"/>
 	</card>
 	<card name="Feral Spirit" type="spell" rarity="rare" set="expert" class="Shaman">
 		<base cost="3" type="none"/>
-		<text>Summon two 2/3 Spirit Wolves with Taunt. Overload: (2)</text>
+		<text>Summon two 2/3 Spirit Wolves with &lt;b&gt;Taunt&lt;/b&gt;. &lt;b&gt;Overload:&lt;/b&gt; (2)</text>
+		<utility label="EX1_248" image="w10_a147_d"/>
 	</card>
 	<card name="Fire Elemental" type="minion" rarity="common" set="basic" class="Shaman">
 		<base cost="6" attack="6" health="5" type="none"/>
-		<text>Battlecry: Deal 3 damage.</text>
+		<text>&lt;b&gt;Battlecry:&lt;/b&gt; Deal 3 damage.</text>
+		<utility label="CS2_042" image="w14_a239_d"/>
 	</card>
 	<card name="Flametongue Totem" type="minion" rarity="common" set="basic" class="Shaman">
 		<base cost="2" attack="0" health="3" type="none"/>
 		<text>Adjacent minions have +2 Attack.</text>
+		<utility label="EX1_565" image="w14_a137_d"/>
 	</card>
 	<card name="Forked Lightning" type="spell" rarity="common" set="expert" class="Shaman">
 		<base cost="1" type="none"/>
-		<text>Deal 2 damage to 2 random enemy minions. Overload: (2)</text>
+		<text>Deal $2 damage to 2 random enemy minions. &lt;b&gt;Overload:&lt;/b&gt; (2)</text>
+		<utility label="EX1_251" image="w8_169_d"/>
 	</card>
 	<card name="Frost Shock" type="spell" rarity="common" set="basic" class="Shaman">
 		<base cost="1" type="none"/>
-		<text>Deal 1 damage to an enemy character and Freeze it.</text>
+		<text>Deal $1 damage to an enemy character and &lt;b&gt;Freeze&lt;/b&gt; it.</text>
+		<utility label="CS2_037" image="w4_011_d"/>
 	</card>
 	<card name="Hex" type="spell" rarity="common" set="basic" class="Shaman">
 		<base cost="3" type="none"/>
-		<text>Transform a minion into a 0/1 Frog with Taunt.</text>
+		<text>Transform a minion into a 0/1 Frog with &lt;b&gt;Taunt&lt;/b&gt;.</text>
+		<utility label="EX1_246" image="w5_120_d"/>
 	</card>
 	<card name="Lava Burst" type="spell" rarity="rare" set="expert" class="Shaman">
 		<base cost="3" type="none"/>
-		<text>Deal 5 damage. Overload: (2)</text>
+		<text>Deal $5 damage. &lt;b&gt;Overload:&lt;/b&gt; (2)</text>
+		<utility label="EX1_241" image="w2_040_d"/>
 	</card>
 	<card name="Lightning Bolt" type="spell" rarity="common" set="expert" class="Shaman">
 		<base cost="1" type="none"/>
-		<text>Deal 3 damage. Overload: (1)</text>
+		<text>Deal $3 damage. &lt;b&gt;Overload:&lt;/b&gt; (1)</text>
+		<utility label="EX1_238" image="w10_a153_d"/>
 	</card>
 	<card name="Lightning Storm" type="spell" rarity="rare" set="expert" class="Shaman">
 		<base cost="3" type="none"/>
-		<text>Deal 2-3 damage to all enemy minions. Overload: (2)</text>
+		<text>Deal $2-$3 damage to all enemy minions. &lt;b&gt;Overload:&lt;/b&gt; (2)</text>
+		<utility label="EX1_259" image="w18_a046_d"/>
 	</card>
 	<card name="Mana Tide Totem" type="minion" rarity="rare" set="expert" class="Shaman">
 		<base cost="3" attack="0" health="3" type="none"/>
 		<text>At the end of your turn, draw a card.</text>
+		<utility label="EX1_575" image="w9_a126_d"/>
 	</card>
 	<card name="Rockbiter Weapon" type="spell" rarity="common" set="basic" class="Shaman">
 		<base cost="1" type="none"/>
 		<text>Give a friendly character +3 Attack this turn.</text>
+		<utility label="CS2_045" image="w19_a255_d"/>
 	</card>
 	<card name="Stormforged Axe" type="weapon" rarity="common" set="expert" class="Shaman">
 		<base cost="2" attack="2" durability="3" type="none"/>
-		<text>Overload: (1)</text>
+		<text>&lt;b&gt;Overload:&lt;/b&gt; (1)</text>
+		<utility label="EX1_247" image="w16_a246_d"/>
 	</card>
 	<card name="Totemic Might" type="spell" rarity="common" set="basic" class="Shaman">
 		<base cost="0" type="none"/>
 		<text>Give your Totems +2 Health.</text>
+		<utility label="EX1_244" image="w5_128_d"/>
 	</card>
 	<card name="Unbound Elemental" type="minion" rarity="common" set="expert" class="Shaman">
 		<base cost="3" attack="2" health="4" type="none"/>
-		<text>Whenever you play a card with Overload, gain +1/+1.</text>
+		<text>Whenever you play a card with &lt;b&gt;Overload&lt;/b&gt;, gain +1/+1.</text>
+		<utility label="EX1_258" image="w14_a250_d"/>
 	</card>
 	<card name="Windfury" type="spell" rarity="common" set="basic" class="Shaman">
 		<base cost="2" type="none"/>
-		<text>Give a minion Windfury.</text>
+		<text>Give a minion &lt;b&gt;Windfury&lt;/b&gt;.</text>
+		<utility label="CS2_039" image="w4_137_d"/>
 	</card>
 	<card name="Windspeaker" type="minion" rarity="common" set="basic" class="Shaman">
 		<base cost="4" attack="3" health="3" type="none"/>
-		<text>Battlecry: Give a friendly minion Windfury.</text>
+		<text>&lt;b&gt;Battlecry:&lt;/b&gt; Give a friendly minion &lt;b&gt;Windfury&lt;/b&gt;.</text>
+		<utility label="EX1_587" image="w9_a139_d"/>
 	</card>
 	
 	<card name="Bane of Doom" type="spell" rarity="epic" set="expert" class="Warlock">
 		<base cost="5" type="none"/>
-		<text>Deal 2 damage to a character. If that kills it, summon a random Demon.</text>
+		<text>Deal $2 damage to a character. If that kills it, summon a random Demon.</text>
+		<utility label="EX1_320" image="w10_a235_d"/>
 	</card>
 	<card name="Blood Imp" type="minion" rarity="common" set="expert" class="Warlock">
 		<base cost="1" attack="0" health="1" type="Demon"/>
-		<text>Stealth. At the end of your turn, give another random friendly minion +1 Health.</text>
+		<text>&lt;b&gt;Stealth&lt;/b&gt;. At the end of your turn, give another random friendly minion +1 Health.</text>
+		<utility label="CS2_059" image="w5_015_d"/>
 	</card>
 	<card name="Corruption" type="spell" rarity="common" set="basic" class="Warlock">
 		<base cost="1" type="none"/>
 		<text>Choose an enemy minion. At the start of your turn, destroy it.</text>
+		<utility label="CS2_063" image="w8_179_d"/>
 	</card>
 	<card name="Demonfire" type="spell" rarity="common" set="expert" class="Warlock">
 		<base cost="2" type="none"/>
-		<text>Deal 2 damage to a minion. If it? a friendly Demon, give it +2/+2 instead.</text>
+		<text>Deal $2 damage to a minion. If it’s a friendly Demon, give it +2/+2 instead.</text>
+		<utility label="EX1_596" image="w14_a046_d"/>
 	</card>
 	<card name="Doomguard" type="minion" rarity="rare" set="expert" class="Warlock">
 		<base cost="5" attack="5" health="7" type="Demon"/>
-		<text>Charge. Battlecry: Discard two random cards.</text>
+		<text>&lt;b&gt;Charge&lt;/b&gt;. &lt;b&gt;Battlecry:&lt;/b&gt; Discard two random cards.</text>
+		<utility label="EX1_310" image="w11_141_d"/>
 	</card>
 	<card name="Drain Life" type="spell" rarity="common" set="basic" class="Warlock">
 		<base cost="3" type="none"/>
-		<text>Deal 2 damage. Restore 2 Health to your hero.</text>
+		<text>Deal $2 damage. Restore #2 Health to your hero.</text>
+		<utility label="CS2_061" image="r3_005_d"/>
 	</card>
 	<card name="Dread Infernal" type="minion" rarity="common" set="basic" class="Warlock">
 		<base cost="6" attack="6" health="6" type="Demon"/>
-		<text>Battlecry: Deal 1 damage to ALL other characters.</text>
+		<text>&lt;b&gt;Battlecry:&lt;/b&gt; Deal 1 damage to ALL other characters.</text>
+		<utility label="CS2_064" image="wow_act_111_d"/>
 	</card>
 	<card name="Felguard" type="minion" rarity="rare" set="expert" class="Warlock">
 		<base cost="3" attack="3" health="5" type="Demon"/>
-		<text>Taunt. Battlecry: Destroy one of your Mana Crystals.</text>
+		<text>&lt;b&gt;Taunt&lt;/b&gt;. &lt;b&gt;Battlecry:&lt;/b&gt; Destroy one of your Mana Crystals.</text>
+		<utility label="EX1_301" image="w4_132_d"/>
 	</card>
 	<card name="Flame Imp" type="minion" rarity="common" set="expert" class="Warlock">
 		<base cost="1" attack="3" health="2" type="Demon"/>
-		<text>Battlecry: Deal 3 damage to your hero.</text>
+		<text>&lt;b&gt;Battlecry:&lt;/b&gt; Deal 3 damage to your hero.</text>
+		<utility label="EX1_319" image="w7_009_d"/>
 	</card>
 	<card name="Hellfire" type="spell" rarity="common" set="basic" class="Warlock">
 		<base cost="4" type="none"/>
-		<text>Deal 3 damage to ALL characters.</text>
+		<text>Deal $3 damage to ALL characters.</text>
+		<utility label="CS2_062" image="w2_240_d"/>
 	</card>
 	<card name="Lord Jaraxxus" type="minion" rarity="legendary" set="expert" class="Warlock">
 		<base cost="9" attack="3" health="15" type="Demon"/>
-		<text>Battlecry: Destroy your hero and replace him with Lord Jaraxxus.</text>
+		<text>&lt;b&gt;Battlecry:&lt;/b&gt; Destroy your hero and replace him with Lord Jaraxxus.</text>
+		<utility label="EX1_323" image="w6_010_d"/>
 	</card>
 	<card name="Mortal Coil" type="spell" rarity="common" set="basic" class="Warlock">
 		<base cost="1" type="none"/>
-		<text>Deal 1 damage to a minion. If that kills it, draw a card.</text>
+		<text>Deal $1 damage to a minion. If that kills it, draw a card.</text>
+		<utility label="EX1_302" image="w17_a028_d"/>
 	</card>
 	<card name="Pit Lord" type="minion" rarity="epic" set="expert" class="Warlock">
 		<base cost="4" attack="5" health="6" type="Demon"/>
-		<text>Battlecry: Deal 5 damage to your hero.</text>
+		<text>&lt;b&gt;Battlecry:&lt;/b&gt; Deal 5 damage to your hero.</text>
+		<utility label="EX1_313" image="r3_043_d"/>
 	</card>
 	<card name="Power Overwhelming" type="spell" rarity="common" set="expert" class="Warlock">
 		<base cost="1" type="none"/>
 		<text>Give a friendly minion +4/+4 until end of turn. Then, it dies. Horribly.</text>
+		<utility label="EX1_316" image="w7_129_d"/>
 	</card>
 	<card name="Sacrificial Pact" type="spell" rarity="common" set="basic" class="Warlock">
 		<base cost="0" type="none"/>
-		<text>Destroy a Demon. Restore 5 Health to your hero.</text>
+		<text>Destroy a Demon. Restore #5 Health to your hero.</text>
+		<utility label="NEW1_003" image="w9_a060_d"/>
 	</card>
 	<card name="Sense Demons" type="spell" rarity="common" set="expert" class="Warlock">
 		<base cost="3" type="none"/>
 		<text>Put 2 random Demons from your deck into your hand.</text>
+		<utility label="EX1_317" image="w11_193_d"/>
 	</card>
 	<card name="Shadow Bolt" type="spell" rarity="common" set="basic" class="Warlock">
 		<base cost="3" type="none"/>
-		<text>Deal 4 damage to a minion.</text>
+		<text>Deal $4 damage to a minion.</text>
+		<utility label="CS2_057" image="w7_037_d"/>
 	</card>
 	<card name="Shadowflame" type="spell" rarity="rare" set="expert" class="Warlock">
 		<base cost="4" type="none"/>
 		<text>Destroy a friendly minion and deal its Attack damage to all enemy minions.</text>
+		<utility label="EX1_303" image="w5_044_d"/>
 	</card>
 	<card name="Siphon Soul" type="spell" rarity="rare" set="expert" class="Warlock">
 		<base cost="6" type="none"/>
-		<text>Destroy a minion. Restore 3 Health to your hero.</text>
+		<text>Destroy a minion. Restore #3 Health to your hero.</text>
+		<utility label="EX1_309" image="r5_a093_d"/>
 	</card>
 	<card name="Soulfire" type="spell" rarity="common" set="basic" class="Warlock">
 		<base cost="0" type="none"/>
-		<text>Deal 4 damage. Discard a random card.</text>
+		<text>Deal $4 damage. Discard a random card.</text>
+		<utility label="EX1_308" image="w9_a118_d"/>
 	</card>
 	<card name="Succubus" type="minion" rarity="common" set="basic" class="Warlock">
 		<base cost="2" attack="4" health="3" type="Demon"/>
-		<text>Battlecry: Discard a random card.</text>
+		<text>&lt;b&gt;Battlecry:&lt;/b&gt; Discard a random card.</text>
+		<utility label="EX1_306" image="w9_a088_d"/>
 	</card>
 	<card name="Summoning Portal" type="minion" rarity="common" set="expert" class="Warlock">
 		<base cost="4" attack="0" health="4" type="none"/>
 		<text>Your minions cost (2) less, but not less than (1).</text>
+		<utility label="EX1_315" image="w13_287_d"/>
 	</card>
 	<card name="Twisting Nether" type="spell" rarity="epic" set="expert" class="Warlock">
 		<base cost="8" type="none"/>
 		<text>Destroy all minions.</text>
+		<utility label="EX1_312" image="w11_077_d"/>
 	</card>
 	<card name="Void Terror" type="minion" rarity="rare" set="expert" class="Warlock">
 		<base cost="3" attack="3" health="3" type="Demon"/>
-		<text>Battlecry: Destroy the minions on either side of this minion and gain their Attack and Health.</text>
+		<text>&lt;b&gt;Battlecry:&lt;/b&gt; Destroy the minions on either side of this minion and gain their Attack and Health.</text>
+		<utility label="EX1_304" image="w21_a125"/>
 	</card>
 	<card name="Voidwalker" type="minion" rarity="common" set="basic" class="Warlock">
 		<base cost="1" attack="1" health="3" type="Demon"/>
-		<text>Taunt</text>
+		<text>&lt;b&gt;Taunt&lt;/b&gt;</text>
+		<utility label="CS2_065" image="w10_a133_d"/>
 	</card>
 	
 	<card name="Arathi Weaponsmith" type="minion" rarity="common" set="expert" class="Warrior">
 		<base cost="4" attack="3" health="3" type="none"/>
-		<text>Battlecry: Equip a 2/2 weapon.</text>
+		<text>&lt;b&gt;Battlecry:&lt;/b&gt; Equip a 2/2 weapon.</text>
+		<utility label="EX1_398" image="w3_087_d"/>
 	</card>
 	<card name="Arcanite Reaper" type="weapon" rarity="common" set="basic" class="Warrior">
 		<base cost="5" attack="5" durability="2" type="none"/>
 		<text></text>
+		<utility label="CS2_112" image="wow_equ_001_d"/>
 	</card>
 	<card name="Armorsmith" type="minion" rarity="rare" set="expert" class="Warrior">
 		<base cost="2" attack="1" health="4" type="none"/>
 		<text>Whenever a friendly minion takes damage, gain 1 Armor.</text>
+		<utility label="EX1_402" image="w10_a047_d"/>
 	</card>
 	<card name="Battle Rage" type="spell" rarity="common" set="expert" class="Warrior">
 		<base cost="2" type="none"/>
 		<text>Draw a card for each damaged friendly character.</text>
+		<utility label="EX1_392" image="wow_act_056_d"/>
 	</card>
 	<card name="Brawl" type="spell" rarity="epic" set="expert" class="Warrior">
 		<base cost="5" type="none"/>
 		<text>Destroy all minions except one. (chosen randomly)</text>
+		<utility label="EX1_407" image="w2_415_d"/>
 	</card>
 	<card name="Charge" type="spell" rarity="common" set="basic" class="Warrior">
 		<base cost="3" type="none"/>
-		<text>Give a friendly minion +2 Attack and Charge.</text>
+		<text>Give a friendly minion +2 Attack and &lt;b&gt;Charge&lt;/b&gt;.</text>
+		<utility label="CS2_103" image="wow_act_055_d"/>
 	</card>
 	<card name="Cleave" type="spell" rarity="common" set="basic" class="Warrior">
 		<base cost="2" type="none"/>
-		<text>Deal 2 damage to two random enemy minions.</text>
+		<text>Deal $2 damage to two random enemy minions.</text>
+		<utility label="CS2_114" image="wow_par_083_d"/>
 	</card>
 	<card name="Commanding Shout" type="spell" rarity="rare" set="expert" class="Warrior">
 		<base cost="2" type="none"/>
 		<text>Your minions can't be reduced below 1 Health this turn. Draw a card.</text>
+		<utility label="NEW1_036" image="w2_414_d"/>
 	</card>
 	<card name="Cruel Taskmaster" type="minion" rarity="common" set="expert" class="Warrior">
 		<base cost="2" attack="2" health="2" type="none"/>
-		<text>Battlecry: Deal 1 damage to a minion and give it +2 Attack.</text>
+		<text>&lt;b&gt;Battlecry:&lt;/b&gt; Deal 1 damage to a minion and give it +2 Attack.</text>
+		<utility label="EX1_603" image="w6_196_d"/>
 	</card>
 	<card name="Execute" type="spell" rarity="common" set="basic" class="Warrior">
 		<base cost="1" type="none"/>
 		<text>Destroy a damaged enemy minion.</text>
+		<utility label="CS2_108" image="wow_chi_061_d"/>
 	</card>
 	<card name="Fiery War Axe" type="weapon" rarity="common" set="basic" class="Warrior">
 		<base cost="2" attack="3" durability="2" type="none"/>
 		<text></text>
+		<utility label="CS2_106" image="w14_a200_d"/>
 	</card>
 	<card name="Frothing Berserker" type="minion" rarity="rare" set="expert" class="Warrior">
 		<base cost="3" attack="2" health="4" type="none"/>
 		<text>Whenever a minion takes damage, gain +1 Attack.</text>
+		<utility label="EX1_604" image="w6_222_d"/>
 	</card>
 	<card name="Gorehowl" type="weapon" rarity="epic" set="expert" class="Warrior">
 		<base cost="7" attack="7" durability="1" type="none"/>
 		<text>Attacking a minion costs 1 Attack instead of 1 Durability.</text>
+		<utility label="EX1_411" image="w8_111_d"/>
 	</card>
 	<card name="Grommash Hellscream" type="minion" rarity="legendary" set="expert" class="Warrior">
 		<base cost="8" attack="4" health="9" type="none"/>
-		<text>Charge. Enrage: +6 Attack</text>
+		<text>&lt;b&gt;Charge&lt;/b&gt;. &lt;b&gt;Enrage:&lt;/b&gt; +6 Attack</text>
+		<utility label="EX1_414" image="riseofthehorde_final_nolayers_d"/>
 	</card>
 	<card name="Heroic Strike" type="spell" rarity="common" set="basic" class="Warrior">
 		<base cost="2" type="none"/>
 		<text>Give your hero +4 Attack this turn.</text>
+		<utility label="CS2_105" image="w11_045_d"/>
 	</card>
 	<card name="Inner Rage" type="spell" rarity="common" set="expert" class="Warrior">
 		<base cost="0" type="none"/>
-		<text>Deal 1 damage to a minion and give it +2 Attack.</text>
+		<text>Deal $1 damage to a minion and give it +2 Attack.</text>
+		<utility label="EX1_607" image="w17_a197_d"/>
 	</card>
 	<card name="Kor'kron Elite" type="minion" rarity="common" set="basic" class="Warrior">
 		<base cost="4" attack="4" health="3" type="none"/>
-		<text>Charge</text>
+		<text>&lt;b&gt;Charge&lt;/b&gt;</text>
+		<utility label="NEW1_011" image="w4_009_d"/>
 	</card>
 	<card name="Mortal Strike" type="spell" rarity="rare" set="expert" class="Warrior">
 		<base cost="4" type="none"/>
-		<text>Deal 4 damage. If your hero has 12 or less Health, deal 6 damage instead.</text>
+		<text>Deal $4 damage. If you have 12 or less Health, deal $6 instead.</text>
+		<utility label="EX1_408" image="w12_a140_d"/>
 	</card>
 	<card name="Rampage" type="spell" rarity="common" set="expert" class="Warrior">
 		<base cost="2" type="none"/>
 		<text>Give a damaged minion +3/+3.</text>
+		<utility label="CS2_104" image="w6_075_d"/>
 	</card>
 	<card name="Shield Block" type="spell" rarity="common" set="basic" class="Warrior">
 		<base cost="3" type="none"/>
 		<text>Gain 5 Armor. Draw a card.</text>
+		<utility label="EX1_606" image="wow_misc_021_d"/>
 	</card>
 	<card name="Shield Slam" type="spell" rarity="epic" set="expert" class="Warrior">
 		<base cost="1" type="none"/>
 		<text>Deal 1 damage to a minion for each Armor you have.</text>
+		<utility label="EX1_410" image="w13_242_d"/>
 	</card>
 	<card name="Slam" type="spell" rarity="common" set="expert" class="Warrior">
 		<base cost="2" type="none"/>
-		<text>Deal 2 damage to a minion. If it survives, draw a card.</text>
+		<text>Deal $2 damage to a minion. If it survives, draw a card.</text>
+		<utility label="EX1_391" image="w6_002_d"/>
 	</card>
 	<card name="Upgrade!" type="spell" rarity="rare" set="expert" class="Warrior">
 		<base cost="1" type="none"/>
 		<text>If you have a weapon, give it +1/+1. Otherwise equip a 1/3 weapon.</text>
+		<utility label="EX1_409" image="w4_183_d"/>
 	</card>
 	<card name="Warsong Commander" type="minion" rarity="common" set="basic" class="Warrior">
 		<base cost="3" attack="2" health="3" type="none"/>
-		<text>Whenever you summon a minion with 3 or less Attack, give it Charge.</text>
+		<text>Whenever you summon a minion with 3 or less Attack, give it &lt;b&gt;Charge&lt;/b&gt;.</text>
+		<utility label="EX1_084" image="w11_101_d"/>
 	</card>
 	<card name="Whirlwind" type="spell" rarity="common" set="basic" class="Warrior">
 		<base cost="1" type="none"/>
-		<text>Deal 1 damage to ALL minions.</text>
+		<text>Deal $1 damage to ALL minions.</text>
+		<utility label="EX1_400" image="w6_076_d"/>
 	</card>
 </cards>

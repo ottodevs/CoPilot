@@ -75,7 +75,7 @@ void MainWindow::openFile() {
 //	QString filePath = QFileDialog::getOpenFileName(this, tr("Open File"),
 //		xmlPath, tr("XML files (*.xml);;HTML files (*.html);;"
 //					"SVG files (*.svg);;User Interface files (*.ui)"));
-	QString filePath = tr("W:\\CoPilot\\CoPilot\\resources\\cards.xml");
+	QString filePath ="W:\\CoPilot\\CoPilot\\resources\\cards.xml";
 	if(!filePath.isEmpty()) {
 		QFile file(filePath);
 		if(file.open(QIODevice::ReadOnly)) {
