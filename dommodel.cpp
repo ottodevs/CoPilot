@@ -77,13 +77,13 @@ QModelIndex DomModel::parent(const QModelIndex &child) const {
 	return createIndex(parentItem->row(), 0, parentItem);
 }
 
-void DomModel::Fill(std::map<std::string,Card>& cards, bool tokens) {
+void DomModel::Fill(std::map<std::string,CardBase>& cards, bool tokens) {
 	FillNode(rootItem->node(),cards,tokens);
 }
-void DomModel::FillNode(const QDomNode& node,std::map<std::string,Card>& cards, bool tokens) {
+void DomModel::FillNode(const QDomNode& node,std::map<std::string,CardBase>& cards, bool tokens) {
 	QDomNode domNode=node.firstChild();
 	int level=0; ++level;
-	std::map<std::string,Card>::iterator current=cards.end();
+	std::map<std::string,CardBase>::iterator current=cards.end();
 	while(!(domNode.isNull())) {
 		if(domNode.isElement()) {
 			QDomElement domElem=domNode.toElement();
@@ -99,7 +99,7 @@ void DomModel::FillNode(const QDomNode& node,std::map<std::string,Card>& cards, 
 					std::cout<<"lvl="<<level<<" "<<domAttr.name().toStdString()<<"=\""
 							<<domAttr.value().toStdString()<<"\""<<std::endl;
 				}
-
+/*
 				if(domElem.tagName()=="card") {
 					current=cards.end();
 					Card tmp_card;
@@ -174,6 +174,7 @@ void DomModel::FillNode(const QDomNode& node,std::map<std::string,Card>& cards, 
 						current->second=tmp_card;
 					}
 				}
+				*/
 			}
 		}
 		if(domNode.isText()) {

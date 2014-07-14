@@ -44,10 +44,10 @@ public:
 	}
 	QModelIndex parent(const QModelIndex &child) const;
 
-	void Fill(std::map<std::string,Card>& cards, bool tokens=false);
+	void Fill(std::map<std::string,CardBase>& cards, bool tokens=false);
 private:
 	void FillNode(const QDomNode& node,
-				  std::map<std::string,Card>& cards, bool tokens=false);
+				  std::map<std::string,CardBase>& cards, bool tokens=false);
 	QDomDocument domDocument;
 	DomItem *rootItem;
 };

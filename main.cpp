@@ -55,7 +55,7 @@ int main(int argc, char *argv[])
 //	QListWidget *listWidget = w.findChild<QListWidget*>("listWidget");
 //	Q_ASSERT(listWidget);
 */
-	Card::Print();
+//	Card::Print();
 
     return a.exec();
 }

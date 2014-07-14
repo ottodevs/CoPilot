@@ -1,7 +1,7 @@
 #include "hs/concepts.h"
 
-std::map<std::string,Card> Card::CardList=std::map<std::string,Card>();
-
+std::map<std::string,CardBase> CardBase::CardList=std::map<std::string,CardBase>();
+/*
 Card::Card(void) : cost(0),type(creature),rarity(common),
 	set(basic),card_class(Hero::none) {
 }
@@ -21,3 +21,4 @@ void Card::Print(void) {
 std::unordered_set<StrEnum,StrEnum::StrHash> Hero::type=std::unordered_set<StrEnum,StrEnum::StrHash>({
 	StrEnum("none"),StrEnum("Druid"),StrEnum("Hunter"),StrEnum("Mage"),StrEnum("Paladin"),
 	StrEnum("Priest"),StrEnum("Rogue"),StrEnum("Shaman"),StrEnum("Warlock"),StrEnum("Warrior")});
+*/

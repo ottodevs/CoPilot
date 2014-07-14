@@ -14,7 +14,9 @@ public:
 	Buff(void);
 	~Buff(void);
 private:
-	enum Type {none, additive, hard};
+	enum class Type : unsigned short { none=0,
+		aura, temp, hard
+	};
 	std::string name;
 	std::string text;
 };
@@ -31,18 +33,53 @@ public:
 private:
 };
 
-class Creature : public CardBase {
+class Spell : public CardBase {
 public:
-	Creature(void);
+	Spell(std::string& nm, unsigned int cst, Hero::Type tp) : CardBase(cst,tp) {
+		name=nm; type=CardBase::Type::spell;
+	}
 private:
 	Buff variance;
 };
 
-class Spell : public CardBase {
+class Minion : public CardBase, public CharacterBase {
 public:
-	Spell(void);
+	Minion(std::string& nm, unsigned int cst, Hero::Type tp, unsigned int atk, int hth)
+	: CardBase(cst,tp), CharacterBase(atk,hth) {
+		name=nm;
+	}
 private:
 	Buff variance;
+};
+
+class Hand {
+public:
+	Hand(void);
+private:
+	std::list<CardBase> contents;
+};
+
+class Deck {
+public:
+	Deck(void);
+private:
+	std::list<CardBase> contents;
+};
+
+class Board {
+public:
+	Board(void);
+private:
+	std::list<CharacterBase> contents;
+};
+
+class Scene {
+public:
+	Scene(void);
+private:
+	std::pair<Hero,Hero> heroes;	//first is player's
+	std::pair<Hand,Hand> hands;		//second is opponent's
+	std::pair<Board,Board> board;
 };
 
 #endif // HS_ENGINE_H

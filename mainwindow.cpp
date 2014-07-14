@@ -87,7 +87,7 @@ void MainWindow::openFile() {
 				model = newModel;
 				xmlPath = filePath;
 
-				model->Fill(Card::CardList,false);
+				model->Fill(CardBase::CardList,false);
 			}
 			file.close();
 		}
